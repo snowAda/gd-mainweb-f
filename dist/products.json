@@ -1,0 +1,209 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "智慧空间管理",
+      "items": [
+        {
+          "id": 1,
+          "name": "智慧工厂"
+        },
+        {
+          "id": 2,
+          "name": "明厨亮灶"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "视频管理平台",
+      "items": [
+        {
+          "id": 3,
+          "name": "视频汇聚管理"
+        },
+        {
+          "id": 4,
+          "name": "视频转换网关"
+        },
+        {
+          "id": 5,
+          "name": "视频质量监测"
+        },
+        {
+          "id": 6,
+          "name": "GIS电子地图建模"
+        },
+        {
+          "id": 7,
+          "name": "电子地图交互"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "数字化信息平台",
+      "items": []
+    },
+    {
+      "id": 4,
+      "name": "大模型",
+      "items": [
+        {
+          "id": 8,
+          "name": "智能客服和虚拟助手"
+        },
+        {
+          "id": 9,
+          "name": "视觉辅助判断"
+        },
+        {
+          "id": 10,
+          "name": "知识管理"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 4,
+      "title": "知识管理",
+      "image": "/10983409.png",
+      "date": "2025-05-15"
+    },
+    {
+      "id": 2,
+      "categoryId": 4,
+      "title": "智能客服和虚拟助手",
+      "image": "/10983411.png",
+      "date": "2025-05-15"
+    },
+    {
+      "id": 3,
+      "categoryId": 4,
+      "title": "视觉辅助判断",
+      "image": "/10983412.png",
+      "date": "2025-05-15"
+    },
+    {
+      "id": 4,
+      "categoryId": 3,
+      "title": "数字化信息平台",
+      "image": "/10983413.png",
+      "date": "2025-05-15"
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "title": "电子地图交互",
+      "image": "/10983423.png",
+      "date": "2025-05-15"
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "title": "GIS电子地图建模",
+      "image": "/10983424.png",
+      "date": "2025-05-15"
+    },
+    {
+      "id": 7,
+      "categoryId": 2,
+      "title": "视频质量监测",
+      "image": "/10983425.png",
+      "date": "2025-05-15"
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "title": "视频转换网关",
+      "image": "/10983426.png",
+      "date": "2025-05-15"
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "title": "视频汇聚管理",
+      "image": "/10983207.png",
+      "date": "2025-05-15"
+    },
+    {
+      "id": 10,
+      "categoryId": 1,
+      "title": "智慧工厂",
+      "image": "/10983207.png",
+      "date": "2025-05-13"
+    },
+    {
+      "id": 11,
+      "categoryId": 1,
+      "title": "明厨亮灶",
+      "image": "/10983220.png",
+      "date": "2025-05-13"
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "title": "视频汇聚管理",
+      "image": "/10983223.png",
+      "date": "2025-05-13"
+    },
+    {
+      "id": 13,
+      "categoryId": 2,
+      "title": "视频质量监测",
+      "image": "/10983248.png",
+      "date": "2025-05-13"
+    },
+    {
+      "id": 14,
+      "categoryId": 2,
+      "title": "GIS电子地图建模",
+      "image": "/10983258.png",
+      "date": "2025-05-13"
+    },
+    {
+      "id": 15,
+      "categoryId": 2,
+      "title": "电子地图交互",
+      "image": "/10970598.jpeg",
+      "date": "2025-05-13"
+    },
+    {
+      "id": 16,
+      "categoryId": 4,
+      "title": "智能客服和虚拟助手",
+      "image": "/10974886.jpeg",
+      "date": "2025-05-13"
+    },
+    {
+      "id": 17,
+      "categoryId": 4,
+      "title": "视觉辅助判断",
+      "image": "/10974887.jpeg",
+      "date": "2025-05-13"
+    },
+    {
+      "id": 18,
+      "categoryId": 4,
+      "title": "知识管理",
+      "image": "/10977155.jpg",
+      "date": "2025-05-13"
+    },
+    {
+      "id": 19,
+      "categoryId": 3,
+      "title": "数字化信息平台",
+      "image": "/10961063_副本.png",
+      "date": "2025-05-13"
+    },
+    {
+      "id": 20,
+      "categoryId": 1,
+      "title": "智慧工厂",
+      "image": "/10970596.png",
+      "date": "2025-05-13"
+    }
+  ]
+}

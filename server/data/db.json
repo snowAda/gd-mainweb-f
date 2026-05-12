@@ -1,0 +1,1807 @@
+{
+  "solutions": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "智能制造",
+        "parent_id": 0,
+        "description": "一级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 2,
+        "name": "缺陷检测",
+        "parent_id": 1,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 3,
+        "name": "产线智能化跟踪及检测",
+        "parent_id": 1,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 4,
+        "name": "智慧工厂管理",
+        "parent_id": 1,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 5,
+        "name": "食品",
+        "parent_id": 0,
+        "description": "一级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 6,
+        "name": "智慧餐厅",
+        "parent_id": 5,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 7,
+        "name": "生产卫生安全合规",
+        "parent_id": 5,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 8,
+        "name": "交通",
+        "parent_id": 0,
+        "description": "一级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 9,
+        "name": "智慧交通",
+        "parent_id": 8,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 10,
+        "name": "加油站人车识别",
+        "parent_id": 8,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 11,
+        "name": "园区",
+        "parent_id": 0,
+        "description": "一级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 12,
+        "name": "智慧食堂",
+        "parent_id": 11,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 13,
+        "name": "远程多园区安防集中管理",
+        "parent_id": 11,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 14,
+        "name": "智慧园区",
+        "parent_id": 11,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 15,
+        "name": "机场",
+        "parent_id": 0,
+        "description": "一级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 16,
+        "name": "物流快递",
+        "parent_id": 0,
+        "description": "一级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 17,
+        "name": "仓库管理",
+        "parent_id": 16,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 18,
+        "name": "物流分拣",
+        "parent_id": 16,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 19,
+        "name": "营业厅",
+        "parent_id": 0,
+        "description": "一级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 20,
+        "name": "医院与实验室",
+        "parent_id": 0,
+        "description": "一级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 21,
+        "name": "科研与临床无缝协作",
+        "parent_id": 20,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 22,
+        "name": "全流程智能化诊断支持",
+        "parent_id": 20,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      }
+    ],
+    "list": [
+      {
+        "id": 1,
+        "title": "科研与临床无缝协作",
+        "cover": "http://www.guodong-cn.com/GD/solutions/科研与临床无缝协作-C.jpg",
+        "category_id": 21,
+        "description": "医疗科研协作方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 2,
+        "title": "全流程智能化诊断支持",
+        "cover": "http://www.guodong-cn.com/GD/solutions/全流程智能化诊断支持-C.jpg",
+        "category_id": 22,
+        "description": "全流程医疗诊断方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 3,
+        "title": "智慧营业厅",
+        "cover": "http://www.guodong-cn.com/GD/solutions/智慧营业厅-C.jpeg",
+        "category_id": 19,
+        "description": "营业厅智能化方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 4,
+        "title": "仓库管理",
+        "cover": "http://www.guodong-cn.com/GD/solutions/仓库管理-C.png",
+        "category_id": 17,
+        "description": "物流仓库管理方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 5,
+        "title": "物流分拣",
+        "cover": "http://www.guodong-cn.com/GD/solutions/物流分拣-C.png",
+        "category_id": 18,
+        "description": "物流智能分拣方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 6,
+        "title": "安防控制平台",
+        "cover": "http://www.guodong-cn.com/GD/solutions/安防控制平台-C.png",
+        "category_id": 13,
+        "description": "园区安防控制方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 7,
+        "title": "智慧食堂",
+        "cover": "http://www.guodong-cn.com/GD/solutions/智慧食堂-C.png",
+        "category_id": 12,
+        "description": "园区智慧食堂方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 8,
+        "title": "远程多园区安防集中管理",
+        "cover": "http://www.guodong-cn.com/GD/solutions/远程多园区安防集中管理-C.jpg",
+        "category_id": 13,
+        "description": "多园区安防管理方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 9,
+        "title": "智慧园区",
+        "cover": "http://www.guodong-cn.com/GD/solutions/智慧园区-C.png",
+        "category_id": 14,
+        "description": "智慧园区整体方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 10,
+        "title": "智慧交通",
+        "cover": "http://www.guodong-cn.com/GD/solutions/智慧交通-C.png",
+        "category_id": 9,
+        "description": "智能交通管理方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 11,
+        "title": "加油站人车识别",
+        "cover": "http://www.guodong-cn.com/GD/solutions/加油站人车识别-C.png",
+        "category_id": 10,
+        "description": "加油站人车识别方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 12,
+        "title": "智慧餐厅",
+        "cover": "http://www.guodong-cn.com/GD/solutions/智慧餐厅-C.png",
+        "category_id": 6,
+        "description": "餐饮智能化方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 13,
+        "title": "生产卫生安全合规",
+        "cover": "http://www.guodong-cn.com/GD/solutions/生产卫生安全合规-C.png",
+        "category_id": 7,
+        "description": "食品生产安全合规方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 14,
+        "title": "缺陷检测",
+        "cover": "http://www.guodong-cn.com/GD/solutions/缺陷检测-C.png",
+        "category_id": 2,
+        "description": "产线缺陷检测方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 15,
+        "title": "产线智能化跟踪及检测",
+        "cover": "http://www.guodong-cn.com/GD/solutions/产线智能化跟踪及检测-C.png",
+        "category_id": 3,
+        "description": "产线智能跟踪方案",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 16,
+        "title": "智慧工厂管理",
+        "cover": "http://www.guodong-cn.com/GD/solutions/智慧工厂管理-C.png",
+        "category_id": 4,
+        "description": "工厂智能化管理方案",
+        "create_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 1777084204754,
+        "title": "测试",
+        "cover": "http://www.guodong-cn.com/GD/solutions/1777084202630.png",
+        "category_id": 1,
+        "description": "测试",
+        "create_time": "2026/4/25 10:30:04",
+        "status": 0
+      }
+    ],
+    "details": [
+      {
+        "id": 1,
+        "title": "科研与临床无缝协作",
+        "description": "跨场景数据共享：打通医院检验科、病理科与科研实验室的数据壁垒，支持多模态数据（如瑞氏染色、细胞化学染色图像）的标准化存储与权限分级调用，加速科研成果向临床转化。\n\n人机协同审核机制：AI 预标注 + 人工修正模式，确保标注数据质量，为后续算法迭代提供可靠训练集。",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 2,
+        "title": "全流程智能化诊断支持",
+        "description": "精准骨髓图像分析：通过高清扫描与 AI 图像识别技术（支持 40x-100x 倍镜切换），实现骨髓涂片百万级细胞自动定位、分类计数及异常形态识别，辅助医生快速出具诊断报告，准确率提升超 30%。\n\nAI 动态辅助决策：系统可实时分析患者骨髓细胞变化趋势，动态推荐治疗方案，例如在血液病诊疗中，AI 模拟诊断结果与临床数据自动比对，减少误诊风险。\n\n一体化终端操作：临床医生通过终端一站式完成病例创建、图像上传、AI 诊断调用及报告生成，支持统计报表自动导出，提升诊疗效率 50% 以上。",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 3,
+        "title": "智慧营业厅",
+        "description": "智慧营业厅产品专注于服务提升，\n\n 一方面严格督导服务规范和标准落地，确保每一位客户都能获得高质量服务；\n 另一方面持续采集运营数据，通过对业务办理时长、客户流量等多维度信息的分析，为优化流程提供坚实依据；\n 同时，借助智能手段直接测量用户获得的服务状况，精准洞察客户体验，及时发现并解决服务中的痛点与不足，助力营业厅服务水平持续进阶。",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 4,
+        "title": "仓库管理",
+        "description": "应用场景：电商、制造业、零售等 \n\n实现功能：\n 提供用友、金蝶、鼎捷软件等主流 ERP 厂商数据集成服务，通过对具体场景调研，选择封装调用集成模式或中间对象集成模式对系统间数据进行集成，实现仓库建模、入库管理、出库管理、库内管理、仓库可视化等各项功能 \n\n应用价值：\n 提高管理效率，减少了人工错误和成本 \n 优化库存控制：实时更新库存信息，实现库存的动态调整与优化，减少库存积压和浪费 \n 提升客户满意度：缩短订单处理和发货时间，提高客户满意度，同时提供实时的库存信息和订单状态查询服务 \n 增强企业竞争力：通过提高管理效率和准确性，降低运营成本，增强企业的市场竞争力 \n 数据支持决策：为企业提供全面的实时数据和报告，支持企业制定并执行更加精准的战略 \n 综上，确保企业内数据流畅通无阻，避免形成信息孤岛，从而最大化地发挥信息系统、信息模块、企业数据的价值与作用",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 5,
+        "title": "物流分拣",
+        "description": "应用场所：物流 \n\n应用难点：\n 快递面单的脏污、遮挡、褶皱影响识别效果 \n 要求高并发、快速分拣，配合传送交叉带实现自动分拣 \n\n关键技术：\n 对传送带上高速运行的快递，自动识别其物流面单的 “条形码” 和 “三段码” 信息，“条形码” 与快递唯一关联，“三段码” 提供分拣去向，综合实现对快递的自动分拣 \n 快递于传送带上运动，触发光电传感器控制工业相机拍照 \n 拍摄图片经过预处理后进行算法识别，核心算法模型包括：\n 面单定位：通过定位算法识别图像中的 “面单” 区域 \n 文字检测：通过检测算法对 “面单” 区域中的文字部分进行检测，获取 “三段码” 和 “条形码” 文字部分 \n 文字识别：通过识别算法对 “三段码” 和 “条形码” 文字内容进行识别，识别字符内容后输出结果 \n\n应用价值：\n 节约人工成本 \n 高效，精准，彻底解决人眼疲劳产生的误判 \n 减少客户投诉率 \n 长时间稳定工作 \n 降低物料损耗 \n 识别率高达 97%\n 可检测四通一达各种码制的数字",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 6,
+        "title": "安防控制平台",
+        "description": "机场安防平台秉持 “巨量、融智、场景” 设计理念，构建 “一个平台，一幅地图，一张天网”。\n\n**“一个平台”实现多类安防设备接入与多系统集成对接，保障业务系统互联互通；\n\n“一幅地图”借助 GIS 地图整合安防要素，实现可视化管理；\n\n“一张天网”** 通过 AI 与数字化技术，让安防态势可视、决策有数，全面提升机场安防综合管理与统一调度能力。",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 7,
+        "title": "智慧食堂",
+        "description": "核心功能清单：\n 操作间人员标准着装检测（厨师服、厨师帽、口罩）\n 操作间鼠患检测 \n 垃圾桶上盖检测 \n 火灾检测（仓储间）\n 人数统计 \n 社交距离监测 \n 消防通道拥堵识别 \n 遗留物品检测 \n 移动告警系统（手机公众号实时告警推送）\n 监控大屏 \n\n",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 8,
+        "title": "远程多园区安防集中管理",
+        "description": "系统兼容性—— 可同时兼容不同存储结构与数据格式，在一套统一操作接口中管理各类结构化、半结构化数据 \n 统一数据读写及管理，一套 API 完成数据的增删改查、批量处理与持久化存储 \n 统一管理数据日志与状态变更，上层应用下发操作指令到 lowdb，lowdb 同步数据快照、操作日志到应用层 \n 支持数据规则配置与权限校验 \n 自动对数据变更作出响应 \n 确定自动读写特定数据集合的权限 \n 为单个模块或整个系统设置数据访问与操作权限 \n 可与业务系统关联用于数据校验、状态同步与持久化存储",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 9,
+        "title": "智慧园区",
+        "description": "现代智慧园区\n 园区 4.0 时代 \n 扩展建设规模 营造产业社区 \n 注重产业生态 强调多方共赢 \n\n 园区建设运营的新 “九通一平”：\n\n 理念通、基础通、政策通、信息通、配套通、市场通、人脉通、融资通、运营通，保障园区平衡发展",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 10,
+        "title": "智慧交通",
+        "description": "1. 产品深度整合视频管理与 AI 识别技术，对交通场景进行全时段、多维度监控，快速解析车流量、违章行为等动态信息，为交通指挥调度提供精准数据支撑。\n2. 基于先进的 AI 算法与智能视频处理能力，实现交通目标实时识别与轨迹追踪，高效处理道路异常事件，助力打造智能、流畅的交通管理体系。\n3. 融合视频结构化分析与 AI 深度学习技术，对交通视频进行智能分类与异常预警，精准识别车牌、车型、行人行为，显著提升交通管理效率与安全水平。",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 11,
+        "title": "加油站人车识别",
+        "description": "车流量统计：通过捕捉场景内车辆并在其穿越虚拟线后统计车流量 \n 骨骼分析法异常行为分析：采用先进的骨骼分析 AI 算法侦测油站内人员行为姿态，在有人发生异常行为时主动告警 \n 烟雾火灾侦测：一旦加油站内出现明火或烟雾，主动告警 \n 禁区 / 周界闯入侦测：一旦有人闯入禁入区域即触发告警。同时结合 AI 深度学习过滤器可以有效降低误报率 \n 视频浓缩：跨时空精简录像视频以快速回放，将不同时间捕获的对象和事件在同一个画面同时进行显示",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 12,
+        "title": "智慧餐厅",
+        "description": "用餐安全：精准统计用餐人数与排队人数，掌握餐厅拥堵指数。配备安全防疫系统，实现授权进入、体温检测与安全距离识别。同时，具备物品遗留识别、人员跌倒识别功能，保障用餐过程安全有序。\n 环境安全：实时监控仓储温度，及时预警异常。具备通道占物识别、火灾检测识别能力，防范环境安全风险。\n 卫生指标：利用技术手段实现鼠患识别，维护餐厅卫生环境。\n 操作安全：规范操作人员着装，确保厨师帽、厨师服、口罩佩戴到位。能识别抽烟、打手机行为，以及垃圾桶是否上盖，保障操作环节规范安全。\n 后台管理：提供大屏可视化展示功能，数据一目了然。支持公众号消息通知，便于及时掌握餐厅运营动态。",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 13,
+        "title": "生产卫生安全合规",
+        "description": "食品生产企业关键点远程非现场监管：采用视频远程识别判断等技术，通过检查安装在食品生产企业关键工序点位的摄像头和传感器上传的视频图像以及监测数据，对企业关键点情况进行线上检查的食品安全智慧监管方式。\n 基于 AI、IOT、大数据技术，充分利用生产经营管理过程中形成的结构化数据和非结构化数据，助力生产环境实现数字化转型，赋能生产管理的精细化管理，保障生产安全。",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 14,
+        "title": "缺陷检测",
+        "description": "缺陷检测是工业制造生产的关键环节，也是工业视觉技术主要应用场景。\n\n 当前存在多种检测方式：人工目检依赖大量工人，受用工环境影响大，需长时间培训，且因依赖经验难以数字化，导致质量不稳定、标准不统一，缺乏数据统计与溯源；传统机器视觉检测可进行明确特征的缺陷检测测量，基于规则和编程，部署效率高，能部分替代人工，但无法持续学习迭代，仅实现部分数字化；\n\nAI + 计算机视觉检测具备更强检测能力，可检出随机、无规则瑕疵，能全面替代人工，虽研发周期长、部署成本高，但检测模型可不断学习迭代，实现完整业务管理数字化。",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 15,
+        "title": "产线智能化跟踪及检测",
+        "description": "产品融合智能传感与算法，实现生产线全流程动态跟踪，生产数据实时可视。搭载高精度检测系统，可快速识别外观瑕疵、重量偏差及成分异常，高效保障产品品质与生产效率。\n\n 基于物联网与机器视觉技术，产品将产线设备互联，实时监控生产进度与设备状态。24 小时智能检测异物、包装缺陷，以精准高效的质检方案提升产品质量。\n\n 采用定位与数据采集技术，精准记录生产全链路信息，优化生产流程。结合深度学习算法与专业检测设备，严格把控质量指标，减少次品率，增强企业竞争力。",
+        "create_time": "2025/5/15",
+        "update_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 16,
+        "title": "智慧工厂管理",
+        "description": "智慧工厂管理产品针对生产环境与空间环境复杂、业务环节繁多且行为规范要求严格的现状研发。当前自动化系统智能感知能力不足，难以对作业环境安全、人员行为规范、设备状态正常做出判断，且生产资料监控盘点需求迫切。\n\n 该产品聚焦人员管理与空间管理。人员管理涵盖人脸识别，监测关键岗位脱岗睡岗、着装不规范、未戴安全帽、危险及特定动作等；空间管理包括火灾预警、禁止进入危险区域、保障生产设备安全运行、监控生产环节产品、清点物料。旨在解决现有监督手段缺乏持续性（多依赖人工抽检）、缺少事后追溯数据（人员、环境、流程信息未有效数字化留存）、监督过程困难（人员工种繁多）等问题，是市场亟需的高效 AI 智慧厂区解决方案。",
+        "create_time": "2025/5/13",
+        "update_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 1777084204754,
+        "title": "测试",
+        "description": "\n侧额测温委屈委屈恶趣味去玩\n\n侧额测温委屈委屈恶趣味去玩\n\n侧额测温委屈委屈恶趣味去玩",
+        "create_time": "2026/4/25 10:30:16",
+        "update_time": "2026/4/25 10:30:16",
+        "status": 1
+      }
+    ],
+    "materials": [
+      {
+        "id": 1,
+        "solution_id": 1,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/科研与临床无缝协作-C.jpg",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 2,
+        "solution_id": 2,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/全流程智能化诊断支持-C.jpg",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 3,
+        "solution_id": 3,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983228.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 4,
+        "solution_id": 3,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983227.jpg",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 5,
+        "solution_id": 3,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983226.jpg",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 6,
+        "solution_id": 4,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983221.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 7,
+        "solution_id": 4,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983225.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 8,
+        "solution_id": 4,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983224.png",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 9,
+        "solution_id": 4,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983223.png",
+        "sort": 4,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 10,
+        "solution_id": 4,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983222.png",
+        "sort": 5,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 11,
+        "solution_id": 5,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983220.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 12,
+        "solution_id": 5,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983219.gif",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 13,
+        "solution_id": 6,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983207.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 14,
+        "solution_id": 6,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983209.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 15,
+        "solution_id": 6,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983208.png",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 16,
+        "solution_id": 7,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983252.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 17,
+        "solution_id": 7,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983251.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 18,
+        "solution_id": 7,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983248.png",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 19,
+        "solution_id": 7,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983250.png",
+        "sort": 4,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 20,
+        "solution_id": 7,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983249.png",
+        "sort": 5,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 21,
+        "solution_id": 8,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983254.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 22,
+        "solution_id": 8,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983253.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 23,
+        "solution_id": 8,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983256.png",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 24,
+        "solution_id": 8,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983255.png",
+        "sort": 4,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 25,
+        "solution_id": 9,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983257.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 26,
+        "solution_id": 9,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983259.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 27,
+        "solution_id": 9,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983258.png",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 28,
+        "solution_id": 9,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983260.png",
+        "sort": 4,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 29,
+        "solution_id": 10,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983213.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 30,
+        "solution_id": 10,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983212.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 31,
+        "solution_id": 10,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983211.png",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 32,
+        "solution_id": 10,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983210.png",
+        "sort": 4,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 33,
+        "solution_id": 11,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983217.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 34,
+        "solution_id": 11,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983216.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 35,
+        "solution_id": 11,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983215.png",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 36,
+        "solution_id": 11,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983214.png",
+        "sort": 4,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 37,
+        "solution_id": 11,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983218.png",
+        "sort": 5,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 38,
+        "solution_id": 12,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983268.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 39,
+        "solution_id": 12,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983267.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 40,
+        "solution_id": 12,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983266.png",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 41,
+        "solution_id": 12,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983265.png",
+        "sort": 4,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 42,
+        "solution_id": 12,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983264.png",
+        "sort": 5,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 43,
+        "solution_id": 13,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983263.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 44,
+        "solution_id": 13,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983262.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 45,
+        "solution_id": 13,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983261.png",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 46,
+        "solution_id": 14,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983229.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 47,
+        "solution_id": 14,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983233.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 48,
+        "solution_id": 14,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983235.jpg",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 49,
+        "solution_id": 15,
+        "material_type": "video",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/111111.mp4",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 50,
+        "solution_id": 15,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10993598.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 51,
+        "solution_id": 16,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983239.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 52,
+        "solution_id": 16,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983245.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 53,
+        "solution_id": 16,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983244.png",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 54,
+        "solution_id": 16,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983243.png",
+        "sort": 4,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 55,
+        "solution_id": 16,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983242.jpg",
+        "sort": 5,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 56,
+        "solution_id": 16,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/10983241.png",
+        "sort": 6,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 1777084227465,
+        "solution_id": 1777084204754,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/solutions/1777084223270.png",
+        "sort": 1,
+        "create_time": "2026/4/25 10:30:27",
+        "status": 1
+      }
+    ]
+  },
+  "products": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "智慧空间管理",
+        "parent_id": 0,
+        "description": "一级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 2,
+        "name": "智慧工厂",
+        "parent_id": 1,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 3,
+        "name": "明厨亮灶",
+        "parent_id": 1,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 4,
+        "name": "视频管理平台",
+        "parent_id": 0,
+        "description": "一级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 5,
+        "name": "视频汇聚管理",
+        "parent_id": 4,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 6,
+        "name": "视频转换网关",
+        "parent_id": 4,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 7,
+        "name": "视频质量监测",
+        "parent_id": 4,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 8,
+        "name": "GIS 电子地图建模",
+        "parent_id": 4,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 9,
+        "name": "电子地图交互",
+        "parent_id": 4,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 10,
+        "name": "数字化信息平台",
+        "parent_id": 0,
+        "description": "一级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 11,
+        "name": "大模型",
+        "parent_id": 0,
+        "description": "一级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 12,
+        "name": "智能客服和虚拟助手",
+        "parent_id": 11,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 13,
+        "name": "视觉辅助判断",
+        "parent_id": 11,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 14,
+        "name": "知识管理",
+        "parent_id": 11,
+        "description": "二级分类",
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      }
+    ],
+    "list": [
+      {
+        "id": 1,
+        "title": "知识管理",
+        "cover": "http://www.guodong-cn.com/GD/products/知识管理-C.png",
+        "category_id": 14,
+        "description": "大模型知识管理",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 2,
+        "title": "智能客服和虚拟助手",
+        "cover": "http://www.guodong-cn.com/GD/products/智能客服和虚拟助手-C.png",
+        "category_id": 12,
+        "description": "大模型智能客服",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 3,
+        "title": "视觉辅助判断",
+        "cover": "http://www.guodong-cn.com/GD/products/视觉辅助判断-C.png",
+        "category_id": 13,
+        "description": "大模型视觉辅助",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 4,
+        "title": "数字化信息平台",
+        "cover": "http://www.guodong-cn.com/GD/products/数字化信息平台-C.png",
+        "category_id": 10,
+        "description": "数字化信息平台",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 5,
+        "title": "电子地图交互",
+        "cover": "http://www.guodong-cn.com/GD/products/电子地图交互-C.jpg",
+        "category_id": 9,
+        "description": "视频管理平台功能",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 6,
+        "title": "GIS 电子地图建模",
+        "cover": "http://www.guodong-cn.com/GD/products/GIS电子地图建模-C.png",
+        "category_id": 8,
+        "description": "视频管理平台功能",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 7,
+        "title": "视频质量监测",
+        "cover": "http://www.guodong-cn.com/GD/products/视频质量监测-C.png",
+        "category_id": 7,
+        "description": "视频管理平台功能",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 8,
+        "title": "视频转换网关",
+        "cover": "http://www.guodong-cn.com/GD/products/视频转换网关-C.png",
+        "category_id": 6,
+        "description": "视频管理平台功能",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 9,
+        "title": "视频汇聚管理",
+        "cover": "http://www.guodong-cn.com/GD/products/视频汇聚管理-C.png",
+        "category_id": 5,
+        "description": "视频管理平台核心",
+        "create_time": "2025/5/15",
+        "status": 1
+      },
+      {
+        "id": 10,
+        "title": "鼠患检测",
+        "cover": "http://www.guodong-cn.com/GD/products/鼠患检测-C.png",
+        "category_id": 3,
+        "description": "明厨亮灶检测能力",
+        "create_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 11,
+        "title": "厂区标准着装检测",
+        "cover": "http://www.guodong-cn.com/GD/products/标准着装检测-C.png",
+        "category_id": 2,
+        "description": "智慧工厂",
+        "create_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 12,
+        "title": "产线跟踪",
+        "cover": "http://www.guodong-cn.com/GD/products/产线跟踪-C.png",
+        "category_id": 2,
+        "description": "智慧工厂核心能力",
+        "create_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 13,
+        "title": "安防检测",
+        "cover": "http://www.guodong-cn.com/GD/products/安防检测-C.png",
+        "category_id": 2,
+        "description": "智慧工厂安防能力",
+        "create_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 14,
+        "title": "标准动作识别",
+        "cover": "http://www.guodong-cn.com/GD/products/标准动作识别-C.png",
+        "category_id": 2,
+        "description": "智慧工厂规范操作",
+        "create_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 15,
+        "title": "违规手机操作检测",
+        "cover": "http://www.guodong-cn.com/GD/products/违规手机操作检测-C.png",
+        "category_id": 2,
+        "description": "智慧工厂安全管控",
+        "create_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 16,
+        "title": "危险动作识别",
+        "cover": "http://www.guodong-cn.com/GD/products/危险动作识别-C.png",
+        "category_id": 2,
+        "description": "智慧工厂安全防护",
+        "create_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 17,
+        "title": "操作疲劳及离岗检测",
+        "cover": "http://www.guodong-cn.com/GD/products/操作疲劳及离岗检测-C.jpg",
+        "category_id": 2,
+        "description": "智慧工厂人员管理",
+        "create_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 18,
+        "title": "设备管理",
+        "cover": "http://www.guodong-cn.com/GD/products/设备管理-C.png",
+        "category_id": 2,
+        "description": "智慧工厂设备监控",
+        "create_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 19,
+        "title": "产品计数",
+        "cover": "http://www.guodong-cn.com/GD/products/产品计数-C.png",
+        "category_id": 2,
+        "description": "智慧工厂产能统计",
+        "create_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 20,
+        "title": "后厨标准着装检测",
+        "cover": "http://www.guodong-cn.com/GD/products/10983306-1.png",
+        "category_id": 3,
+        "description": "明厨亮灶检测能力",
+        "create_time": "2025/5/13",
+        "status": 1
+      },
+      {
+        "id": 1777083944622,
+        "title": "测试",
+        "cover": "http://www.guodong-cn.com/GD/products/1777083930014.png",
+        "category_id": 14,
+        "description": "测试知识库管理",
+        "create_time": "2026/4/25 10:25:44",
+        "status": 1
+      }
+    ],
+    "details": [
+      {
+        "id": 1,
+        "title": "知识管理",
+        "description": "基于生成式大模型和RAG构建一个高效、智能、可管理的分域知识中心，支持多模态数据的分类存储与跨模态关联检索。通过RAG技术实现精准知识发现，结合动态更新机制确保知识时效性与完整性。系统支持权限控制与场景化应用，可广泛应用于智能问答、知识推荐、会议辅助、文档扩写等场景，全面提升企业知识利用率与协作效率。\n\n  \n\n  多模态知识存储与分域管理\n  支持 Word/PPT/PDF/图片等多格式存储\n  知识域划分 + 权限标签 实现分类管控\n  RAG技术 打通跨模态语义关联\n  动态知识更新机制\n  自动同步企业OA/ERP系统数据\n  大模型辅助采编 ：智能提取关键内容并归类\n  实时更新知识库，保障 时效性 & 完整性\n  责任明确的知识管理体系\n  部门自治 ：专属知识库独立维护（新增/编辑权限）\n  闭环流程 ：采集→审核→发布→反馈\n  提升知识质量与业务适配性\n  精准检索与场景化应用\n  分域权限控制 ：按角色限制访问范围\n  RAG高效检索 ：从海量数据快速定位答案\n\n  ",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/26 0:00",
+        "status": 1
+      },
+      {
+        "id": 2,
+        "title": "智能客服和虚拟助手",
+        "description": "基于“关键字”的检索准确率和效率较低；客服人员流动性较大，服务水平参差不齐。结合大模型和RAG能力，提供高效能、高拟人的人机交互过程，深入了解客户需求，并精准高质量的回答客户咨询，提升转化率和服务质量。\n\n语义级意图识别与对话管理\n多轮意图理解 ：基于大模型的上下文感知能力，精准解析用户复杂问题\n情绪识别与策略调整 ：实时判断用户情绪（如投诉、咨询、催促），动态调整回复策略（安抚话术/补偿方案/快速通道）\n多模态交互支持 ：支持文本、语音、图片混合输入，自动关联结构化数据\n\nRAG驱动的精准知识匹配\n动态知识库构建：结构化数据（FAQ、产品手册）与非结构化数据（客服录音、工单记录）混合索引\n分层检索机制：模型融合检索结果与历史对话生成最终答案\n\n智能辅助与服务闭环\n坐席助手实时赋能：对话过程中自动推荐知识卡片\n工单自动化处理：自动分类工单类型并基于历史数据生成处理建议\n服务质量闭环：自动分析对话记录（满意度评分、问题解决率） ",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 3,
+        "title": "视觉辅助判断",
+        "description": "基于多模态大模型技术底座，通过多模态协同与语义融合，实现视觉辅助判断的智能化升级。\n\n以“大模型复审小模型”的协同机制提升告警准确性，突破传统目标检测限制，融合图像、时序等多源信息，增强对现实场景的深度理解能力，赋能告警复审、通用目标检测、复杂事件监测等场景应用，为智能安防、工业质检等业务提供高可靠决策支持。",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 4,
+        "title": "数字化信息平台",
+        "description": "意义：数字化平台产品是企业数字化转型的核心助力，打通生产、研发、设计到服务等全业务流程，整合数据，提升运营效率与管理水平，增强企业市场竞争力。\n\n功能：依托大数据、人工智能、物联网等技术，实现设备互联互通与数据实时采集分析，对工厂各环节如仓库、生产线等进行智能监控；借助区块链保障数据安全可信；利用 VR/AR 创新设计与培训模式。",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 5,
+        "title": "电子地图交互",
+        "description": "意义：快速构建建筑内部的实体地图，并和视频内容实景结合，提供直观和类 AR 的直观视频信息 \n\n功能：\n 互动式 3D 地图将摄像机位置叠加在地图之上并可在同一个界面内显示视频。您可以即刻了解所选摄像机的安装位置 \n 当前布局内的摄像机颜色可根据状态改变 \n 在浸入模式下，半透明的视频画面也会叠加在地图之上。这就便于查看摄像机安装位置以及视频画面内状况 \n 监视多层建筑物的便利工具 \n 所有摄像机呈现在地图上并根据状态显示不同颜色 \n 您可以即刻查看所选摄像机的位置并在不同楼层视图中快速切换 ",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 6,
+        "title": "GIS 电子地图建模",
+        "description": "意义：将空间管理的电子化内容和实景地图结合，给用户传递类 AR 的直观信息，便于快速做出判断和处置 \n\n功能：基于 GIS 地图整合形成的园区信息模型，将所有基础设施、楼宇、车间等信息进行全方位展现，直观、完整地呈现园区态势，实现对物理园区的映射。",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 7,
+        "title": "视频质量监测",
+        "description": "意义：自动化智能化的进行摄像头视频质量的巡检，保障视频数据始终处于最优状态 \n\n功能：管理众多品牌摄像头的应用场景。通过实时视频分析来侦测联网各摄像机的工作状态是否正常。一旦侦测到异常或故障，主动上报并请求处理",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 8,
+        "title": "视频转换网关",
+        "description": "意义：在核心视频平台之外，通过智能网关的方式，来适配特定的地区、行业或企业的视频控制及传输标准 \n\n功能：\n 在视频音频汇聚及管理的核心功能之上，平台支持可拆装的松耦合智能网关 \n 和适配地区、行业或企业的视频控制及传输标准（如 GB/T28181）\n 支持摄像头的控制、视频流的推送和拉取 \n 支持视频平台间的互联、传输、交换、控制",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 9,
+        "title": "视频汇聚管理",
+        "description": "意义：便捷的接入和管理多品牌多型号的摄像头，保护现有投资，为未来保持灵活性 \n\n功能：\n 超过 2000 个设备已经整合 \n 不同品牌厂商的各种型号的 IP 摄像机及设备可同时接入使用 \n 可从软件配置摄像机及设备 \n 支持摄像机私有协议，ONVIF，RTSP 以及 GB/T28181 等标准协议",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 10,
+        "title": "鼠患检测",
+        "description": "应用场所：食堂、餐厅、生产车间 \n\n实现功能：\n 监测指定场所，发现鼠患告警 \n 根据跟踪鼠患出现的位置，给出活动路径，为封堵提供依据 \n\n应用价值：监测生产车间、厨房等区域有无鼠患，杜绝卫生及生产隐患 \n 夜晚低光照条件导致特征提取困难，夜间动态的目标比如机器的指示灯、飞虫、蛛网等对老鼠的识别造成了很强的干扰。\n 自研的深度学习算法，能够在低光照的情况下进行识别，同时基于自动生成的路径，有经验的鼠害防治人员可以有效找出老鼠来源，提出封堵方案，杜绝卫生隐患，识别准确率超过 95%",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 11,
+        "title": "厂区标准着装检测",
+        "description": "应用场所：生产车间、厂区等 \n\n实现功能：\n 自动识别进出人员是否佩戴安全帽 \n 是否正确穿着标准样式的工作服装 \n 支持微信公众号自动推送违规穿戴通知，可查看抓拍图片 \n 支持随时在移动端通过小程序查看报警历史记录 \n\n应用价值：\nAI 智能识别是否正确着装佩戴安全帽，实现规范管理工作人员，保障工作人员人身安全 ",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 12,
+        "title": "产线跟踪",
+        "description": "意义：监控特定区域智能追踪设定物品，实时掌握特殊物品状态，保障物品安全，保障安全生产 \n\n应用场所：生产车间、存储场景、大型设备等 \n\n实现功能：\n 对特定的生产区域、存储场所 24 小时监控 \n 自定义限制区域，实时追踪物品状态 \n 后台管理平台、小程序等实时传输物品状态、位置信息 \n 自定义各类物品",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 13,
+        "title": "安防检测",
+        "description": "应用场所：工作及其他区域 \n\n实现功能：\n 通过视频直接提取场景内人体骨骼姿态 \n 发现跌倒，平躺、蹲、翻越等行为时告警 \n\n应用价值：智能识别人员的异常行为，尽早发现伤害或风险",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 14,
+        "title": "标准动作识别",
+        "description": "意义：AI 识别人员操作有无达到关键操作动作 \n\n应用场所：实验室、关键操作台、培训考试 \n\n实现功能：\n 自动识别被检测人员的手部动作是否达到预先设定的关键标准",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 15,
+        "title": "违规手机操作检测",
+        "description": "意义：AI 智能识别工作人员是否在操作手机，提前发现危险岗位操作手机带来的风险 \n\n应用场所：生产车间、值班室、关键岗位 \n\n实现功能：\n 自动识别指定区域人员是否在操作手机",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 16,
+        "title": "危险动作识别",
+        "description": "应用场所：生产车间、危险操作区域 \n\n实现功能：\n 自动分析工作人员骨架判别姿态是否正常人员摔倒智能告警 \n 监控作业人员站在指定位置作业 \n 识别作业未使用标准工器具 \n 吊运作业低于安全高度，人员距离太近智能告警 \n 翻爬、跨越危险设备 \n\n应用价值：智能识别工作人员不规范行为，减轻事故发生可能性",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 17,
+        "title": "操作疲劳及离岗检测",
+        "description": "意义：利用人工智能技术辅助值班室管理，确保厂房生产期间值班室内始终有人在岗且正常在岗，保障安全生产 \n\n应用场所：值班室、生产需要监控区域 \n\n实现功能：\n 摄像机自动监控值班室内操作人员疲劳状态：记录人员闭眼时间，支持自定义时间阈值，超时报警 \n 自动监控工作区域是否存在工作人员：不存在工作人员时记录离开时间，支持自定义时间阈值，超时报警；支持工作区域自定义感兴趣区域",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 18,
+        "title": "设备管理",
+        "description": "应用场所：生产车间、关键设备 \n\n实现功能：\n 对重要设备的指定运行姿态进行跟踪，一旦发现姿态异常，及时预警 \n 报警消息支持移动终端通知和大屏显示 \n\n应用价值：监控特定设备的关键工作姿态，及时发现设备运作异常 \n\n案例：\n 钢厂开卷机设备点检 \n\n识别内容：\n 剪切机正常工作 \n 钢板翘头角度低于 30°\n精度要求：\n 验收要求 95%",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 19,
+        "title": "产品计数",
+        "description": "应用场所：生产车间、存储场景 \n\n实现功能：\n 对特定的生产区域、存储场所 24 小时监控 \n 自定义限制区域，实时追踪物品数量 \n 后台管理平台、小程序等实时传输物品数量信息 \n 支持各类物品识别 \n\n应用价值：监控特定区域智能识别物品，并进行计数，实时掌握特殊物品数量，保障物品安全，掌控物品数量 ",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 20,
+        "title": "后厨标准着装检测",
+        "description": "应用场所：食堂、餐厅 \n\n实现功能：\n 监测厨房操作人员的帽子、口罩、工服的持续着装情况 \n\n应用价值：监测企业食堂后厨的卫生食安着装执行情况，实现监管的智能化、精准化、简约化。",
+        "create_time": "2026/3/25 0:00",
+        "update_time": "2026/4/25 10:18:47",
+        "status": 1
+      },
+      {
+        "id": 1777083944622,
+        "title": "测试的标题",
+        "description": "测试的详情描述测试的详情描述\n测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述\n\n\n测试的详情描述测试的详情描述测试的详情描述测试的详情描述\n\n测试的详情描述测试的详情描述测试的详情描述测试的详情描述",
+        "create_time": "2026/4/25 10:26:06",
+        "update_time": "2026/4/25 10:26:06",
+        "status": 1
+      }
+    ],
+    "materials": [
+      {
+        "id": 1,
+        "product_id": 1,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/知识管理-C.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 2,
+        "product_id": 2,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/智能客服和虚拟助手-C.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 3,
+        "product_id": 3,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/视觉辅助判断-C.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 4,
+        "product_id": 4,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/数字化信息平台-C.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 5,
+        "product_id": 5,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983406.jpg",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 6,
+        "product_id": 5,
+        "material_type": "video",
+        "file_url": "http://www.guodong-cn.com/GD/products/109999.mp4",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 7,
+        "product_id": 6,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983409.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 8,
+        "product_id": 6,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983408.jpg",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 9,
+        "product_id": 6,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983407.jpg",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 10,
+        "product_id": 7,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/视频质量监测-C.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 11,
+        "product_id": 8,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983411.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 12,
+        "product_id": 8,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983410.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 13,
+        "product_id": 9,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/视频汇聚管理-C.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 14,
+        "product_id": 10,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/鼠患检测-C.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 15,
+        "product_id": 11,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/标准着装检测-C.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 16,
+        "product_id": 12,
+        "material_type": "video",
+        "file_url": "http://www.guodong-cn.com/GD/products/12222.mp4",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 17,
+        "product_id": 13,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983353.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 18,
+        "product_id": 13,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983352.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 19,
+        "product_id": 13,
+        "material_type": "video",
+        "file_url": "http://www.guodong-cn.com/GD/products/1333333.mp4",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 20,
+        "product_id": 14,
+        "material_type": "video",
+        "file_url": "http://www.guodong-cn.com/GD/products/14.mp4",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 21,
+        "product_id": 15,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983356.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 22,
+        "product_id": 15,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983355.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 23,
+        "product_id": 16,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983351.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 24,
+        "product_id": 16,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983350.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 25,
+        "product_id": 16,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983349.png",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 26,
+        "product_id": 17,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983358.jpg",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 27,
+        "product_id": 17,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983357.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 28,
+        "product_id": 18,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983360.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 29,
+        "product_id": 18,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983359.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 30,
+        "product_id": 18,
+        "material_type": "video",
+        "file_url": "http://www.guodong-cn.com/GD/products/18.mp4",
+        "sort": 3,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 31,
+        "product_id": 19,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/产品计数-C.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 32,
+        "product_id": 19,
+        "material_type": "video",
+        "file_url": "http://www.guodong-cn.com/GD/products/19.mp4",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 33,
+        "product_id": 20,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983306-1.png",
+        "sort": 1,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 34,
+        "product_id": 20,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/10983305-1.png",
+        "sort": 2,
+        "create_time": "2026/3/25 0:00",
+        "status": 1
+      },
+      {
+        "id": 1777083551503,
+        "product_id": 9,
+        "material_type": "image",
+        "file_url": "",
+        "sort": 1,
+        "create_time": "2026/4/25 10:19:11",
+        "status": 0
+      },
+      {
+        "id": 1777084150294,
+        "product_id": 1777083944622,
+        "material_type": "image",
+        "file_url": "http://www.guodong-cn.com/GD/products/1777084145973.png",
+        "sort": 1,
+        "create_time": "2026/4/25 10:29:10",
+        "status": 1
+      },
+      {
+        "id": 1777084158753,
+        "product_id": 1777083944622,
+        "material_type": "video",
+        "file_url": "http://www.guodong-cn.com/GD/products/1777084155934.mp4",
+        "sort": 2,
+        "create_time": "2026/4/25 10:29:18",
+        "status": 1
+      }
+    ]
+  },
+  "admin": {
+    "username": "admin",
+    "password": "ecsAdmin@2026",
+    "token": "46e9829zes6modogrj8"
+  }
+}

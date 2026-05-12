@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  gd-main-web:
+    build: .
+    container_name: gd-main-web
+    ports:
+      - "8002:8002"
+    environment:
+      - BEIAN_CODE=苏ICP备19059864号-2
+      - NODE_ENV=production
+    volumes:
+      - /data/www/guodong-cn.com/GD/products:/data/www/guodong-cn.com/GD/products
+      - /data/www/guodong-cn.com/GD/solutions:/data/www/guodong-cn.com/GD/solutions
+      - ./server/data:/app/server/data
+    restart: unless-stopped
