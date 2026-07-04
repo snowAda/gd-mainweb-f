@@ -350,11 +350,11 @@ const productDescriptionHtml = computed(() => {
 }
 
 .w-nav-item.current {
-  color: #856dcc;
+  color: var(--accent);
 }
 
 .w-nav-item:hover {
-  color: #856dcc;
+  color: var(--accent);
 }
 
 .language-selector {
@@ -502,12 +502,12 @@ const productDescriptionHtml = computed(() => {
 }
 
 .breadcrumb-link:hover {
-  color: #856dcc;
+  color: var(--accent);
 }
 
 .breadcrumb-separator {
   margin: 0 10px;
-  color: #999;
+  color: var(--text-muted);
 }
 
 .breadcrumb-current {
@@ -567,11 +567,11 @@ const productDescriptionHtml = computed(() => {
 }
 
 .category-link:hover {
-  color: #856dcc;
+  color: var(--accent);
 }
 
 .category-link.active {
-  color: #856dcc;
+  color: var(--accent);
   font-weight: bold;
 }
 
@@ -630,7 +630,7 @@ const productDescriptionHtml = computed(() => {
   content: '•';
   position: absolute;
   left: 0;
-  color: #856dcc;
+  color: var(--accent);
   font-weight: bold;
 }
 
@@ -710,7 +710,7 @@ const productDescriptionHtml = computed(() => {
 .material-type {
   display: inline-block;
   padding: 4px 12px;
-  background-color: #856dcc;
+  background-color: var(--accent);
   color: #fff;
   font-size: 12px;
   border-radius: 12px;
@@ -734,7 +734,7 @@ const productDescriptionHtml = computed(() => {
 }
 
 .material-link:hover {
-  background-color: #856dcc;
+  background-color: var(--accent);
 }
 
 /* 页脚 */
@@ -759,7 +759,7 @@ const productDescriptionHtml = computed(() => {
 
 .copyright-area {
   font-size: 14px;
-  color: #989898;
+  color: var(--text-subtle);
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;

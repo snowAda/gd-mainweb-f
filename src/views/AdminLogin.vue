@@ -151,7 +151,7 @@ const handleLogin = async () => {
 .login-hint {
   text-align: center;
   margin-top: 20px;
-  color: #888;
+  color: var(--text-muted);
   font-size: 14px;
 }
 </style>

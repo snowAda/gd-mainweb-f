@@ -358,11 +358,11 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 }
 
 .w-nav-item.current a {
-  color: #856dcc;
+  color: var(--accent);
 }
 
 .w-nav-item:hover a {
-  color: #856dcc;
+  color: var(--accent);
 }
 
 .language-selector {
@@ -493,12 +493,12 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 }
 
 .breadcrumb-link:hover {
-  color: #856dcc;
+  color: var(--accent);
 }
 
 .breadcrumb-separator {
   margin: 0 10px;
-  color: #999;
+  color: var(--text-muted);
 }
 
 .breadcrumb-current {
@@ -559,12 +559,12 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 }
 
 .category-link:hover {
-  color: #856dcc;
+  color: var(--accent);
   padding-left: 5px;
 }
 
 .category-link.active {
-  color: #856dcc;
+  color: var(--accent);
   font-weight: bold;
 }
 
@@ -631,7 +631,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 
 .product-item-date {
   font-size: 12px;
-  color: #999;
+  color: var(--text-muted);
   margin: 0 15px 15px;
   flex-shrink: 0;
 }
@@ -655,13 +655,13 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 }
 
 .pagination-link:hover {
-  border-color: #856dcc;
-  color: #856dcc;
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .pagination-link.active {
-  background-color: #856dcc;
-  border-color: #856dcc;
+  background-color: var(--accent);
+  border-color: var(--accent);
   color: #fff;
 }
 
@@ -669,7 +669,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 .footer {
   background-color: #070707;
   padding: 20px 0;
-  color: #989898;
+  color: var(--text-subtle);
 }
 
 .footer-container {
@@ -685,7 +685,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 
 .copyright-area {
   font-size: 14px;
-  color: #989898;
+  color: var(--text-subtle);
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;

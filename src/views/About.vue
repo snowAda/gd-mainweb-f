@@ -336,11 +336,11 @@ onMounted(() => {
 }
 
 .w-nav-item.current a {
-  color: #856dcc;
+  color: var(--accent);
 }
 
 .w-nav-item:hover a {
-  color: #856dcc;
+  color: var(--accent);
 }
 
 .language-selector {
@@ -542,7 +542,7 @@ onMounted(() => {
 
 .about-detail-subtitle {
   font-size: 16px;
-  color: #999;
+  color: var(--text-muted);
   font-weight: normal;
   margin-left: 10px;
 }
@@ -612,7 +612,7 @@ onMounted(() => {
 
 .about-partners-title p {
   font: 12px / 1 system-ui, "Microsoft YaHei", "微软雅黑", "arial", "tahoma", "MicrosoftJhengHei";
-  color: #999;
+  color: var(--text-muted);
 }
 
 /* 联系我们样式 */
@@ -634,7 +634,7 @@ onMounted(() => {
 .about-contact-content {
   flex: 0 0 350px;
   background-color: #ffffff;
-  border-left: 3px solid #856dcc;
+  border-left: 3px solid var(--accent);
   padding: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -679,7 +679,7 @@ onMounted(() => {
 .contact-icon {
   font-size: 18px;
   margin-right: 12px;
-  color: #856dcc;
+  color: var(--accent);
   min-width: 24px;
 }
 
@@ -716,7 +716,7 @@ onMounted(() => {
 
 .copyright-area {
   font-size: 14px;
-  color: #989898;
+  color: var(--text-subtle);
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;

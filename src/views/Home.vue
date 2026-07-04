@@ -296,14 +296,14 @@ onUnmounted(() => {
           <div class="product-item" @click="router.push('/products?categoryId=1')">
             <div class="product-icon">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="5" y="5" width="12" height="12" stroke="#856dcc" stroke-width="2" fill="none"/>
-                <rect x="23" y="5" width="12" height="12" stroke="#856dcc" stroke-width="2" fill="none"/>
-                <rect x="5" y="23" width="12" height="12" stroke="#856dcc" stroke-width="2" fill="none"/>
-                <rect x="23" y="23" width="12" height="12" stroke="#856dcc" stroke-width="2" fill="none"/>
-                <circle cx="11" cy="11" r="2" fill="#856dcc"/>
-                <circle cx="29" cy="11" r="2" fill="#856dcc"/>
-                <circle cx="11" cy="29" r="2" fill="#856dcc"/>
-                <circle cx="29" cy="29" r="2" fill="#856dcc"/>
+                <rect x="5" y="5" width="12" height="12" stroke="var(--accent)" stroke-width="2" fill="none"/>
+                <rect x="23" y="5" width="12" height="12" stroke="var(--accent)" stroke-width="2" fill="none"/>
+                <rect x="5" y="23" width="12" height="12" stroke="var(--accent)" stroke-width="2" fill="none"/>
+                <rect x="23" y="23" width="12" height="12" stroke="var(--accent)" stroke-width="2" fill="none"/>
+                <circle cx="11" cy="11" r="2" fill="var(--accent)"/>
+                <circle cx="29" cy="11" r="2" fill="var(--accent)"/>
+                <circle cx="11" cy="29" r="2" fill="var(--accent)"/>
+                <circle cx="29" cy="29" r="2" fill="var(--accent)"/>
               </svg>
             </div>
             <div class="product-content">
@@ -314,12 +314,12 @@ onUnmounted(() => {
           <div class="product-item" @click="router.push('/products?categoryId=4')">
             <div class="product-icon">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="20" r="15" stroke="#856dcc" stroke-width="2" fill="none"/>
-                <circle cx="20" cy="20" r="8" fill="#856dcc"/>
-                <path d="M20 5V12" stroke="#856dcc" stroke-width="2"/>
-                <path d="M20 28V35" stroke="#856dcc" stroke-width="2"/>
-                <path d="M5 20H12" stroke="#856dcc" stroke-width="2"/>
-                <path d="M28 20H35" stroke="#856dcc" stroke-width="2"/>
+                <circle cx="20" cy="20" r="15" stroke="var(--accent)" stroke-width="2" fill="none"/>
+                <circle cx="20" cy="20" r="8" fill="var(--accent)"/>
+                <path d="M20 5V12" stroke="var(--accent)" stroke-width="2"/>
+                <path d="M20 28V35" stroke="var(--accent)" stroke-width="2"/>
+                <path d="M5 20H12" stroke="var(--accent)" stroke-width="2"/>
+                <path d="M28 20H35" stroke="var(--accent)" stroke-width="2"/>
               </svg>
             </div>
             <div class="product-content">
@@ -330,8 +330,8 @@ onUnmounted(() => {
           <div class="product-item" @click="router.push('/products?categoryId=10')">
             <div class="product-icon">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="8" y="8" width="24" height="24" stroke="#856dcc" stroke-width="2" fill="none"/>
-                <rect x="12" y="12" width="16" height="16" fill="#856dcc"/>
+                <rect x="8" y="8" width="24" height="24" stroke="var(--accent)" stroke-width="2" fill="none"/>
+                <rect x="12" y="12" width="16" height="16" fill="var(--accent)"/>
                 <circle cx="20" cy="20" r="4" fill="white"/>
               </svg>
             </div>
@@ -343,9 +343,9 @@ onUnmounted(() => {
           <div class="product-item" @click="router.push('/products?categoryId=11')">
             <div class="product-icon">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="10" y="5" width="20" height="30" stroke="#856dcc" stroke-width="2" fill="none"/>
-                <rect x="14" y="10" width="12" height="8" fill="#856dcc"/>
-                <circle cx="20" cy="28" r="3" stroke="#856dcc" stroke-width="2" fill="none"/>
+                <rect x="10" y="5" width="20" height="30" stroke="var(--accent)" stroke-width="2" fill="none"/>
+                <rect x="14" y="10" width="12" height="8" fill="var(--accent)"/>
+                <circle cx="20" cy="28" r="3" stroke="var(--accent)" stroke-width="2" fill="none"/>
               </svg>
             </div>
             <div class="product-content">
@@ -356,8 +356,8 @@ onUnmounted(() => {
           <div class="product-item" @click="router.push('/products')">
             <div class="product-icon">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="20" cy="15" r="8" stroke="#856dcc" stroke-width="2" fill="none"/>
-                <path d="M8 35C8 28 13 23 20 23C27 23 32 28 32 35" stroke="#856dcc" stroke-width="2" fill="none"/>
+                <circle cx="20" cy="15" r="8" stroke="var(--accent)" stroke-width="2" fill="none"/>
+                <path d="M8 35C8 28 13 23 20 23C27 23 32 28 32 35" stroke="var(--accent)" stroke-width="2" fill="none"/>
               </svg>
             </div>
             <div class="product-content">
@@ -445,11 +445,11 @@ onUnmounted(() => {
 }
 
 .w-nav-item.current a {
-  color: #856dcc;
+  color: var(--accent);
 }
 
 .w-nav-item:hover a {
-  color: #856dcc;
+  color: var(--accent);
 }
 
 .language-selector {
@@ -738,7 +738,7 @@ onUnmounted(() => {
 .solutions-line {
   width: 3px;
   height: 40px;
-  background-color: #856dcc;
+  background-color: var(--accent);
   margin: 0 auto 30px;
   position: relative;
   z-index: 1;
@@ -800,14 +800,14 @@ onUnmounted(() => {
 }
 
 .home-solution-item-1 .home-solution-item-subtitle {
-  color: #999;
+  color: var(--text-muted);
   font-size: 16px;
   margin-bottom: 2px;
   letter-spacing: 1px;
 }
 
 .home-solution-item-1 .home-solution-item-title {
-  color: #856dcc;
+  color: var(--accent);
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 5px;
@@ -835,8 +835,8 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #856dcc;
-  color: #856dcc;
+  border: 1px solid var(--accent);
+  color: var(--accent);
   text-decoration: none;
   transition: all 0.3s ease;
   z-index: 2;
@@ -846,7 +846,7 @@ onUnmounted(() => {
 .home-solution-item-3 .home-solution-item-link:hover,
 .home-solution-item-4 .home-solution-item-link:hover,
 .home-solution-item-5 .home-solution-item-link:hover {
-  background-color: #856dcc;
+  background-color: var(--accent);
   color: #fff;
 }
 
@@ -857,7 +857,7 @@ onUnmounted(() => {
 
 .home-solution-item-2 .home-solution-item-link:hover {
   background-color: #fff;
-  color: #856dcc;
+  color: var(--accent);
 }
 
 /* 确保所有解决方案卡片都没有圆角和间距 */
@@ -1004,8 +1004,8 @@ onUnmounted(() => {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #856dcc;
-  color: #856dcc;
+  border: 1px solid var(--accent);
+  color: var(--accent);
   text-decoration: none;
   transition: all 0.3s ease;
   z-index: 2;
@@ -1092,7 +1092,7 @@ onUnmounted(() => {
 .about-line {
   width: 2px;
   height: 40px;
-  background-color: #856dcc;
+  background-color: var(--accent);
   position: relative;
   z-index: 1;
   margin-right: 15px;
@@ -1268,7 +1268,7 @@ onUnmounted(() => {
 .products-services-line {
   width: 5px;
   height: 37px;
-  background-color: #856dcc;
+  background-color: var(--accent);
   margin: 0 auto;
   position: relative;
   z-index: 1;
@@ -1322,7 +1322,7 @@ onUnmounted(() => {
 .product-title {
   font-size: clamp(15px, 1.05vw + 12px, 18px);
   font-weight: bold;
-  color: #856dcc;
+  color: var(--accent);
   margin-bottom: 10px;
   
   line-height: 1.25;
@@ -1351,7 +1351,7 @@ onUnmounted(() => {
 }
 
 .product-more-btn {
-  background: #856dcc;
+  background: var(--accent);
   border: none;
   color: #fff;
   font-size: 16px;
@@ -1393,7 +1393,7 @@ onUnmounted(() => {
 
 .copyright-area {
   font-size: 14px;
-  color: #989898;
+  color: var(--text-subtle);
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;

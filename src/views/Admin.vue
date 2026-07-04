@@ -1060,7 +1060,7 @@ onMounted(() => {
 .empty-state {
   padding: 40px;
   text-align: center;
-  color: #999;
+  color: var(--text-muted);
 }
 
 .pagination {
@@ -1105,7 +1105,7 @@ onMounted(() => {
   border: 2px dashed #ddd;
   border-radius: 4px;
   cursor: pointer;
-  color: #999;
+  color: var(--text-muted);
   transition: all 0.2s;
 }
 
@@ -1205,7 +1205,7 @@ onMounted(() => {
   border: none;
   font-size: 24px;
   cursor: pointer;
-  color: #999;
+  color: var(--text-muted);
 }
 
 .modal-body {
