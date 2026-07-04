@@ -311,7 +311,7 @@ onMounted(() => {
 
 .nav {
   flex: 1;
-  margin-left: 180px;
+  margin-left: 60px;
 }
 
 .w-nav {
@@ -365,7 +365,7 @@ onMounted(() => {
   text-decoration: none;
   color: #666;
   font-size: 12px;
-  font-family: Tahoma;
+  
   white-space: nowrap;
 }
 
@@ -439,7 +439,7 @@ onMounted(() => {
   font-size: 100px;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.3);
-  font-family: Arial Black, sans-serif;
+  
   /* margin-bottom: 20px; */
   line-height: 1;
   /* margin-top: 50; */
@@ -449,7 +449,7 @@ onMounted(() => {
   font-size: 40px;
   font-weight: bold;
   color: #ffffff;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
   margin-bottom: 20px;
   line-height: 1;
   position: relative;
@@ -537,7 +537,7 @@ onMounted(() => {
   font-weight: bold;
   color: #333;
   margin-bottom: 30px;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
 }
 
 .about-detail-subtitle {
@@ -607,7 +607,7 @@ onMounted(() => {
   font-weight: bold;
   color: #333;
   margin-bottom: 10px;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
 }
 
 .about-partners-title p {
@@ -651,7 +651,7 @@ onMounted(() => {
   display: inline-block;
   padding: 5px 10px;
   margin-bottom: 10px;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
 }
 
 .contact-subtitle {

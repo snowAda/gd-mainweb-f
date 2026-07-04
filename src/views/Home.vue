@@ -420,7 +420,7 @@ onUnmounted(() => {
 
 .nav {
   flex: 1;
-  margin-left: 180px;
+  margin-left: 60px;
 }
 
 .w-nav {
@@ -474,7 +474,7 @@ onUnmounted(() => {
   text-decoration: none;
   color: #666;
   font-size: 12px;
-  font-family: Tahoma;
+  
   white-space: nowrap;
 }
 
@@ -577,7 +577,7 @@ onUnmounted(() => {
   font-weight: bold;
   color: #fff;
   margin-bottom: 16px;
-  font-family: "Microsoft JhengHei";
+  
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
 }
 
@@ -715,7 +715,7 @@ onUnmounted(() => {
   font-size: clamp(40px, 10vw, 96px);
   font-weight: bold;
   color: rgba(255, 255, 255, 0.2);
-  font-family: Arial Black, sans-serif;
+  
   z-index: 0;
   margin-bottom: 0;
   line-height: 1;
@@ -727,7 +727,7 @@ onUnmounted(() => {
   font-weight: bold;
   color: #fff;
   margin-bottom: 20px;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
   position: relative;
   z-index: 1;
   margin-top: -10px;
@@ -811,7 +811,7 @@ onUnmounted(() => {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 5px;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
 }
 
 .home-solution-item-1 .home-solution-item-description {
@@ -890,7 +890,7 @@ onUnmounted(() => {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 5px;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
   white-space: nowrap;
 }
 
@@ -922,7 +922,7 @@ onUnmounted(() => {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 5px;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
 }
 
 .home-solution-item-3 .home-solution-item-description {
@@ -955,7 +955,7 @@ onUnmounted(() => {
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 5px;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
 }
 
 .home-solution-item-4 .home-solution-item-description {
@@ -984,7 +984,7 @@ onUnmounted(() => {
   margin-bottom: 5px;
   color: #333;
   font-weight: bold;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
 }
 
 .home-solution-item-5 .home-solution-item-description {
@@ -1069,7 +1069,6 @@ onUnmounted(() => {
   font-size: 72px !important;
   font-weight: bold !important;
   color: #eeeeee !important;
-  font-family: Arial Black !important;
   z-index: 0 !important;
   letter-spacing: 1px !important;
   line-height: 1 !important;
@@ -1084,7 +1083,6 @@ onUnmounted(() => {
   font-weight: bold !important;
   color: #333 !important;
   margin: 0 !important;
-  font-family: Source Han Sans, Geneva, sans-serif !important;
   position: absolute !important;
   z-index: 1 !important;
   bottom: 0 !important;
@@ -1114,7 +1112,7 @@ onUnmounted(() => {
 }
 
 .about-description {
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
   font-size: 16px;
   line-height: 2;
   color: #666666;
@@ -1245,7 +1243,7 @@ onUnmounted(() => {
   font-size: clamp(36px, 8vw, 72px);
   font-weight: bold;
   color: rgba(0, 0, 0, 0.05);
-  font-family: Arial Black, sans-serif;
+  
   z-index: 0;
   white-space: nowrap;
   line-height: 1;
@@ -1260,7 +1258,7 @@ onUnmounted(() => {
   color: #333;
   margin-top: 90px;
   margin-bottom: 0px;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
   position: relative;
   z-index: 1;
   line-height: 1.15;
@@ -1326,7 +1324,7 @@ onUnmounted(() => {
   font-weight: bold;
   color: #856dcc;
   margin-bottom: 10px;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
   line-height: 1.25;
 }
 

@@ -182,7 +182,7 @@ const messages = {
     home: 'Home',
     about: 'About Us',
     solutions: 'Solutions',
-    products: 'Products\u00A0&\u00A0Services',
+    products: 'Products & Services',
     
     // 首页
     sliderSubtitle: 'SMART TECHNOLOGY EMPOWERMENT ENGINE',

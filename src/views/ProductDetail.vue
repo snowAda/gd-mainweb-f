@@ -325,7 +325,7 @@ const productDescriptionHtml = computed(() => {
 
 .nav {
   flex: 1;
-  margin-left: 180px;
+  margin-left: 60px;
 }
 
 .w-nav {
@@ -448,7 +448,7 @@ const productDescriptionHtml = computed(() => {
   font-size: clamp(32px, 8vw, 96px);
   font-weight: bold;
   color: rgba(255, 255, 255, 0.2);
-  font-family: Arial Black, sans-serif;
+  
   margin-bottom: 20px;
   line-height: 1;
   white-space: nowrap;
@@ -459,7 +459,7 @@ const productDescriptionHtml = computed(() => {
   font-weight: bold;
   color: #fff;
   margin: 0;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
   line-height: 1.15;
   white-space: nowrap;
 }

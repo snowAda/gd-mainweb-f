@@ -333,7 +333,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 
 .nav {
   flex: 1;
-  margin-left: 180px;
+  margin-left: 60px;
 }
 
 .w-nav {
@@ -387,7 +387,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
   text-decoration: none;
   color: #666;
   font-size: 12px;
-  font-family: Tahoma;
+  
   white-space: nowrap;
 }
 
@@ -446,7 +446,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
   font-size: clamp(32px, 8vw, 96px);
   font-weight: bold;
   color: rgba(255, 255, 255, 0.2);
-  font-family: Arial Black, sans-serif;
+  
   margin-bottom: 20px;
   line-height: 1;
   white-space: nowrap;
@@ -456,7 +456,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
   font-size: clamp(18px, 3.5vw, 48px);
   font-weight: bold;
   color: #fff;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
   line-height: 1.15;
   white-space: nowrap;
 }
@@ -538,7 +538,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
   font-weight: bold;
   color: #333;
   margin-bottom: 15px;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
 }
 
 .category-list {
@@ -623,7 +623,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
   font-weight: bold;
   color: #333;
   margin: 15px;
-  font-family: Source Han Sans, Geneva, sans-serif;
+  
   flex-grow: 1;
   display: flex;
   align-items: center;
