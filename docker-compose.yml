@@ -9,6 +9,7 @@ services:
     environment:
       - BEIAN_CODE=苏ICP备19059864号-2
       - NODE_ENV=production
+      - ENABLE_ADMIN=false
     volumes:
       - /data/www/guodong-cn.com/GD/products:/data/www/guodong-cn.com/GD/products
       - /data/www/guodong-cn.com/GD/solutions:/data/www/guodong-cn.com/GD/solutions

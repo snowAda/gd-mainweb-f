@@ -5,8 +5,6 @@ import Solutions from '../views/Solutions.vue'
 import SolutionDetail from '../views/SolutionDetail.vue'
 import Products from '../views/Products.vue'
 import ProductDetail from '../views/ProductDetail.vue'
-import Admin from '../views/Admin.vue'
-import AdminLogin from '../views/AdminLogin.vue'
 
 const routes = [
   {
@@ -38,18 +36,28 @@ const routes = [
     path: '/products/:id',
     name: 'ProductDetail',
     component: ProductDetail
-  },
-  {
-    path: '/admin/login',
-    name: 'AdminLogin',
-    component: AdminLogin
-  },
-  {
-    path: '/admin',
-    name: 'Admin',
-    component: Admin
   }
 ]
+
+const enableAdmin = import.meta.env.VITE_ENABLE_ADMIN === 'true'
+
+if (enableAdmin) {
+  const Admin = () => import('../views/Admin.vue')
+  const AdminLogin = () => import('../views/AdminLogin.vue')
+
+  routes.push(
+    {
+      path: '/admin/login',
+      name: 'AdminLogin',
+      component: AdminLogin
+    },
+    {
+      path: '/admin',
+      name: 'Admin',
+      component: Admin
+    }
+  )
+}
 
 const router = createRouter({
   history: createWebHistory(),

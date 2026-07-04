@@ -234,7 +234,7 @@ const messages = {
     
     productMore: 'More >>>',
     
-    copyright: 'Copyright © GDIINTELLIGENCE PTE. LTD.  ICP',
+    copyright: 'Copyright © GDIINTELLIGENCE PTE. LTD.',
     
     // 关于我们页面
     aboutPageTitle: 'Company Profile',
@@ -249,7 +249,7 @@ const messages = {
     aboutPartners: 'Customers and Partners',
     
     aboutContact: 'Contact Us',
-    aboutAddress: 'Address: Xuzhuang Software Park, Xuanwu District, Nanjing',
+    aboutAddress: 'Address: No. 268 Jiqingmen Avenue, Gulou District, Nanjing, Jiangsu Province',
     aboutPhone: 'Phone: (86) 189-5167-8898',
     aboutEmail: 'Email: marketing@gdi-tech.com',
     
@@ -410,7 +410,7 @@ const messages = {
     
     productMore: '詳細 >>>',
     
-    copyright: '©南京ガイアインテリジェントテクノロジー株式会社 北京ICP第12345678号 人工知能・技術赋能',
+    copyright: '©南京ガイアインテリジェントテクノロジー株式会社',
     
     // 关于我们页面
     aboutPageTitle: '会社概要',
@@ -425,7 +425,7 @@ const messages = {
     aboutPartners: '顧客及びパートナー',
     
     aboutContact: 'お問い合わせ',
-    aboutAddress: '住所：南京市玄武区徐荘ソフトウェアパーク',
+    aboutAddress: '住所：江蘇省南京市鼓楼区集慶門大街268号',
     aboutPhone: '電話：(86) 189-5167-8898',
     aboutEmail: 'メール：marketing@gdi-tech.com',
     

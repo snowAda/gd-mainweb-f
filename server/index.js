@@ -4,7 +4,6 @@ import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
 import solutionsRouter from './routes/solutions.js'
 import productsRouter from './routes/products.js'
-import adminRouter from './routes/admin.js'
 import uploadRouter from './routes/upload.js'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -19,9 +18,17 @@ app.use(express.json())
 app.use('/api/solutions', solutionsRouter)
 app.use('/api/products', productsRouter)
 app.use('/api/upload', uploadRouter)
-app.use('/api', adminRouter)
 
-// 根据环境配置静态文件服务
+const enableAdmin = process.env.ENABLE_ADMIN === 'true'
+if (enableAdmin) {
+  import('./routes/admin.js').then(({ default: adminRouter }) => {
+    app.use('/api', adminRouter)
+    console.log('管理功能已启用')
+  })
+} else {
+  console.log('管理功能已禁用 (设置 ENABLE_ADMIN=true 可启用)')
+}
+
 const isProduction = process.env.NODE_ENV === 'production'
 const DATA_DIR = isProduction 
   ? (process.env.DATA_DIR || '/data/www/guodong-cn.com/GD')
@@ -31,10 +38,8 @@ app.use('/GD/products', express.static(join(DATA_DIR, 'products')))
 app.use('/GD/solutions', express.static(join(DATA_DIR, 'solutions')))
 app.use('/img', express.static(join(__dirname, '../public')))
 
-// 提供前端静态文件服务
 app.use(express.static(join(__dirname, '../dist')))
 
-// 处理所有其他路由，返回index.html（用于SPA应用）
 app.get('*', (req, res) => {
   res.sendFile(join(__dirname, '../dist/index.html'))
 })
