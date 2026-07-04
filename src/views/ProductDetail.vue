@@ -1,11 +1,12 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { currentLocale, setLocale, getMessages } from '../i18n'
+import { withLocale, normalizeCategoryApiRow, normalizeDetailApiRow } from '../utils/apiLocale.js'
+import { fetchApiJson } from '../utils/fetchApi.js'
 
 const route = useRoute()
 const router = useRouter()
-const productId = route.params.id
 
 // 备案号，从环境变量获取
 const beianCode = ref('')
@@ -40,40 +41,42 @@ const error = ref(null)
 const categories = ref([])
 
 // 从后端 API 获取产品数据和分类数据
-onMounted(async () => {
+const loadData = async () => {
+  const id = route.params.id
   try {
     loading.value = true
-    // 获取产品详情数据
-    const response1 = await fetch(`/api/products/${productId}/details`)
-    if (!response1.ok) {
-      throw new Error('Failed to fetch product details')
-    }
-    product.value = await response1.json()
-    if (!product.value) {
+    error.value = null
+    const rawProduct = await fetchApiJson(withLocale(`/api/products/${id}/details`))
+    if (!rawProduct || rawProduct.error) {
       throw new Error('Product not found')
     }
-    
-    // 获取产品素材数据
-    const response3 = await fetch(`/api/products/${productId}/materials`)
-    if (!response3.ok) {
-      throw new Error('Failed to fetch product materials')
-    }
-    productMaterials.value = await response3.json()
-    
-    // 获取分类数据
-    const response2 = await fetch('/api/products/categories')
-    if (!response2.ok) {
-      throw new Error('Failed to fetch categories data')
-    }
-    const data2 = await response2.json()
-    categories.value = processCategories(data2)
+    product.value = normalizeDetailApiRow(rawProduct)
+
+    productMaterials.value = await fetchApiJson(`/api/products/${id}/materials`)
+
+    const data2 = await fetchApiJson(withLocale('/api/products/categories'))
+    const flat = Array.isArray(data2) ? data2.map((c) => normalizeCategoryApiRow(c)) : []
+    categories.value = processCategories(flat)
   } catch (err) {
     error.value = err.message
     console.error('Error fetching data:', err)
   } finally {
     loading.value = false
   }
+}
+
+onMounted(loadData)
+
+watch(currentLocale, () => {
+  loadData()
 })
+
+watch(
+  () => route.params.id,
+  (newId) => {
+    if (newId) loadData()
+  }
+)
 
 // 处理分类父子关系
 const processCategories = (categories) => {
@@ -110,19 +113,26 @@ const selectCategory = (categoryId) => {
 
 // 获取素材类型文本
 const getMaterialTypeText = (type) => {
-  const typeMap = {
-    'image': '图片',
-    'video': '视频',
-    'document': '文档',
-    'other': '其他'
-  }
-  return typeMap[type] || type
+  const key = {
+    image: 'materialTypeImage',
+    video: 'materialTypeVideo',
+    document: 'materialTypeDocument',
+    other: 'materialTypeOther'
+  }[type]
+  return key ? t(key) : type
 }
 
 // 从文件URL中提取文件名
 const getFileName = (url) => {
   return url.split('/').pop()
 }
+
+/** 详情正文已规范为字符串，再换行转 <br> */
+const productDescriptionHtml = computed(() => {
+  const text = product.value?.description
+  if (!text || typeof text !== 'string') return ''
+  return text.replace(/\n/g, '<br>')
+})
 </script>
 
 <template>
@@ -138,16 +148,16 @@ const getFileName = (url) => {
         <nav class="nav">
           <ul class="w-nav">
             <li class="w-nav-inner">
-              <router-link to="/" class="w-nav-item">首页</router-link>
+              <router-link to="/" class="w-nav-item">{{ t('home') }}</router-link>
             </li>
             <li class="w-nav-inner">
-              <router-link to="/about" class="w-nav-item">关于我们</router-link>
+              <router-link to="/about" class="w-nav-item">{{ t('about') }}</router-link>
             </li>
             <li class="w-nav-inner">
-              <router-link to="/solutions" class="w-nav-item">解决方案</router-link>
+              <router-link to="/solutions" class="w-nav-item">{{ t('solutions') }}</router-link>
             </li>
             <li class="w-nav-inner">
-              <router-link to="/products" class="w-nav-item current">产品服务</router-link>
+              <router-link to="/products" class="w-nav-item current">{{ t('products') }}</router-link>
             </li>
           </ul>
         </nav>
@@ -174,8 +184,8 @@ const getFileName = (url) => {
     <!-- 页面头部 -->
     <section class="products-header-section">
       <div class="products-header-content">
-        <h1 class="products-bg-title">Products & Service.</h1>
-        <h2 class="products-title">产品服务</h2>
+        <h1 class="products-bg-title">Products&Services</h1>
+        <h2 class="products-title">{{ t('productsPageTitle') }}</h2>
       </div>
     </section>
 
@@ -184,19 +194,19 @@ const getFileName = (url) => {
       <div class="breadcrumb-container">
         <ul class="breadcrumb-list">
           <li class="breadcrumb-item">
-            <router-link to="/" class="breadcrumb-link">首页</router-link>
+            <router-link to="/" class="breadcrumb-link">{{ t('home') }}</router-link>
           </li>
           <li class="breadcrumb-item">
             <span class="breadcrumb-separator">></span>
           </li>
           <li class="breadcrumb-item">
-            <router-link to="/products" class="breadcrumb-link">产品服务</router-link>
+            <router-link to="/products" class="breadcrumb-link">{{ t('productsBreadcrumb') }}</router-link>
           </li>
           <li class="breadcrumb-item">
             <span class="breadcrumb-separator">></span>
           </li>
           <li class="breadcrumb-item">
-            <span class="breadcrumb-current">{{ product ? product.title : '加载中...' }}</span>
+            <span class="breadcrumb-current">{{ product ? product.title : t('loading') }}</span>
           </li>
         </ul>
       </div>
@@ -220,7 +230,7 @@ const getFileName = (url) => {
         <!-- 右侧内容 -->
         <div class="product-detail-main">
           <template v-if="loading">
-            <div class="loading">加载中...</div>
+            <div class="loading">{{ t('loading') }}</div>
           </template>
           <template v-else-if="error">
             <div class="error">{{ error }}</div>
@@ -230,8 +240,8 @@ const getFileName = (url) => {
             
             <div class="product-detail-info">
               <div class="product-description">
-                <p v-if="product.description" v-html="product.description.replace(/\n/g, '<br>')"></p>
-                <p v-else>暂无产品描述</p>
+                <p v-if="productDescriptionHtml" v-html="productDescriptionHtml"></p>
+                <p v-else>{{ t('productDetailNoDescription') }}</p>
               </div>
             </div>
             
@@ -244,7 +254,7 @@ const getFileName = (url) => {
             <div v-if="productMaterials && productMaterials.filter(m => m.material_type === 'video').length > 0" class="product-videos">
               <div class="video-list">
                 <div v-for="(material, index) in productMaterials.filter(m => m.material_type === 'video').sort((a, b) => a.sort - b.sort)" :key="index" class="video-item">
-                  <video controls autoplay muted :src="material.file_url" :alt="`${product.title} 视频 ${index + 1}`" style="width: 100%; max-width: 600px; border-radius: 4px;" />
+                  <video controls autoplay muted :src="material.file_url" :alt="`${product.title} ${t('mediaVideo')} ${index + 1}`" style="width: 100%; max-width: 600px; border-radius: 4px;" />
                 </div>
               </div>
             </div>
@@ -257,7 +267,7 @@ const getFileName = (url) => {
                       <span class="material-type">{{ getMaterialTypeText(material.material_type) }}</span>
                       <span class="material-file">{{ getFileName(material.file_url) }}</span>
                     </div>
-                    <a :href="material.file_url" class="material-link" target="_blank">下载</a>
+                    <a :href="material.file_url" class="material-link" target="_blank">{{ t('download') }}</a>
                   </div>
                 </div>
               </div>
@@ -272,9 +282,9 @@ const getFileName = (url) => {
       <div class="footer-container">
         <div class="footer-content">
           <div class="copyright-area">
-            <div class="copyright-left">版权所有© 南京果动智能科技有限公司</div>
+            <div class="copyright-left">{{ t('footerCopyrightLeft') }}</div>
             <div class="copyright-center"><a href="https://beian.miit.gov.cn/" target="_blank" style="color: inherit; text-decoration: none;" v-if="beianCode">{{ beianCode }}</a></div>
-            <div class="copyright-right">人工智能·科技赋能</div>
+            <div class="copyright-right">{{ t('footerCopyrightRight') }}</div>
           </div>
         </div>
       </div>
@@ -315,7 +325,7 @@ const getFileName = (url) => {
 
 .nav {
   flex: 1;
-  margin-left: 263px;
+  margin-left: 180px;
 }
 
 .w-nav {
@@ -435,20 +445,23 @@ const getFileName = (url) => {
 }
 
 .products-bg-title {
-  font-size: 96px;
+  font-size: clamp(32px, 8vw, 96px);
   font-weight: bold;
   color: rgba(255, 255, 255, 0.2);
   font-family: Arial Black, sans-serif;
   margin-bottom: 20px;
   line-height: 1;
+  white-space: nowrap;
 }
 
 .products-title {
-  font-size: 36px;
+  font-size: clamp(16px, 2.8vw, 36px);
   font-weight: bold;
   color: #fff;
   margin: 0;
   font-family: Source Han Sans, Geneva, sans-serif;
+  line-height: 1.15;
+  white-space: nowrap;
 }
 
 /* 面包屑导航 */
@@ -798,10 +811,12 @@ const getFileName = (url) => {
   
   .products-bg-title {
     font-size: 48px;
+    white-space: normal;
   }
   
   .products-title {
     font-size: 24px;
+    white-space: normal;
   }
   
   .product-detail-container {

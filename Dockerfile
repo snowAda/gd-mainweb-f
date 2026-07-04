@@ -1,4 +1,5 @@
-FROM node:20
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/node:20-alpine
+
 
 WORKDIR /app
 

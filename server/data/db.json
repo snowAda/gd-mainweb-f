@@ -3,177 +3,353 @@
     "categories": [
       {
         "id": 1,
-        "name": "智能制造",
+        "name": {
+          "zh-CN": "智能制造",
+          "en-US": "Smart Manufacturing",
+          "ja-JP": "スマート製造"
+        },
         "parent_id": 0,
-        "description": "一级分类",
+        "description": {
+          "zh-CN": "一级分类",
+          "en-US": "Primary category",
+          "ja-JP": "一次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 2,
-        "name": "缺陷检测",
+        "name": {
+          "zh-CN": "缺陷检测",
+          "en-US": "Defect Detection",
+          "ja-JP": "欠陥検出"
+        },
         "parent_id": 1,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 3,
-        "name": "产线智能化跟踪及检测",
+        "name": {
+          "zh-CN": "产线智能化跟踪及检测",
+          "en-US": "Intelligent Production Line Tracking and Inspection",
+          "ja-JP": "生産ラインのインテリジェント追跡・検査"
+        },
         "parent_id": 1,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 4,
-        "name": "智慧工厂管理",
+        "name": {
+          "zh-CN": "智慧工厂管理",
+          "en-US": "Smart Factory Management",
+          "ja-JP": "スマートファクトリー管理"
+        },
         "parent_id": 1,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 5,
-        "name": "食品",
+        "name": {
+          "zh-CN": "食品",
+          "en-US": "Food",
+          "ja-JP": "食品"
+        },
         "parent_id": 0,
-        "description": "一级分类",
+        "description": {
+          "zh-CN": "一级分类",
+          "en-US": "Primary category",
+          "ja-JP": "一次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 6,
-        "name": "智慧餐厅",
+        "name": {
+          "zh-CN": "智慧餐厅",
+          "en-US": "Smart Restaurant",
+          "ja-JP": "スマートレストラン"
+        },
         "parent_id": 5,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 7,
-        "name": "生产卫生安全合规",
+        "name": {
+          "zh-CN": "生产卫生安全合规",
+          "en-US": "Production sanitation and safety compliance",
+          "ja-JP": "生産衛生・安全コンプライアンス"
+        },
         "parent_id": 5,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 8,
-        "name": "交通",
+        "name": {
+          "zh-CN": "交通",
+          "en-US": "Transportation",
+          "ja-JP": "交通"
+        },
         "parent_id": 0,
-        "description": "一级分类",
+        "description": {
+          "zh-CN": "一级分类",
+          "en-US": "Primary category",
+          "ja-JP": "一次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 9,
-        "name": "智慧交通",
+        "name": {
+          "zh-CN": "智慧交通",
+          "en-US": "Smart Transportation",
+          "ja-JP": "スマート交通"
+        },
         "parent_id": 8,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 10,
-        "name": "加油站人车识别",
+        "name": {
+          "zh-CN": "加油站人车识别",
+          "en-US": "Gas/Charging Station Vehicle and Personnel Identification",
+          "ja-JP": "ガソリンスタンド/充電ステーションの人車識別"
+        },
         "parent_id": 8,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 11,
-        "name": "园区",
+        "name": {
+          "zh-CN": "园区",
+          "en-US": "Park",
+          "ja-JP": "パーク"
+        },
         "parent_id": 0,
-        "description": "一级分类",
+        "description": {
+          "zh-CN": "一级分类",
+          "en-US": "Primary category",
+          "ja-JP": "一次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 12,
-        "name": "智慧食堂",
+        "name": {
+          "zh-CN": "智慧食堂",
+          "en-US": "Smart Canteen",
+          "ja-JP": "スマート食堂"
+        },
         "parent_id": 11,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 13,
-        "name": "远程多园区安防集中管理",
+        "name": {
+          "zh-CN": "远程多园区安防集中管理",
+          "en-US": "Remote Multi-Park Security Centralized Management",
+          "ja-JP": "リモートマルチパークセキュリティ集中管理"
+        },
         "parent_id": 11,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 14,
-        "name": "智慧园区",
+        "name": {
+          "zh-CN": "智慧园区",
+          "en-US": "Smart Park",
+          "ja-JP": "スマートパーク"
+        },
         "parent_id": 11,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 15,
-        "name": "机场",
+        "name": {
+          "zh-CN": "机场",
+          "en-US": "Airport",
+          "ja-JP": "空港"
+        },
         "parent_id": 0,
-        "description": "一级分类",
+        "description": {
+          "zh-CN": "一级分类",
+          "en-US": "Primary category",
+          "ja-JP": "一次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 16,
-        "name": "物流快递",
+        "name": {
+          "zh-CN": "物流快递",
+          "en-US": "Logistics and express delivery",
+          "ja-JP": "物流・宅配"
+        },
         "parent_id": 0,
-        "description": "一级分类",
+        "description": {
+          "zh-CN": "一级分类",
+          "en-US": "Primary category",
+          "ja-JP": "一次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 17,
-        "name": "仓库管理",
+        "name": {
+          "zh-CN": "仓库管理",
+          "en-US": "Warehouse Management",
+          "ja-JP": "倉庫管理"
+        },
         "parent_id": 16,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 18,
-        "name": "物流分拣",
+        "name": {
+          "zh-CN": "物流分拣",
+          "en-US": "Logistics Sorting",
+          "ja-JP": "物流仕分け"
+        },
         "parent_id": 16,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 19,
-        "name": "营业厅",
+        "name": {
+          "zh-CN": "营业厅",
+          "en-US": "Business Hall",
+          "ja-JP": "営業ホール"
+        },
         "parent_id": 0,
-        "description": "一级分类",
+        "description": {
+          "zh-CN": "一级分类",
+          "en-US": "Primary category",
+          "ja-JP": "一次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 20,
-        "name": "医院与实验室",
+        "name": {
+          "zh-CN": "医院与实验室",
+          "en-US": "Hospitals and Laboratories",
+          "ja-JP": "病院・研究所"
+        },
         "parent_id": 0,
-        "description": "一级分类",
+        "description": {
+          "zh-CN": "一级分类",
+          "en-US": "Primary category",
+          "ja-JP": "一次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 21,
-        "name": "科研与临床无缝协作",
+        "name": {
+          "zh-CN": "科研与临床无缝协作",
+          "en-US": "Seamless Collaboration between Research and Clinical Teams",
+          "ja-JP": "研究・臨床シームレス連携"
+        },
         "parent_id": 20,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 22,
-        "name": "全流程智能化诊断支持",
+        "name": {
+          "zh-CN": "全流程智能化诊断支持",
+          "en-US": "Full-process Intelligent Diagnosis Support",
+          "ja-JP": "全行程知能診断サポート"
+        },
         "parent_id": 20,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       }
@@ -181,154 +357,290 @@
     "list": [
       {
         "id": 1,
-        "title": "科研与临床无缝协作",
-        "cover": "http://www.guodong-cn.com/GD/solutions/科研与临床无缝协作-C.jpg",
+        "title": {
+          "zh-CN": "科研与临床无缝协作",
+          "en-US": "Seamless Collaboration between Research and Clinical Teams",
+          "ja-JP": "研究・臨床シームレス連携"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/科研与临床无缝协作-C.jpg",
         "category_id": 21,
-        "description": "医疗科研协作方案",
+        "description": {
+          "zh-CN": "医疗科研协作方案",
+          "en-US": "Scientific",
+          "ja-JP": "研究・臨床非接触コラボレーション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 2,
-        "title": "全流程智能化诊断支持",
-        "cover": "http://www.guodong-cn.com/GD/solutions/全流程智能化诊断支持-C.jpg",
+        "title": {
+          "zh-CN": "全流程智能化诊断支持",
+          "en-US": "Full-process Intelligent Diagnosis Support",
+          "ja-JP": "全行程知能診断サポート"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/全流程智能化诊断支持-C.jpg",
         "category_id": 22,
-        "description": "全流程医疗诊断方案",
+        "description": {
+          "zh-CN": "全流程医疗诊断方案",
+          "en-US": "End-to-End Intelligent Medical Diagnosis Solution",
+          "ja-JP": "全工程インテリジェント医療診断ソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 3,
-        "title": "智慧营业厅",
-        "cover": "http://www.guodong-cn.com/GD/solutions/智慧营业厅-C.jpeg",
+        "title": {
+          "zh-CN": "智慧营业厅",
+          "en-US": "Smart Business Hall",
+          "ja-JP": "スマート営業ホール"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/智慧营业厅-C.jpeg",
         "category_id": 19,
-        "description": "营业厅智能化方案",
+        "description": {
+          "zh-CN": "营业厅智能化方案",
+          "en-US": "Intelligent Business Hall Solution",
+          "ja-JP": "スマート営業ホールソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 4,
-        "title": "仓库管理",
-        "cover": "http://www.guodong-cn.com/GD/solutions/仓库管理-C.png",
+        "title": {
+          "zh-CN": "仓库管理",
+          "en-US": "Warehouse Management",
+          "ja-JP": "倉庫管理"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/仓库管理-C.png",
         "category_id": 17,
-        "description": "物流仓库管理方案",
+        "description": {
+          "zh-CN": "物流仓库管理方案",
+          "en-US": "Logistics Warehouse Management Solution",
+          "ja-JP": "物流倉庫管理ソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 5,
-        "title": "物流分拣",
-        "cover": "http://www.guodong-cn.com/GD/solutions/物流分拣-C.png",
+        "title": {
+          "zh-CN": "物流分拣",
+          "en-US": "Logistics Sorting",
+          "ja-JP": "物流仕分け"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/物流分拣-C.png",
         "category_id": 18,
-        "description": "物流智能分拣方案",
+        "description": {
+          "zh-CN": "物流智能分拣方案",
+          "en-US": "Intelligent Logistics Sorting Solution",
+          "ja-JP": "インテリジェント物流仕分けソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 6,
-        "title": "安防控制平台",
-        "cover": "http://www.guodong-cn.com/GD/solutions/安防控制平台-C.png",
+        "title": {
+          "zh-CN": "安防控制平台",
+          "en-US": "Security Control Platform",
+          "ja-JP": "セキュリティ制御プラットフォーム"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/安防控制平台-C.png",
         "category_id": 13,
-        "description": "园区安防控制方案",
+        "description": {
+          "zh-CN": "园区安防控制方案",
+          "en-US": "Park Security Control Solution",
+          "ja-JP": "園区セキュリティ制御ソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 7,
-        "title": "智慧食堂",
-        "cover": "http://www.guodong-cn.com/GD/solutions/智慧食堂-C.png",
+        "title": {
+          "zh-CN": "智慧食堂",
+          "en-US": "Smart Canteen",
+          "ja-JP": "スマート食堂"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/智慧食堂-C.png",
         "category_id": 12,
-        "description": "园区智慧食堂方案",
+        "description": {
+          "zh-CN": "园区智慧食堂方案",
+          "en-US": "Smart Canteen Solution for Industrial Parks",
+          "ja-JP": "園区向けスマート食堂ソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 8,
-        "title": "远程多园区安防集中管理",
-        "cover": "http://www.guodong-cn.com/GD/solutions/远程多园区安防集中管理-C.jpg",
+        "title": {
+          "zh-CN": "远程多园区安防集中管理",
+          "en-US": "Remote Multi-Park Security Centralized Management",
+          "ja-JP": "リモートマルチパークセキュリティ集中管理"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/远程多园区安防集中管理-C.jpg",
         "category_id": 13,
-        "description": "多园区安防管理方案",
+        "description": {
+          "zh-CN": "多园区安防管理方案",
+          "en-US": "Multi-Park Security Management Solution",
+          "ja-JP": "マルチ園区セキュリティ管理ソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 9,
-        "title": "智慧园区",
-        "cover": "http://www.guodong-cn.com/GD/solutions/智慧园区-C.png",
+        "title": {
+          "zh-CN": "智慧园区",
+          "en-US": "Smart Park",
+          "ja-JP": "スマートパーク"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/智慧园区-C.png",
         "category_id": 14,
-        "description": "智慧园区整体方案",
+        "description": {
+          "zh-CN": "智慧园区整体方案",
+          "en-US": "Comprehensive Smart Park Solution",
+          "ja-JP": "スマート園区統合ソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 10,
-        "title": "智慧交通",
-        "cover": "http://www.guodong-cn.com/GD/solutions/智慧交通-C.png",
+        "title": {
+          "zh-CN": "智慧交通",
+          "en-US": "Smart Transportation",
+          "ja-JP": "スマート交通"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/智慧交通-C.png",
         "category_id": 9,
-        "description": "智能交通管理方案",
+        "description": {
+          "zh-CN": "智能交通管理方案",
+          "en-US": "Intelligent Traffic Management Solution",
+          "ja-JP": "インテリジェント交通管理ソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 11,
-        "title": "加油站人车识别",
-        "cover": "http://www.guodong-cn.com/GD/solutions/加油站人车识别-C.png",
+        "title": {
+          "zh-CN": "加油站人车识别",
+          "en-US": "Gas/Charging Station Vehicle and Personnel Identification",
+          "ja-JP": "ガソリンスタンド/充電ステーションの人車識別"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/加油站人车识别-C.png",
         "category_id": 10,
-        "description": "加油站人车识别方案",
+        "description": {
+          "zh-CN": "加油站人车识别方案",
+          "en-US": "Vehicle and Personnel Identification Solution for Gas Stations",
+          "ja-JP": "ガソリンスタンド向け人車識別ソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 12,
-        "title": "智慧餐厅",
-        "cover": "http://www.guodong-cn.com/GD/solutions/智慧餐厅-C.png",
+        "title": {
+          "zh-CN": "智慧餐厅",
+          "en-US": "Smart Restaurant",
+          "ja-JP": "スマートレストラン"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/智慧餐厅-C.png",
         "category_id": 6,
-        "description": "餐饮智能化方案",
+        "description": {
+          "zh-CN": "餐饮智能化方案",
+          "en-US": "Smart Restaurant Solution",
+          "ja-JP": "スマートレストランソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 13,
-        "title": "生产卫生安全合规",
-        "cover": "http://www.guodong-cn.com/GD/solutions/生产卫生安全合规-C.png",
+        "title": {
+          "zh-CN": "生产卫生安全合规",
+          "en-US": "Production sanitation and safety compliance",
+          "ja-JP": "生産衛生・安全コンプライアンス"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/生产卫生安全合规-C.png",
         "category_id": 7,
-        "description": "食品生产安全合规方案",
+        "description": {
+          "zh-CN": "食品生产安全合规方案",
+          "en-US": "Food Production Safety Compliance Solution",
+          "ja-JP": "食品生産安全コンプライアンスソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 14,
-        "title": "缺陷检测",
-        "cover": "http://www.guodong-cn.com/GD/solutions/缺陷检测-C.png",
+        "title": {
+          "zh-CN": "缺陷检测",
+          "en-US": "Defect Detection",
+          "ja-JP": "欠陥検出"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/缺陷检测-C.png",
         "category_id": 2,
-        "description": "产线缺陷检测方案",
+        "description": {
+          "zh-CN": "产线缺陷检测方案",
+          "en-US": "Production Line Defect Detection Solution",
+          "ja-JP": "生産ライン欠陥検査ソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 15,
-        "title": "产线智能化跟踪及检测",
-        "cover": "http://www.guodong-cn.com/GD/solutions/产线智能化跟踪及检测-C.png",
+        "title": {
+          "zh-CN": "产线智能化跟踪及检测",
+          "en-US": "Intelligent Production Line Tracking and Inspection",
+          "ja-JP": "生産ラインのインテリジェント追跡・検査"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/产线智能化跟踪及检测-C.png",
         "category_id": 3,
-        "description": "产线智能跟踪方案",
+        "description": {
+          "zh-CN": "产线智能跟踪方案",
+          "en-US": "Intelligent Production Line Tracking Solution",
+          "ja-JP": "生産ラインインテリジェント追跡ソリューション"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 16,
-        "title": "智慧工厂管理",
-        "cover": "http://www.guodong-cn.com/GD/solutions/智慧工厂管理-C.png",
+        "title": {
+          "zh-CN": "智慧工厂管理",
+          "en-US": "Smart Factory Management",
+          "ja-JP": "スマートファクトリー管理"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/智慧工厂管理-C.png",
         "category_id": 4,
-        "description": "工厂智能化管理方案",
+        "description": {
+          "zh-CN": "工厂智能化管理方案",
+          "en-US": "Smart Factory Management Solution",
+          "ja-JP": "スマートファクトリー管理ソリューション"
+        },
         "create_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 1777084204754,
-        "title": "测试",
-        "cover": "http://www.guodong-cn.com/GD/solutions/1777084202630.png",
+        "title": {
+          "zh-CN": "测试",
+          "en-US": "Test",
+          "ja-JP": "テスト"
+        },
+        "cover": "https://media.gdi-tech.com/solutions/1777084202630.png",
         "category_id": 1,
-        "description": "测试",
+        "description": {
+          "zh-CN": "测试",
+          "en-US": "Test",
+          "ja-JP": "テスト"
+        },
         "create_time": "2026/4/25 10:30:04",
         "status": 0
       }
@@ -336,136 +648,272 @@
     "details": [
       {
         "id": 1,
-        "title": "科研与临床无缝协作",
-        "description": "跨场景数据共享：打通医院检验科、病理科与科研实验室的数据壁垒，支持多模态数据（如瑞氏染色、细胞化学染色图像）的标准化存储与权限分级调用，加速科研成果向临床转化。\n\n人机协同审核机制：AI 预标注 + 人工修正模式，确保标注数据质量，为后续算法迭代提供可靠训练集。",
+        "title": {
+          "zh-CN": "科研与临床无缝协作",
+          "en-US": "Seamless Collaboration between Research and Clinical Teams",
+          "ja-JP": "研究・臨床シームレス連携"
+        },
+        "description": {
+          "zh-CN": "跨场景数据共享：打通医院检验科、病理科与科研实验室的数据壁垒，支持多模态数据（如瑞氏染色、细胞化学染色图像）的标准化存储与权限分级调用，加速科研成果向临床转化。\n\n人机协同审核机制：AI 预标注 + 人工修正模式，确保标注数据质量，为后续算法迭代提供可靠训练集。",
+          "en-US": "Cross-scenario Data Sharing: Break down data barriers between hospital clinical laboratories, pathology departments and research laboratories, support standardized storage and hierarchical permission-based access of multi-modal data (such as Wright-stained and cytochemical-stained images), and accelerate the transformation of research results into clinical applications.\n\nHuman-Machine Collaborative Review Mechanism: AI pre-annotation + manual correction mode ensures the quality of annotated data, providing a reliable training set for subsequent algorithm iteration.",
+          "ja-JP": "クロスシナリオデータ共有：病院の臨床検査部門、病理部門、研究実験室間のデータの壁を取り払い、ライト染色、細胞化学染色画像などのマルチモーダルデータの標準化された保存とアクセス権限の階層的な呼び出しをサポートし、研究成果の臨床応用への転換を加速する。\n\n人機協働レビューメカニズム：AIプレアノテーション＋手動修正モードにより、アノテーションデータの品質を保証し、後続のアルゴリズムイテレーションに信頼性の高いトレーニングセットを提供する。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 2,
-        "title": "全流程智能化诊断支持",
-        "description": "精准骨髓图像分析：通过高清扫描与 AI 图像识别技术（支持 40x-100x 倍镜切换），实现骨髓涂片百万级细胞自动定位、分类计数及异常形态识别，辅助医生快速出具诊断报告，准确率提升超 30%。\n\nAI 动态辅助决策：系统可实时分析患者骨髓细胞变化趋势，动态推荐治疗方案，例如在血液病诊疗中，AI 模拟诊断结果与临床数据自动比对，减少误诊风险。\n\n一体化终端操作：临床医生通过终端一站式完成病例创建、图像上传、AI 诊断调用及报告生成，支持统计报表自动导出，提升诊疗效率 50% 以上。",
+        "title": {
+          "zh-CN": "全流程智能化诊断支持",
+          "en-US": "Full-process Intelligent Diagnosis Support",
+          "ja-JP": "全行程知能診断サポート"
+        },
+        "description": {
+          "zh-CN": "精准骨髓图像分析：通过高清扫描与 AI 图像识别技术（支持 40x-100x 倍镜切换），实现骨髓涂片百万级细胞自动定位、分类计数及异常形态识别，辅助医生快速出具诊断报告，准确率提升超 30%。\n\nAI 动态辅助决策：系统可实时分析患者骨髓细胞变化趋势，动态推荐治疗方案，例如在血液病诊疗中，AI 模拟诊断结果与临床数据自动比对，减少误诊风险。\n\n一体化终端操作：临床医生通过终端一站式完成病例创建、图像上传、AI 诊断调用及报告生成，支持统计报表自动导出，提升诊疗效率 50% 以上。",
+          "en-US": "Accurate Bone Marrow Image Analysis: Through high-definition scanning and AI image recognition technology (supporting 40x-100x magnification switching), realize automatic positioning, classification counting and abnormal morphology recognition of millions of cells in bone marrow smears, assist doctors in quickly issuing diagnostic reports, and improve accuracy by more than 30%.\n\nAI Dynamic Auxiliary Decision-Making: The system can real-time analyze the changing trend of patients' bone marrow cells and dynamically recommend treatment plans. For example, in the diagnosis and treatment of hematological diseases, AI-simulated diagnosis results are automatically compared with clinical data to reduce the risk of misdiagnosis.\n\nIntegrated Terminal Operation: Clinicians can complete case creation, image upload, AI diagnosis invocation and report generation in one stop through the terminal, support automatic export of statistical reports, and improve diagnosis and treatment efficiency by more than 50%.",
+          "ja-JP": "高精度骨髄画像分析：ハイデフィニションスキャンとAI画像認識技術（40倍～100倍顕微鏡切り替え対応）により、骨髄塗抹標本中の数百万個の細胞の自動位置決定、分類計数、異常形態認識を実現し、医師が診断レポートを迅速に作成することを支援し、正確性を30％以上向上させる。\n\nAI動的補助意思決定：システムは患者の骨髄細胞の変化傾向をリアルタイムで分析し、治療計画を動的に推奨する。例えば血液疾患の診療において、AIシミュレーション診断結果と臨床データを自動的に比較し、誤診リスクを低減する。\n\n統合端末操作：臨床医は端末から症例作成、画像アップロード、AI診断呼び出し、レポート生成をワンストップで完了し、統計レポートの自動エクスポートに対応し、診療効率を50％以上向上させる。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 3,
-        "title": "智慧营业厅",
-        "description": "智慧营业厅产品专注于服务提升，\n\n 一方面严格督导服务规范和标准落地，确保每一位客户都能获得高质量服务；\n 另一方面持续采集运营数据，通过对业务办理时长、客户流量等多维度信息的分析，为优化流程提供坚实依据；\n 同时，借助智能手段直接测量用户获得的服务状况，精准洞察客户体验，及时发现并解决服务中的痛点与不足，助力营业厅服务水平持续进阶。",
+        "title": {
+          "zh-CN": "智慧营业厅",
+          "en-US": "Smart Business Hall",
+          "ja-JP": "スマート営業ホール"
+        },
+        "description": {
+          "zh-CN": "智慧营业厅产品专注于服务提升，\n\n 一方面严格督导服务规范和标准落地，确保每一位客户都能获得高质量服务；\n 另一方面持续采集运营数据，通过对业务办理时长、客户流量等多维度信息的分析，为优化流程提供坚实依据；\n 同时，借助智能手段直接测量用户获得的服务状况，精准洞察客户体验，及时发现并解决服务中的痛点与不足，助力营业厅服务水平持续进阶。",
+          "en-US": "The Smart Business Hall product focuses on service improvement.\n\n On the one hand, it strictly supervises the implementation of service norms and standards to ensure that every customer can receive high-quality services;\n On the other hand, it continuously collects operational data, and provides a solid basis for process optimization through multi-dimensional analysis of information such as business processing time and customer flow;\n At the same time, it directly measures the service status obtained by users through intelligent means, accurately insights into customer experience, timely discovers and solves pain points and deficiencies in services, and helps the service level of business halls to continuously improve.",
+          "ja-JP": "スマート営業ホール製品はサービス向上に特化している。\n\n 一方で、サービス規範と基準の実施を厳しく監督し、すべての顧客が高品質なサービスを受けられるようにする；\n もう一方で、運用データを継続的に収集し、業務処理時間、顧客流量などの多角的な情報分析を通じて、プロセス最適化のための堅固な根拠を提供する；\n 同時に、インテリジェントな手段でユーザーのサービス享受状況を直接測定し、顧客体験を的確に把握し、サービス上の痛みや不足点をタイムリーに発見・解決し、営業ホールのサービスレベルの持続的な向上を支援する。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 4,
-        "title": "仓库管理",
-        "description": "应用场景：电商、制造业、零售等 \n\n实现功能：\n 提供用友、金蝶、鼎捷软件等主流 ERP 厂商数据集成服务，通过对具体场景调研，选择封装调用集成模式或中间对象集成模式对系统间数据进行集成，实现仓库建模、入库管理、出库管理、库内管理、仓库可视化等各项功能 \n\n应用价值：\n 提高管理效率，减少了人工错误和成本 \n 优化库存控制：实时更新库存信息，实现库存的动态调整与优化，减少库存积压和浪费 \n 提升客户满意度：缩短订单处理和发货时间，提高客户满意度，同时提供实时的库存信息和订单状态查询服务 \n 增强企业竞争力：通过提高管理效率和准确性，降低运营成本，增强企业的市场竞争力 \n 数据支持决策：为企业提供全面的实时数据和报告，支持企业制定并执行更加精准的战略 \n 综上，确保企业内数据流畅通无阻，避免形成信息孤岛，从而最大化地发挥信息系统、信息模块、企业数据的价值与作用",
+        "title": {
+          "zh-CN": "仓库管理",
+          "en-US": "Warehouse Management",
+          "ja-JP": "倉庫管理"
+        },
+        "description": {
+          "zh-CN": "应用场景：电商、制造业、零售等 \n\n实现功能：\n 提供用友、金蝶、鼎捷软件等主流 ERP 厂商数据集成服务，通过对具体场景调研，选择封装调用集成模式或中间对象集成模式对系统间数据进行集成，实现仓库建模、入库管理、出库管理、库内管理、仓库可视化等各项功能 \n\n应用价值：\n 提高管理效率，减少了人工错误和成本 \n 优化库存控制：实时更新库存信息，实现库存的动态调整与优化，减少库存积压和浪费 \n 提升客户满意度：缩短订单处理和发货时间，提高客户满意度，同时提供实时的库存信息和订单状态查询服务 \n 增强企业竞争力：通过提高管理效率和准确性，降低运营成本，增强企业的市场竞争力 \n 数据支持决策：为企业提供全面的实时数据和报告，支持企业制定并执行更加精准的战略 \n 综上，确保企业内数据流畅通无阻，避免形成信息孤岛，从而最大化地发挥信息系统、信息模块、企业数据的价值与作用",
+          "en-US": "Application Scenarios: E-commerce, manufacturing, retail, etc.\n\nImplemented Functions:\n Provide data integration services for mainstream ERP vendors such as UFIDA, Kingdee, and Digiwin Software. Through research on specific scenarios, select encapsulated call integration mode or intermediate object integration mode to integrate data between systems, and realize various functions such as warehouse modeling, warehousing management, outbound management, in-warehouse management, and warehouse visualization.\n\nApplication Value:\n Improve management efficiency and reduce human errors and costs;\n Optimize inventory control: Real-time update of inventory information, realize dynamic adjustment and optimization of inventory, reduce inventory backlog and waste;\n Improve customer satisfaction: Shorten order processing and delivery time, improve customer satisfaction, and provide real-time inventory information and order status inquiry services;\n Enhance enterprise competitiveness: Improve management efficiency and accuracy, reduce operating costs, and enhance enterprise market competitiveness;\n Data-supported decision-making: Provide enterprises with comprehensive real-time data and reports to support enterprises in formulating and implementing more precise strategies;\n In summary, ensure unimpeded data flow within the enterprise, avoid the formation of information silos, and thus maximize the value and role of information systems, information modules, and enterprise data.",
+          "ja-JP": "アプリケーションシナリオ：EC、製造業、小売業など\n\n実現機能：\n 用友、金蝶、鼎捷ソフトウェアなど主流のERPベンダー向けデータ統合サービスを提供し、具体的なシナリオ調査を通じて、カプセル化呼び出し統合モードまたは中間オブジェクト統合モードを選択してシステム間のデータ統合を行い、倉庫モデリング、入庫管理、出庫管理、庫内管理、倉庫可視化などの各機能を実現する。\n\nアプリケーション価値：\n 管理効率を向上させ、人為的ミスとコストを削減する；\n 在庫管理の最適化：在庫情報をリアルタイムで更新し、在庫の動的調整と最適化を実現し、在庫滞積と浪費を削減する；\n 顧客満足度の向上：注文処理と出荷時間を短縮し、顧客満足度を向上させると同時に、リアルタイムな在庫情報と注文ステータス照会サービスを提供する；\n 企業の競争力強化：管理効率と正確性を向上させ、運用コストを削減し、企業の市場競争力を強化する；\n データに基づく意思決定：企業に包括的なリアルタイムデータとレポートを提供し、企業がより的確な戦略を策定・実行することをサポートする；\n まとめると、企業内のデータフローをスムーズにし、情報シロアリの形成を回避し、情報システム、情報モジュール、企業データの価値と役割を最大限に発揮させる。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 5,
-        "title": "物流分拣",
-        "description": "应用场所：物流 \n\n应用难点：\n 快递面单的脏污、遮挡、褶皱影响识别效果 \n 要求高并发、快速分拣，配合传送交叉带实现自动分拣 \n\n关键技术：\n 对传送带上高速运行的快递，自动识别其物流面单的 “条形码” 和 “三段码” 信息，“条形码” 与快递唯一关联，“三段码” 提供分拣去向，综合实现对快递的自动分拣 \n 快递于传送带上运动，触发光电传感器控制工业相机拍照 \n 拍摄图片经过预处理后进行算法识别，核心算法模型包括：\n 面单定位：通过定位算法识别图像中的 “面单” 区域 \n 文字检测：通过检测算法对 “面单” 区域中的文字部分进行检测，获取 “三段码” 和 “条形码” 文字部分 \n 文字识别：通过识别算法对 “三段码” 和 “条形码” 文字内容进行识别，识别字符内容后输出结果 \n\n应用价值：\n 节约人工成本 \n 高效，精准，彻底解决人眼疲劳产生的误判 \n 减少客户投诉率 \n 长时间稳定工作 \n 降低物料损耗 \n 识别率高达 97%\n 可检测四通一达各种码制的数字",
+        "title": {
+          "zh-CN": "物流分拣",
+          "en-US": "Logistics Sorting",
+          "ja-JP": "物流仕分け"
+        },
+        "description": {
+          "zh-CN": "应用场所：物流 \n\n应用难点：\n 快递面单的脏污、遮挡、褶皱影响识别效果 \n 要求高并发、快速分拣，配合传送交叉带实现自动分拣 \n\n关键技术：\n 对传送带上高速运行的快递，自动识别其物流面单的 “条形码” 和 “三段码” 信息，“条形码” 与快递唯一关联，“三段码” 提供分拣去向，综合实现对快递的自动分拣 \n 快递于传送带上运动，触发光电传感器控制工业相机拍照 \n 拍摄图片经过预处理后进行算法识别，核心算法模型包括：\n 面单定位：通过定位算法识别图像中的 “面单” 区域 \n 文字检测：通过检测算法对 “面单” 区域中的文字部分进行检测，获取 “三段码” 和 “条形码” 文字部分 \n 文字识别：通过识别算法对 “三段码” 和 “条形码” 文字内容进行识别，识别字符内容后输出结果 \n\n应用价值：\n 节约人工成本 \n 高效，精准，彻底解决人眼疲劳产生的误判 \n 减少客户投诉率 \n 长时间稳定工作 \n 降低物料损耗 \n 识别率高达 97%\n 可检测四通一达各种码制的数字",
+          "en-US": "Application Location: Logistics Industry\n\nApplication Difficulties:\n Smudges, occlusions, and wrinkles on express waybills affect recognition accuracy;\n Requires high concurrency and fast sorting, and realizes automatic sorting in cooperation with cross-belt conveyors.\n\nKey Technologies:\n Automatically identify the \"barcode\" and \"three-segment code\" information on the logistics waybill of express parcels running at high speed on the conveyor belt. The \"barcode\" is uniquely associated with the express parcel, and the \"three-segment code\" provides the sorting destination, comprehensively realizing automatic sorting of express parcels;\n When the express parcel moves on the conveyor belt, it triggers the photoelectric sensor to control the industrial camera to take photos;\n The captured images are preprocessed and then identified by algorithms. The core algorithm models include:\n Waybill Positioning: Identify the \"waybill\" area in the image through positioning algorithms;\n Text Detection: Detect the text part in the \"waybill\" area through detection algorithms to obtain the text parts of \"three-segment code\" and \"barcode\";\n Text Recognition: Recognize the text content of \"three-segment code\" and \"barcode\" through recognition algorithms, and output the results after identifying the character content.\n\nApplication Value:\n Save labor costs;\n High efficiency and accuracy, completely solve misjudgments caused by human eye fatigue;\n Reduce customer complaint rate;\n Stable work for a long time;\n Reduce material loss;\n Recognition rate is as high as 97%;\n Can detect numbers in various code systems of STO, YTO, ZTO, SF and Yunda.",
+          "ja-JP": "アプリケーション場所：物流業\n\nアプリケーションの難点：\n 宅配便伝票の汚れ、遮蔽、シワが認識効果に影響する；\n 高同時実行性、高速仕分けが要求され、コンベヤクロスベルトと連携して自動仕分けを実現する。\n\nキーテクノロジー：\n コンベヤベルト上を高速で運行する宅配便に対し、物流伝票の「バーコード」と「三段コード」情報を自動的に識別する。「バーコード」は宅配便と唯一関連付けられ、「三段コード」は仕分け先を提供し、宅配便の自動仕分けを総合的に実現する；\n 宅配便がコンベヤベルト上を移動する際、光電センサーをトリガーして産業用カメラの撮影を制御する；\n 撮影した画像を前処理した後、アルゴリズムで識別する。コアアルゴリズムモデルは以下を含む：\n 伝票位置決定：位置決定アルゴリズムにより画像中の「伝票」領域を識別する；\n 文字検出：検出アルゴリズムにより「伝票」領域内の文字部分を検出し、「三段コード」と「バーコード」の文字部分を取得する；\n 文字認識：認識アルゴリズムにより「三段コード」と「バーコード」の文字内容を認識し、文字内容を識別した後に結果を出力する。\n\nアプリケーション価値：\n 人件費を節約する；\n 高効率かつ高精度で、人間の眼の疲労による誤判定を根本的に解決する；\n 顧客苦情率を削減する；\n 長時間安定して作業する；\n 資材損耗を低減する；\n 認識率は97％に達する；\n 四通一達（STO、YTO、ZTO、SF、Yunda）の各種コード体系の数字を検出可能。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 6,
-        "title": "安防控制平台",
-        "description": "机场安防平台秉持 “巨量、融智、场景” 设计理念，构建 “一个平台，一幅地图，一张天网”。\n\n**“一个平台”实现多类安防设备接入与多系统集成对接，保障业务系统互联互通；\n\n“一幅地图”借助 GIS 地图整合安防要素，实现可视化管理；\n\n“一张天网”** 通过 AI 与数字化技术，让安防态势可视、决策有数，全面提升机场安防综合管理与统一调度能力。",
+        "title": {
+          "zh-CN": "安防控制平台",
+          "en-US": "Security Control Platform",
+          "ja-JP": "セキュリティ制御プラットフォーム"
+        },
+        "description": {
+          "zh-CN": "机场安防平台秉持 “巨量、融智、场景” 设计理念，构建 “一个平台，一幅地图，一张天网”。\n\n**“一个平台”实现多类安防设备接入与多系统集成对接，保障业务系统互联互通；\n\n“一幅地图”借助 GIS 地图整合安防要素，实现可视化管理；\n\n“一张天网”** 通过 AI 与数字化技术，让安防态势可视、决策有数，全面提升机场安防综合管理与统一调度能力。",
+          "en-US": "The airport security platform adheres to the design concept of \"Massive, Intelligent Integration, Scenario-Based\", and builds \"One Platform, One Map, One Sky Network\".\n\n**\"One Platform\"** realizes access to various security equipment and integrated docking of multiple systems to ensure interconnection and interoperability of business systems;\n\n**\"One Map\"** integrates security elements with the help of GIS maps to realize visual management;\n\n**\"One Sky Network\"** makes security situation visible and decision-making data-driven through AI and digital technologies, comprehensively improving the comprehensive management and unified scheduling capabilities of airport security.",
+          "ja-JP": "空港セキュリティプラットフォームは「大容量、知能統合、シナリオ指向」の設計理念を秉持し、「一つのプラットフォーム、一つの地図、一つのスカイネット」を構築する。\n\n**「一つのプラットフォーム」**：各種セキュリティ機器のアクセスと複数システムの統合接続を実現し、業務システムの相互接続と相互運用性を保障する；\n\n**「一つの地図」**：GIS地図を活用してセキュリティ要素を統合し、可視化管理を実現する；\n\n**「一つのスカイネット」**：AIとデジタル技術により、セキュリティ状況を可視化し、意思決定をデータ駆動型にし、空港セキュリティの総合管理と統一指揮調度能力を全面的に向上させる。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 7,
-        "title": "智慧食堂",
-        "description": "核心功能清单：\n 操作间人员标准着装检测（厨师服、厨师帽、口罩）\n 操作间鼠患检测 \n 垃圾桶上盖检测 \n 火灾检测（仓储间）\n 人数统计 \n 社交距离监测 \n 消防通道拥堵识别 \n 遗留物品检测 \n 移动告警系统（手机公众号实时告警推送）\n 监控大屏 \n\n",
+        "title": {
+          "zh-CN": "智慧食堂",
+          "en-US": "Smart Canteen",
+          "ja-JP": "スマート食堂"
+        },
+        "description": {
+          "zh-CN": "核心功能清单：\n 操作间人员标准着装检测（厨师服、厨师帽、口罩）\n 操作间鼠患检测 \n 垃圾桶上盖检测 \n 火灾检测（仓储间）\n 人数统计 \n 社交距离监测 \n 消防通道拥堵识别 \n 遗留物品检测 \n 移动告警系统（手机公众号实时告警推送）\n 监控大屏 \n\n",
+          "en-US": "Core Function List:\n Standard dress detection for staff in the operation room (chef uniforms, chef hats, masks);\n Rodent infestation detection in the operation room;\n Trash can cover detection;\n Fire detection (warehouse);\n People counting;\n Social distance monitoring;\n Fire exit congestion identification;\n Left item detection;\n Mobile alarm system (real-time alarm push via WeChat official account);\n Monitoring large screen.\n\n",
+          "ja-JP": "コア機能リスト：\n 操作室スタッフの標準着装検出（シェフ服、シェフ帽、マスク）；\n 操作室のねずみ被害検出；\n ゴミ箱の蓋閉鎖検出；\n 火災検出（倉庫室）；\n 人数統計；\n 社交的距離監視；\n 消火通路の混雑識別；\n 遺留品検出；\n モバイルアラームシステム（微信公式アカウント経由のリアルタイムアラームプッシュ）；\n 監視大型スクリーン。\n\n"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 8,
-        "title": "远程多园区安防集中管理",
-        "description": "系统兼容性—— 可同时兼容不同存储结构与数据格式，在一套统一操作接口中管理各类结构化、半结构化数据 \n 统一数据读写及管理，一套 API 完成数据的增删改查、批量处理与持久化存储 \n 统一管理数据日志与状态变更，上层应用下发操作指令到 lowdb，lowdb 同步数据快照、操作日志到应用层 \n 支持数据规则配置与权限校验 \n 自动对数据变更作出响应 \n 确定自动读写特定数据集合的权限 \n 为单个模块或整个系统设置数据访问与操作权限 \n 可与业务系统关联用于数据校验、状态同步与持久化存储",
+        "title": {
+          "zh-CN": "远程多园区安防集中管理",
+          "en-US": "Remote Multi-Park Security Centralized Management",
+          "ja-JP": "遠隔複数園区セキュリティ集中管理"
+        },
+        "description": {
+          "zh-CN": "系统兼容性—— 可同时兼容不同存储结构与数据格式，在一套统一操作接口中管理各类结构化、半结构化数据 \n 统一数据读写及管理，一套 API 完成数据的增删改查、批量处理与持久化存储 \n 统一管理数据日志与状态变更，上层应用下发操作指令到 lowdb，lowdb 同步数据快照、操作日志到应用层 \n 支持数据规则配置与权限校验 \n 自动对数据变更作出响应 \n 确定自动读写特定数据集合的权限 \n 为单个模块或整个系统设置数据访问与操作权限 \n 可与业务系统关联用于数据校验、状态同步与持久化存储",
+          "en-US": "System compatibility —— Compatible with different storage structures and data formats at the same time, managing various structured and semi-structured data through a unified operation interface.\n Unified data reading, writing and management, completing data addition, deletion, modification, query, batch processing and persistent storage through one set of APIs.\n Unified management of data logs and status changes. Upper applications issue operation instructions to lowdb, and lowdb synchronizes data snapshots and operation logs to the application layer.\n Supports data rule configuration and permission verification.\n Automatically responds to data changes.\n Determines permissions for automatic reading and writing of specific data sets.\n Sets data access and operation permissions for a single module or the entire system.\n Can be associated with business systems for data verification, status synchronization and persistent storage.",
+          "ja-JP": "システム互換性——異なるストレージ構造とデータフォーマットに同時対応し、統一された操作インターフェースで各種構造化・半構造化データを管理します。\n データの読み書きと管理を統合し、1セットのAPIでデータの追加・削除・更新・検索・一括処理・永続化ストレージを実現します。\n データログとステータス変更を一元管理し、上位アプリケーションがlowdbに操作命令を発行し、lowdbがデータスナップショットと操作ログをアプリケーション層に同期します。\n データルール設定と権限検証をサポートします。\n データ変更に自動的に対応します。\n 特定のデータセットの自動読み書き権限を設定します。\n 単一モジュールまたはシステム全体のデータアクセス権限と操作権限を設定します。\n 業務システムと連携し、データ検証・ステータス同期・永続化ストレージに使用できます。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 9,
-        "title": "智慧园区",
-        "description": "现代智慧园区\n 园区 4.0 时代 \n 扩展建设规模 营造产业社区 \n 注重产业生态 强调多方共赢 \n\n 园区建设运营的新 “九通一平”：\n\n 理念通、基础通、政策通、信息通、配套通、市场通、人脉通、融资通、运营通，保障园区平衡发展",
+        "title": {
+          "zh-CN": "智慧园区",
+          "en-US": "Smart Park",
+          "ja-JP": "スマートパーク"
+        },
+        "description": {
+          "zh-CN": "现代智慧园区\n 园区 4.0 时代 \n 扩展建设规模 营造产业社区 \n 注重产业生态 强调多方共赢 \n\n 园区建设运营的新 “九通一平”：\n\n 理念通、基础通、政策通、信息通、配套通、市场通、人脉通、融资通、运营通，保障园区平衡发展",
+          "en-US": "Modern Smart Park\n Park 4.0 Era\n Expand construction scale and build industrial communities\n Focus on industrial ecology and emphasize win-win cooperation\n\n New \"Nine Connections & One Level\" for park construction and operation:\n\n Connected concept, connected infrastructure, connected policies, connected information, connected supporting facilities, connected market, connected network, connected financing, connected operation, to ensure balanced development of the park.",
+          "ja-JP": "現代スマートパーク\n パーク4.0時代\n 建設規模を拡大し、産業コミュニティを構築\n 産業エコロジーに注目し、ウィンウィンを重視\n\n パーク建設・運営の新「九通一平」：\n\n 理念連携・基盤連携・政策連携・情報連携・施設連携・市場連携・人脈連携・資金調達連携・運営連携により、パークのバランスの取れた発展を保障します。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 10,
-        "title": "智慧交通",
-        "description": "1. 产品深度整合视频管理与 AI 识别技术，对交通场景进行全时段、多维度监控，快速解析车流量、违章行为等动态信息，为交通指挥调度提供精准数据支撑。\n2. 基于先进的 AI 算法与智能视频处理能力，实现交通目标实时识别与轨迹追踪，高效处理道路异常事件，助力打造智能、流畅的交通管理体系。\n3. 融合视频结构化分析与 AI 深度学习技术，对交通视频进行智能分类与异常预警，精准识别车牌、车型、行人行为，显著提升交通管理效率与安全水平。",
+        "title": {
+          "zh-CN": "智慧交通",
+          "en-US": "Smart Transportation",
+          "ja-JP": "スマート交通"
+        },
+        "description": {
+          "zh-CN": "1. 产品深度整合视频管理与 AI 识别技术，对交通场景进行全时段、多维度监控，快速解析车流量、违章行为等动态信息，为交通指挥调度提供精准数据支撑。\n2. 基于先进的 AI 算法与智能视频处理能力，实现交通目标实时识别与轨迹追踪，高效处理道路异常事件，助力打造智能、流畅的交通管理体系。\n3. 融合视频结构化分析与 AI 深度学习技术，对交通视频进行智能分类与异常预警，精准识别车牌、车型、行人行为，显著提升交通管理效率与安全水平。",
+          "en-US": "1. The product deeply integrates video management and AI recognition technology, conducts all-day and multi-dimensional monitoring of traffic scenarios, quickly parses dynamic information such as traffic flow and violations, and provides accurate data support for traffic command and scheduling.\n2. Based on advanced AI algorithms and intelligent video processing capabilities, it realizes real-time identification and trajectory tracking of traffic targets, efficiently handles road abnormal events, and helps build an intelligent and smooth traffic management system.\n3. Integrates video structured analysis and AI deep learning technology to intelligently classify traffic videos and provide early warning of abnormalities, accurately identify license plates, vehicle types and pedestrian behaviors, and significantly improve traffic management efficiency and safety.",
+          "ja-JP": "1. 製品は映像管理とAI認識技術を深く統合し、交通シーンを24時間多角的に監視し、交通量・違反行為などの動的情報を迅速に解析し、交通指揮・調整に正確なデータを提供します。\n2. 先進的なAIアルゴリズムとインテリジェント映像処理能力に基づき、交通対象のリアルタイム認識と軌跡追跡を実現し、道路異常事象を効率的に処理し、スマートでスムーズな交通管理システムの構築を支援します。\n3. 映像構造化解析とAIディープラーニング技術を融合し、交通映像をインテリジェントに分類し異常警報を行い、ナンバープレート・車種・歩行者行動を正確に認識し、交通管理の効率と安全性を大幅に向上させます。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 11,
-        "title": "加油站人车识别",
-        "description": "车流量统计：通过捕捉场景内车辆并在其穿越虚拟线后统计车流量 \n 骨骼分析法异常行为分析：采用先进的骨骼分析 AI 算法侦测油站内人员行为姿态，在有人发生异常行为时主动告警 \n 烟雾火灾侦测：一旦加油站内出现明火或烟雾，主动告警 \n 禁区 / 周界闯入侦测：一旦有人闯入禁入区域即触发告警。同时结合 AI 深度学习过滤器可以有效降低误报率 \n 视频浓缩：跨时空精简录像视频以快速回放，将不同时间捕获的对象和事件在同一个画面同时进行显示",
+        "title": {
+          "zh-CN": "加油站人车识别",
+          "en-US": "Gas/Charging Station Vehicle and Personnel Identification",
+          "ja-JP": "ガソリンスタンド/充電ステーションの人車認識"
+        },
+        "description": {
+          "zh-CN": "车流量统计：通过捕捉场景内车辆并在其穿越虚拟线后统计车流量 \n 骨骼分析法异常行为分析：采用先进的骨骼分析 AI 算法侦测油站内人员行为姿态，在有人发生异常行为时主动告警 \n 烟雾火灾侦测：一旦加油站内出现明火或烟雾，主动告警 \n 禁区 / 周界闯入侦测：一旦有人闯入禁入区域即触发告警。同时结合 AI 深度学习过滤器可以有效降低误报率 \n 视频浓缩：跨时空精简录像视频以快速回放，将不同时间捕获的对象和事件在同一个画面同时进行显示",
+          "en-US": "Traffic flow statistics: Count traffic flow by capturing vehicles in the scene after they cross the virtual line.\n Abnormal behavior analysis via skeleton analysis: Use advanced skeleton analysis AI algorithm to detect personnel behavior and posture in the gas station, and actively alarm when abnormal behavior occurs.\n Smoke and fire detection: Actively alarm once open fire or smoke appears in the gas station.\n Restricted area/perimeter intrusion detection: Trigger alarm once someone breaks into the restricted area. Combined with AI deep learning filter, it can effectively reduce false alarm rate.\n Video summarization: Streamline video recordings across time and space for fast playback, displaying objects and events captured at different times on the same screen simultaneously.",
+          "ja-JP": "交通量統計：シーン内の車両を捉え、仮想線を通過した後に交通量を集計します。\n 骨格分析による異常行動解析：先進的な骨格分析AIアルゴリズムを使用してガソリンスタンド内の人員の行動・姿勢を検知し、異常行動が発生した場合に自動的に警報します。\n 煙・火災検知：ガソリンスタンド内で火気または煙が発生した場合、自動的に警報します。\n 立入禁止区域・境界侵入検知：立入禁止区域に侵入した場合、即座に警報を発します。AIディープラーニングフィルターを併用することで、誤報率を効果的に低減できます。\n 映像浓缩：時空間を超えて録画映像を短縮して高速再生し、異なる時間に捉えた対象と事象を同一画面に同時表示します。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 12,
-        "title": "智慧餐厅",
-        "description": "用餐安全：精准统计用餐人数与排队人数，掌握餐厅拥堵指数。配备安全防疫系统，实现授权进入、体温检测与安全距离识别。同时，具备物品遗留识别、人员跌倒识别功能，保障用餐过程安全有序。\n 环境安全：实时监控仓储温度，及时预警异常。具备通道占物识别、火灾检测识别能力，防范环境安全风险。\n 卫生指标：利用技术手段实现鼠患识别，维护餐厅卫生环境。\n 操作安全：规范操作人员着装，确保厨师帽、厨师服、口罩佩戴到位。能识别抽烟、打手机行为，以及垃圾桶是否上盖，保障操作环节规范安全。\n 后台管理：提供大屏可视化展示功能，数据一目了然。支持公众号消息通知，便于及时掌握餐厅运营动态。",
+        "title": {
+          "zh-CN": "智慧餐厅",
+          "en-US": "Smart Restaurant",
+          "ja-JP": "スマートレストラン"
+        },
+        "description": {
+          "zh-CN": "用餐安全：精准统计用餐人数与排队人数，掌握餐厅拥堵指数。配备安全防疫系统，实现授权进入、体温检测与安全距离识别。同时，具备物品遗留识别、人员跌倒识别功能，保障用餐过程安全有序。\n 环境安全：实时监控仓储温度，及时预警异常。具备通道占物识别、火灾检测识别能力，防范环境安全风险。\n 卫生指标：利用技术手段实现鼠患识别，维护餐厅卫生环境。\n 操作安全：规范操作人员着装，确保厨师帽、厨师服、口罩佩戴到位。能识别抽烟、打手机行为，以及垃圾桶是否上盖，保障操作环节规范安全。\n 后台管理：提供大屏可视化展示功能，数据一目了然。支持公众号消息通知，便于及时掌握餐厅运营动态。",
+          "en-US": "Dining safety: Accurately count the number of diners and queuing people to grasp the restaurant congestion index. Equipped with a safety and epidemic prevention system to realize authorized access, body temperature detection and safe distance identification. At the same time, it has the functions of lost item identification and personnel fall identification to ensure a safe and orderly dining process.\n Environmental safety: Monitor storage temperature in real time and give early warning of abnormalities in time. It has the ability to identify channel obstructions and fire detection to prevent environmental safety risks.\n Hygiene indicators: Use technical means to identify rodent infestation and maintain the restaurant's hygienic environment.\n Operation safety: Standardize the dress of operators, ensure chefs wear hats, uniforms and masks properly. It can identify smoking and mobile phone use behaviors, and whether trash cans are covered, to ensure standardized and safe operation.\n Background management: Provide large-screen visual display function with clear data. Support official account message notification for timely grasp of restaurant operation dynamics.",
+          "ja-JP": "飲食安全：来店者数と待ち人数を正確に統計し、混雑状況を把握します。安全防疫システムを搭載し、認証入場・体温検知・安全距離認識を実現します。また、忘れ物検知・転倒検知機能を備え、安全で秩序ある飲食環境を保障します。\n 環境安全：倉庫温度をリアルタイムで監視し、異常を即時に警報します。通路の障害物検知・火災検知機能により、環境安全リスクを回避します。\n 衛生基準：技術的手段によりネズミ被害を検知し、店舗の衛生環境を維持します。\n 操作安全：従業員の服装を規範化し、シェフ帽・制服・マスクの着用を徹底させます。喫煙・携帯電話使用・ゴミ箱の蓋閉めを認識し、操作工程を規則正しく安全にします。\n バックエンド管理：大型スクリーン可視化機能を提供し、データを一目で把握できます。公式アカウント通知に対応し、店舗の運営状況をタイムリーに把握できます。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 13,
-        "title": "生产卫生安全合规",
-        "description": "食品生产企业关键点远程非现场监管：采用视频远程识别判断等技术，通过检查安装在食品生产企业关键工序点位的摄像头和传感器上传的视频图像以及监测数据，对企业关键点情况进行线上检查的食品安全智慧监管方式。\n 基于 AI、IOT、大数据技术，充分利用生产经营管理过程中形成的结构化数据和非结构化数据，助力生产环境实现数字化转型，赋能生产管理的精细化管理，保障生产安全。",
+        "title": {
+          "zh-CN": "生产卫生安全合规",
+          "en-US": "Production Sanitation and Safety Compliance",
+          "ja-JP": "生産衛生・安全コンプライアンス"
+        },
+        "description": {
+          "zh-CN": "食品生产企业关键点远程非现场监管：采用视频远程识别判断等技术，通过检查安装在食品生产企业关键工序点位的摄像头和传感器上传的视频图像以及监测数据，对企业关键点情况进行线上检查的食品安全智慧监管方式。\n 基于 AI、IOT、大数据技术，充分利用生产经营管理过程中形成的结构化数据和非结构化数据，助力生产环境实现数字化转型，赋能生产管理的精细化管理，保障生产安全。",
+          "en-US": "Remote off-site supervision of key points in food production enterprises: Adopt technologies such as video remote recognition and judgment, and conduct online inspection of key points of enterprises by checking video images and monitoring data uploaded by cameras and sensors installed at key process points in food production enterprises, which is an intelligent food safety supervision method.\n Based on AI, IoT and big data technologies, make full use of structured and unstructured data formed in the production and operation management process, help the production environment realize digital transformation, empower refined production management, and ensure production safety.",
+          "ja-JP": "食品製造企業の重要ポイント遠隔監督：映像遠隔認識・判定技術を活用し、食品製造ラインの重要工程に設置されたカメラ・センサーが送信する映像と監視データを確認することで、企業の重要ポイントをオンラインで検査する、スマートな食品安全監督方式です。\n AI・IoT・ビッグデータ技術を基盤に、製造・運営プロセスで生成された構造化・非構造化データを活用し、製造環境のデジタルトランスフォーメーションを支援し、生産管理の高度化を実現し、製造の安全性を保障します。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 14,
-        "title": "缺陷检测",
-        "description": "缺陷检测是工业制造生产的关键环节，也是工业视觉技术主要应用场景。\n\n 当前存在多种检测方式：人工目检依赖大量工人，受用工环境影响大，需长时间培训，且因依赖经验难以数字化，导致质量不稳定、标准不统一，缺乏数据统计与溯源；传统机器视觉检测可进行明确特征的缺陷检测测量，基于规则和编程，部署效率高，能部分替代人工，但无法持续学习迭代，仅实现部分数字化；\n\nAI + 计算机视觉检测具备更强检测能力，可检出随机、无规则瑕疵，能全面替代人工，虽研发周期长、部署成本高，但检测模型可不断学习迭代，实现完整业务管理数字化。",
+        "title": {
+          "zh-CN": "缺陷检测",
+          "en-US": "Defect Detection",
+          "ja-JP": "欠陥検出"
+        },
+        "description": {
+          "zh-CN": "缺陷检测是工业制造生产的关键环节，也是工业视觉技术主要应用场景。\n\n 当前存在多种检测方式：人工目检依赖大量工人，受用工环境影响大，需长时间培训，且因依赖经验难以数字化，导致质量不稳定、标准不统一，缺乏数据统计与溯源；传统机器视觉检测可进行明确特征的缺陷检测测量，基于规则和编程，部署效率高，能部分替代人工，但无法持续学习迭代，仅实现部分数字化；\n\nAI + 计算机视觉检测具备更强检测能力，可检出随机、无规则瑕疵，能全面替代人工，虽研发周期长、部署成本高，但检测模型可不断学习迭代，实现完整业务管理数字化。",
+          "en-US": "Defect detection is a key link in industrial manufacturing and production, and also the main application scenario of industrial vision technology.\n\n There are currently multiple detection methods: Manual visual inspection relies on a large number of workers, is greatly affected by the working environment, requires long-term training, and is difficult to digitize due to reliance on experience, resulting in unstable quality, inconsistent standards, and lack of data statistics and traceability; Traditional machine vision detection can detect and measure defects with clear features, based on rules and programming, with high deployment efficiency and can partially replace manual labor, but cannot continuously learn and iterate, only realizing partial digitization;\n\nAI + computer vision detection has stronger detection capabilities, can detect random and irregular flaws, and can completely replace manual labor. Although the R&D cycle is long and deployment cost is high, the detection model can continuously learn and iterate to realize complete digital business management.",
+          "ja-JP": "欠陥検出は製造業の重要な工程であり、産業用ビジョン技術の主要な応用シナリオです。\n\n 現在、複数の検査方式が存在します：目視検査は多くの作業者に依存し、環境の影響を大きく受け、長期の訓練が必要で、経験に依存するためデジタル化が困難で、品質が不安定・基準が統一されず、データ集計・トレーサビリティが不足します；従来の機械視覚検査は明確な特徴を持つ欠陥を検出でき、ルール・プログラミングに基づき導入効率が高く人手を一部代替できますが、継続的な学習・反復ができず、部分的なデジタル化にとどまります；\n\nAI＋コンピュータービジョン検査はより強力な検出能力を持ち、ランダムで不規則な欠陥を検出でき、人手を完全に代替できます。開発周期は長く導入コストが高いですが、検査モデルが継続的に学習・反復し、業務管理全体のデジタル化を実現します。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 15,
-        "title": "产线智能化跟踪及检测",
-        "description": "产品融合智能传感与算法，实现生产线全流程动态跟踪，生产数据实时可视。搭载高精度检测系统，可快速识别外观瑕疵、重量偏差及成分异常，高效保障产品品质与生产效率。\n\n 基于物联网与机器视觉技术，产品将产线设备互联，实时监控生产进度与设备状态。24 小时智能检测异物、包装缺陷，以精准高效的质检方案提升产品质量。\n\n 采用定位与数据采集技术，精准记录生产全链路信息，优化生产流程。结合深度学习算法与专业检测设备，严格把控质量指标，减少次品率，增强企业竞争力。",
+        "title": {
+          "zh-CN": "产线智能化跟踪及检测",
+          "en-US": "Intelligent Production Line Tracking and Inspection",
+          "ja-JP": "生産ラインのインテリジェント追跡・検査"
+        },
+        "description": {
+          "zh-CN": "产品融合智能传感与算法，实现生产线全流程动态跟踪，生产数据实时可视。搭载高精度检测系统，可快速识别外观瑕疵、重量偏差及成分异常，高效保障产品品质与生产效率。\n\n 基于物联网与机器视觉技术，产品将产线设备互联，实时监控生产进度与设备状态。24 小时智能检测异物、包装缺陷，以精准高效的质检方案提升产品质量。\n\n 采用定位与数据采集技术，精准记录生产全链路信息，优化生产流程。结合深度学习算法与专业检测设备，严格把控质量指标，减少次品率，增强企业竞争力。",
+          "en-US": "The product integrates intelligent sensors and algorithms to realize full-process dynamic tracking of production lines and real-time visualization of production data. Equipped with a high-precision detection system, it can quickly identify appearance flaws, weight deviations and component abnormalities, and efficiently ensure product quality and production efficiency.\n Based on IoT and machine vision technologies, the product interconnects production line equipment and monitors production progress and equipment status in real time. 24-hour intelligent detection of foreign objects and packaging defects improves product quality with accurate and efficient quality inspection solutions.\n Adopts positioning and data collection technology to accurately record full-link production information and optimize production processes. Combined with deep learning algorithms and professional detection equipment, it strictly controls quality indicators, reduces defective rate and enhances enterprise competitiveness.",
+          "ja-JP": "製品はインテリジェントセンサーとアルゴリズムを融合し、生産ラインの全行程動的追跡と生産データのリアルタイム可視化を実現します。高精度検査システムを搭載し、外観の欠陥・重量の偏差・成分の異常を迅速に認識し、製品品質と生産効率を効率的に保障します。\n IoTと機械視覚技術に基づき、生産ラインの設備を相互接続し、生産進捗と設備状態をリアルタイムで監視します。24時間体制で異物・包装欠陥をインテリジェントに検出し、正確で効率的な品質管理方案により製品品質を向上させます。\n 測位とデータ収集技術を採用し、生産全行程の情報を正確に記録し、生産プロセスを最適化します。ディープラーニングアルゴリズムと専門検査装置を組み合わせ、品質基準を厳格に管理し、不良率を低減し、企業の競争力を強化します。"
+        },
         "create_time": "2025/5/15",
         "update_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 16,
-        "title": "智慧工厂管理",
-        "description": "智慧工厂管理产品针对生产环境与空间环境复杂、业务环节繁多且行为规范要求严格的现状研发。当前自动化系统智能感知能力不足，难以对作业环境安全、人员行为规范、设备状态正常做出判断，且生产资料监控盘点需求迫切。\n\n 该产品聚焦人员管理与空间管理。人员管理涵盖人脸识别，监测关键岗位脱岗睡岗、着装不规范、未戴安全帽、危险及特定动作等；空间管理包括火灾预警、禁止进入危险区域、保障生产设备安全运行、监控生产环节产品、清点物料。旨在解决现有监督手段缺乏持续性（多依赖人工抽检）、缺少事后追溯数据（人员、环境、流程信息未有效数字化留存）、监督过程困难（人员工种繁多）等问题，是市场亟需的高效 AI 智慧厂区解决方案。",
+        "title": {
+          "zh-CN": "智慧工厂管理",
+          "en-US": "Smart Factory Management",
+          "ja-JP": "スマートファクトリー管理"
+        },
+        "description": {
+          "zh-CN": "智慧工厂管理产品针对生产环境与空间环境复杂、业务环节繁多且行为规范要求严格的现状研发。当前自动化系统智能感知能力不足，难以对作业环境安全、人员行为规范、设备状态正常做出判断，且生产资料监控盘点需求迫切。\n\n 该产品聚焦人员管理与空间管理。人员管理涵盖人脸识别，监测关键岗位脱岗睡岗、着装不规范、未戴安全帽、危险及特定动作等；空间管理包括火灾预警、禁止进入危险区域、保障生产设备安全运行、监控生产环节产品、清点物料。旨在解决现有监督手段缺乏持续性（多依赖人工抽检）、缺少事后追溯数据（人员、环境、流程信息未有效数字化留存）、监督过程困难（人员工种繁多）等问题，是市场亟需的高效 AI 智慧厂区解决方案。",
+          "en-US": "The Smart Factory Management product is developed for the current situation of complex production and space environment, numerous business links and strict behavioral specification requirements. At present, the intelligent perception ability of automation systems is insufficient, making it difficult to judge the safety of operating environment, standardization of personnel behavior and normal equipment status, and there is an urgent demand for monitoring and inventorying production materials.\n\n This product focuses on personnel management and space management. Personnel management includes face recognition, monitoring off-post, sleeping, non-standard dressing, not wearing safety helmets, dangerous and specific actions at key positions; Space management includes fire early warning, restricted access to dangerous areas, ensuring safe operation of production equipment, monitoring products in production links, and inventorying materials. It aims to solve the problems of lack of sustainability of existing supervision methods (mostly relying on manual random inspection), lack of post-traceability data (personnel, environment and process information not effectively digitized), and difficulties in supervision process (numerous personnel types), and is an efficient AI smart factory solution urgently needed by the market.",
+          "ja-JP": "スマートファクトリー管理製品は、生産環境・空間環境が複雑で、業務工程が多く行動規範が厳しい現状に対応して開発されています。現在の自動化システムはインテリジェント知覚能力が不足し、作業環境の安全性・人員の行動規範・設備の正常状態を判断することが困難で、生産資材の監視・棚卸しのニーズが切実です。\n\n 本製品は人員管理と空間管理に特化しています。人員管理には顔認識を含み、重要ポジションでの離席・居眠り・服装不備・ヘルメット未着用・危険行為・特定動作などを監視します；空間管理には火災警報・危険区域立入禁止・生産設備の安全稼働保障・生産工程の製品監視・資材棚卸しが含まれます。既存の監督手段の持続性不足（人手による抜き取り検査が中心）、事後トレーサビリティデータの不足（人員・環境・工程情報が効果的にデジタル化されていない）、監督プロセスの困難さ（人員の職種が多様）などの問題を解決することを目的とし、市場が切望する効率的なAIスマートファクトリーソリューションです。"
+        },
         "create_time": "2025/5/13",
         "update_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 1777084204754,
-        "title": "测试",
-        "description": "\n侧额测温委屈委屈恶趣味去玩\n\n侧额测温委屈委屈恶趣味去玩\n\n侧额测温委屈委屈恶趣味去玩",
+        "title": {
+          "zh-CN": "测试",
+          "en-US": "Test",
+          "ja-JP": "テスト"
+        },
+        "description": {
+          "zh-CN": "\n侧额测温委屈委屈恶趣味去玩\n\n侧额测温委屈委屈恶趣味去玩\n\n侧额测温委屈委屈恶趣味去玩",
+          "en-US": "\nForehead temperature measurement, wronged, bad taste to play\n\nForehead temperature measurement, wronged, bad taste to play\n\nForehead temperature measurement, wronged, bad taste to play",
+          "ja-JP": "\n前額温度測定、悔しい、悪ふざけで遊ぶ\n\n前額温度測定、悔しい、悪ふざけで遊ぶ\n\n前額温度測定、悔しい、悪ふざけで遊ぶ"
+        },
         "create_time": "2026/4/25 10:30:16",
         "update_time": "2026/4/25 10:30:16",
         "status": 1
@@ -476,7 +924,7 @@
         "id": 1,
         "solution_id": 1,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/科研与临床无缝协作-C.jpg",
+        "file_url": "https://media.gdi-tech.com/solutions/科研与临床无缝协作-C.jpg",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -485,7 +933,7 @@
         "id": 2,
         "solution_id": 2,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/全流程智能化诊断支持-C.jpg",
+        "file_url": "https://media.gdi-tech.com/solutions/全流程智能化诊断支持-C.jpg",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -494,7 +942,7 @@
         "id": 3,
         "solution_id": 3,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983228.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983228.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -503,7 +951,7 @@
         "id": 4,
         "solution_id": 3,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983227.jpg",
+        "file_url": "https://media.gdi-tech.com/solutions/10983227.jpg",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -512,7 +960,7 @@
         "id": 5,
         "solution_id": 3,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983226.jpg",
+        "file_url": "https://media.gdi-tech.com/solutions/10983226.jpg",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -521,7 +969,7 @@
         "id": 6,
         "solution_id": 4,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983221.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983221.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -530,7 +978,7 @@
         "id": 7,
         "solution_id": 4,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983225.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983225.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -539,7 +987,7 @@
         "id": 8,
         "solution_id": 4,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983224.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983224.png",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -548,7 +996,7 @@
         "id": 9,
         "solution_id": 4,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983223.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983223.png",
         "sort": 4,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -557,7 +1005,7 @@
         "id": 10,
         "solution_id": 4,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983222.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983222.png",
         "sort": 5,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -566,7 +1014,7 @@
         "id": 11,
         "solution_id": 5,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983220.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983220.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -575,7 +1023,7 @@
         "id": 12,
         "solution_id": 5,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983219.gif",
+        "file_url": "https://media.gdi-tech.com/solutions/10983219.gif",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -584,7 +1032,7 @@
         "id": 13,
         "solution_id": 6,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983207.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983207.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -593,7 +1041,7 @@
         "id": 14,
         "solution_id": 6,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983209.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983209.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -602,7 +1050,7 @@
         "id": 15,
         "solution_id": 6,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983208.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983208.png",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -611,7 +1059,7 @@
         "id": 16,
         "solution_id": 7,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983252.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983252.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -620,7 +1068,7 @@
         "id": 17,
         "solution_id": 7,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983251.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983251.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -629,7 +1077,7 @@
         "id": 18,
         "solution_id": 7,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983248.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983248.png",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -638,7 +1086,7 @@
         "id": 19,
         "solution_id": 7,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983250.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983250.png",
         "sort": 4,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -647,7 +1095,7 @@
         "id": 20,
         "solution_id": 7,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983249.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983249.png",
         "sort": 5,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -656,7 +1104,7 @@
         "id": 21,
         "solution_id": 8,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983254.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983254.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -665,7 +1113,7 @@
         "id": 22,
         "solution_id": 8,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983253.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983253.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -674,7 +1122,7 @@
         "id": 23,
         "solution_id": 8,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983256.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983256.png",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -683,7 +1131,7 @@
         "id": 24,
         "solution_id": 8,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983255.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983255.png",
         "sort": 4,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -692,7 +1140,7 @@
         "id": 25,
         "solution_id": 9,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983257.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983257.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -701,7 +1149,7 @@
         "id": 26,
         "solution_id": 9,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983259.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983259.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -710,7 +1158,7 @@
         "id": 27,
         "solution_id": 9,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983258.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983258.png",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -719,7 +1167,7 @@
         "id": 28,
         "solution_id": 9,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983260.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983260.png",
         "sort": 4,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -728,7 +1176,7 @@
         "id": 29,
         "solution_id": 10,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983213.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983213.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -737,7 +1185,7 @@
         "id": 30,
         "solution_id": 10,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983212.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983212.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -746,7 +1194,7 @@
         "id": 31,
         "solution_id": 10,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983211.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983211.png",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -755,7 +1203,7 @@
         "id": 32,
         "solution_id": 10,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983210.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983210.png",
         "sort": 4,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -764,7 +1212,7 @@
         "id": 33,
         "solution_id": 11,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983217.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983217.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -773,7 +1221,7 @@
         "id": 34,
         "solution_id": 11,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983216.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983216.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -782,7 +1230,7 @@
         "id": 35,
         "solution_id": 11,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983215.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983215.png",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -791,7 +1239,7 @@
         "id": 36,
         "solution_id": 11,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983214.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983214.png",
         "sort": 4,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -800,7 +1248,7 @@
         "id": 37,
         "solution_id": 11,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983218.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983218.png",
         "sort": 5,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -809,7 +1257,7 @@
         "id": 38,
         "solution_id": 12,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983268.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983268.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -818,7 +1266,7 @@
         "id": 39,
         "solution_id": 12,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983267.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983267.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -827,7 +1275,7 @@
         "id": 40,
         "solution_id": 12,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983266.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983266.png",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -836,7 +1284,7 @@
         "id": 41,
         "solution_id": 12,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983265.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983265.png",
         "sort": 4,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -845,7 +1293,7 @@
         "id": 42,
         "solution_id": 12,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983264.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983264.png",
         "sort": 5,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -854,7 +1302,7 @@
         "id": 43,
         "solution_id": 13,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983263.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983263.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -863,7 +1311,7 @@
         "id": 44,
         "solution_id": 13,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983262.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983262.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -872,7 +1320,7 @@
         "id": 45,
         "solution_id": 13,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983261.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983261.png",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -881,7 +1329,7 @@
         "id": 46,
         "solution_id": 14,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983229.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983229.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -890,7 +1338,7 @@
         "id": 47,
         "solution_id": 14,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983233.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983233.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -899,7 +1347,7 @@
         "id": 48,
         "solution_id": 14,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983235.jpg",
+        "file_url": "https://media.gdi-tech.com/solutions/10983235.jpg",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -908,7 +1356,7 @@
         "id": 49,
         "solution_id": 15,
         "material_type": "video",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/111111.mp4",
+        "file_url": "https://media.gdi-tech.com/solutions/111111.mp4",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -917,7 +1365,7 @@
         "id": 50,
         "solution_id": 15,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10993598.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10993598.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -926,7 +1374,7 @@
         "id": 51,
         "solution_id": 16,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983239.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983239.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -935,7 +1383,7 @@
         "id": 52,
         "solution_id": 16,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983245.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983245.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -944,7 +1392,7 @@
         "id": 53,
         "solution_id": 16,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983244.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983244.png",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -953,7 +1401,7 @@
         "id": 54,
         "solution_id": 16,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983243.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983243.png",
         "sort": 4,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -962,7 +1410,7 @@
         "id": 55,
         "solution_id": 16,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983242.jpg",
+        "file_url": "https://media.gdi-tech.com/solutions/10983242.jpg",
         "sort": 5,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -971,7 +1419,7 @@
         "id": 56,
         "solution_id": 16,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/10983241.png",
+        "file_url": "https://media.gdi-tech.com/solutions/10983241.png",
         "sort": 6,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -980,7 +1428,7 @@
         "id": 1777084227465,
         "solution_id": 1777084204754,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/solutions/1777084223270.png",
+        "file_url": "https://media.gdi-tech.com/solutions/1777084223270.png",
         "sort": 1,
         "create_time": "2026/4/25 10:30:27",
         "status": 1
@@ -991,113 +1439,225 @@
     "categories": [
       {
         "id": 1,
-        "name": "智慧空间管理",
+        "name": {
+          "zh-CN": "智慧空间管理",
+          "en-US": "Smart Space Management",
+          "ja-JP": "スマート空間管理"
+        },
         "parent_id": 0,
-        "description": "一级分类",
+        "description": {
+          "zh-CN": "一级分类",
+          "en-US": "Primary category",
+          "ja-JP": "一次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 2,
-        "name": "智慧工厂",
+        "name": {
+          "zh-CN": "智慧工厂",
+          "en-US": "Smart Factory",
+          "ja-JP": "スマートファクトリー"
+        },
         "parent_id": 1,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 3,
-        "name": "明厨亮灶",
+        "name": {
+          "zh-CN": "明厨亮灶",
+          "en-US": "Bright kitchen / open kitchen monitoring",
+          "ja-JP": "明厨亮竈（厨房モニタリング）"
+        },
         "parent_id": 1,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 4,
-        "name": "视频管理平台",
+        "name": {
+          "zh-CN": "视频管理平台",
+          "en-US": "Video Management Platform",
+          "ja-JP": "ビデオ管理プラットフォーム"
+        },
         "parent_id": 0,
-        "description": "一级分类",
+        "description": {
+          "zh-CN": "一级分类",
+          "en-US": "Primary category",
+          "ja-JP": "一次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 5,
-        "name": "视频汇聚管理",
+        "name": {
+          "zh-CN": "视频汇聚管理",
+          "en-US": "Video Convergence Management",
+          "ja-JP": "ビデオ収束管理"
+        },
         "parent_id": 4,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 6,
-        "name": "视频转换网关",
+        "name": {
+          "zh-CN": "视频转换网关",
+          "en-US": "Video Transcoding Gateway",
+          "ja-JP": "ビデオトランスコーディングゲートウェイ"
+        },
         "parent_id": 4,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 7,
-        "name": "视频质量监测",
+        "name": {
+          "zh-CN": "视频质量监测",
+          "en-US": "Video Quality Monitoring",
+          "ja-JP": "ビデオ品質監視"
+        },
         "parent_id": 4,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 8,
-        "name": "GIS 电子地图建模",
+        "name": {
+          "zh-CN": "GIS 电子地图建模",
+          "en-US": "GIS 电子地图建模",
+          "ja-JP": "GIS 电子地图建模"
+        },
         "parent_id": 4,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 9,
-        "name": "电子地图交互",
+        "name": {
+          "zh-CN": "电子地图交互",
+          "en-US": "Electronic Map Interaction",
+          "ja-JP": "電子地図インタラクション"
+        },
         "parent_id": 4,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 10,
-        "name": "数字化信息平台",
+        "name": {
+          "zh-CN": "数字化信息平台",
+          "en-US": "Digital Information Platform",
+          "ja-JP": "デジタル情報プラットフォーム"
+        },
         "parent_id": 0,
-        "description": "一级分类",
+        "description": {
+          "zh-CN": "一级分类",
+          "en-US": "Primary category",
+          "ja-JP": "一次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 11,
-        "name": "大模型",
+        "name": {
+          "zh-CN": "大模型",
+          "en-US": "Large Models",
+          "ja-JP": "大規模モデル"
+        },
         "parent_id": 0,
-        "description": "一级分类",
+        "description": {
+          "zh-CN": "一级分类",
+          "en-US": "Primary category",
+          "ja-JP": "一次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 12,
-        "name": "智能客服和虚拟助手",
+        "name": {
+          "zh-CN": "智能客服和虚拟助手",
+          "en-US": "Intelligent Customer Service and Virtual Assistant",
+          "ja-JP": "インテリジェントカスタマーサービスと仮想アシスタント"
+        },
         "parent_id": 11,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 13,
-        "name": "视觉辅助判断",
+        "name": {
+          "zh-CN": "视觉辅助判断",
+          "en-US": "Visual Auxiliary Judgment",
+          "ja-JP": "視覚補助判断"
+        },
         "parent_id": 11,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 14,
-        "name": "知识管理",
+        "name": {
+          "zh-CN": "知识管理",
+          "en-US": "Knowledge Management",
+          "ja-JP": "知識管理"
+        },
         "parent_id": 11,
-        "description": "二级分类",
+        "description": {
+          "zh-CN": "二级分类",
+          "en-US": "Secondary category",
+          "ja-JP": "二次分類"
+        },
         "create_time": "2026/3/25 0:00",
         "status": 1
       }
@@ -1105,359 +1665,695 @@
     "list": [
       {
         "id": 1,
-        "title": "知识管理",
-        "cover": "http://www.guodong-cn.com/GD/products/知识管理-C.png",
+        "title": {
+          "zh-CN": "知识管理",
+          "en-US": "Knowledge Management",
+          "ja-JP": "ナレッジマネジメント"
+        },
+        "cover": "https://media.gdi-tech.com/products/知识管理-C.png",
         "category_id": 14,
-        "description": "大模型知识管理",
+        "description": {
+          "zh-CN": "大模型知识管理",
+          "en-US": "Large Model Knowledge Management",
+          "ja-JP": "大規模モデル ナレッジマネジメント"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 2,
-        "title": "智能客服和虚拟助手",
-        "cover": "http://www.guodong-cn.com/GD/products/智能客服和虚拟助手-C.png",
+        "title": {
+          "zh-CN": "智能客服和虚拟助手",
+          "en-US": "Intelligent Customer Service and Virtual Assistant",
+          "ja-JP": "インテリジェントカスタマーサービス & バーチャルアシスタント"
+        },
+        "cover": "https://media.gdi-tech.com/products/智能客服和虚拟助手-C.png",
         "category_id": 12,
-        "description": "大模型智能客服",
+        "description": {
+          "zh-CN": "大模型智能客服",
+          "en-US": "Large Model Intelligent Customer Service",
+          "ja-JP": "大規模モデル インテリジェントカスタマーサービス"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 3,
-        "title": "视觉辅助判断",
-        "cover": "http://www.guodong-cn.com/GD/products/视觉辅助判断-C.png",
+        "title": {
+          "zh-CN": "视觉辅助判断",
+          "en-US": "Visual Auxiliary Judgment",
+          "ja-JP": "視覚補助判定"
+        },
+        "cover": "https://media.gdi-tech.com/products/视觉辅助判断-C.png",
         "category_id": 13,
-        "description": "大模型视觉辅助",
+        "description": {
+          "zh-CN": "大模型视觉辅助",
+          "en-US": "Large Model Visual Assistance",
+          "ja-JP": "大規模モデル 視覚補助"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 4,
-        "title": "数字化信息平台",
-        "cover": "http://www.guodong-cn.com/GD/products/数字化信息平台-C.png",
+        "title": {
+          "zh-CN": "数字化信息平台",
+          "en-US": "Digital Information Platform",
+          "ja-JP": "デジタル情報プラットフォーム"
+        },
+        "cover": "https://media.gdi-tech.com/products/数字化信息平台-C.png",
         "category_id": 10,
-        "description": "数字化信息平台",
+        "description": {
+          "zh-CN": "数字化信息平台",
+          "en-US": "Digital Information Platform",
+          "ja-JP": "デジタル情報プラットフォーム"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 5,
-        "title": "电子地图交互",
-        "cover": "http://www.guodong-cn.com/GD/products/电子地图交互-C.jpg",
+        "title": {
+          "zh-CN": "电子地图交互",
+          "en-US": "Electronic Map Interaction",
+          "ja-JP": "電子地図インタラクション"
+        },
+        "cover": "https://media.gdi-tech.com/products/电子地图交互-C.jpg",
         "category_id": 9,
-        "description": "视频管理平台功能",
+        "description": {
+          "zh-CN": "视频管理平台功能",
+          "en-US": "Video Management Platform Function",
+          "ja-JP": "映像管理プラットフォーム機能"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 6,
-        "title": "GIS 电子地图建模",
-        "cover": "http://www.guodong-cn.com/GD/products/GIS电子地图建模-C.png",
+        "title": {
+          "zh-CN": "GIS 电子地图建模",
+          "en-US": "GIS Electronic Map Modeling",
+          "ja-JP": "GIS 電子地図モデリング"
+        },
+        "cover": "https://media.gdi-tech.com/products/GIS电子地图建模-C.png",
         "category_id": 8,
-        "description": "视频管理平台功能",
+        "description": {
+          "zh-CN": "视频管理平台功能",
+          "en-US": "Video Management Platform Function",
+          "ja-JP": "映像管理プラットフォーム機能"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 7,
-        "title": "视频质量监测",
-        "cover": "http://www.guodong-cn.com/GD/products/视频质量监测-C.png",
+        "title": {
+          "zh-CN": "视频质量监测",
+          "en-US": "Video Quality Monitoring",
+          "ja-JP": "映像品質監視"
+        },
+        "cover": "https://media.gdi-tech.com/products/视频质量监测-C.png",
         "category_id": 7,
-        "description": "视频管理平台功能",
+        "description": {
+          "zh-CN": "视频管理平台功能",
+          "en-US": "Video Management Platform Function",
+          "ja-JP": "映像管理プラットフォーム機能"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 8,
-        "title": "视频转换网关",
-        "cover": "http://www.guodong-cn.com/GD/products/视频转换网关-C.png",
+        "title": {
+          "zh-CN": "视频转换网关",
+          "en-US": "Video Transcoding Gateway",
+          "ja-JP": "映像トランスコーディングゲートウェイ"
+        },
+        "cover": "https://media.gdi-tech.com/products/视频转换网关-C.png",
         "category_id": 6,
-        "description": "视频管理平台功能",
+        "description": {
+          "zh-CN": "视频管理平台功能",
+          "en-US": "Video Management Platform Function",
+          "ja-JP": "映像管理プラットフォーム機能"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 9,
-        "title": "视频汇聚管理",
-        "cover": "http://www.guodong-cn.com/GD/products/视频汇聚管理-C.png",
+        "title": {
+          "zh-CN": "视频汇聚管理",
+          "en-US": "Video Convergence Management",
+          "ja-JP": "映像集約管理"
+        },
+        "cover": "https://media.gdi-tech.com/products/视频汇聚管理-C.png",
         "category_id": 5,
-        "description": "视频管理平台核心",
+        "description": {
+          "zh-CN": "视频管理平台核心",
+          "en-US": "Core of Video Management Platform",
+          "ja-JP": "映像管理プラットフォーム 中核"
+        },
         "create_time": "2025/5/15",
         "status": 1
       },
       {
         "id": 10,
-        "title": "鼠患检测",
-        "cover": "http://www.guodong-cn.com/GD/products/鼠患检测-C.png",
+        "title": {
+          "zh-CN": "鼠患检测",
+          "en-US": "Rodent Infestation Detection",
+          "ja-JP": "ネズミ被害検知"
+        },
+        "cover": "https://media.gdi-tech.com/products/鼠患检测-C.png",
         "category_id": 3,
-        "description": "明厨亮灶检测能力",
+        "description": {
+          "zh-CN": "明厨亮灶检测能力",
+          "en-US": "Bright Kitchen Monitoring Capability",
+          "ja-JP": "オープンキッチン監視機能"
+        },
         "create_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 11,
-        "title": "厂区标准着装检测",
-        "cover": "http://www.guodong-cn.com/GD/products/标准着装检测-C.png",
+        "title": {
+          "zh-CN": "厂区标准着装检测",
+          "en-US": "Factory Standard Dress Detection",
+          "ja-JP": "工場標準着装検査"
+        },
+        "cover": "https://media.gdi-tech.com/products/标准着装检测-C.png",
         "category_id": 2,
-        "description": "智慧工厂",
+        "description": {
+          "zh-CN": "智慧工厂",
+          "en-US": "Smart Factory",
+          "ja-JP": "スマートファクトリー"
+        },
         "create_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 12,
-        "title": "产线跟踪",
-        "cover": "http://www.guodong-cn.com/GD/products/产线跟踪-C.png",
+        "title": {
+          "zh-CN": "产线跟踪",
+          "en-US": "Production Line Tracking",
+          "ja-JP": "生産ライン追跡"
+        },
+        "cover": "https://media.gdi-tech.com/products/产线跟踪-C.png",
         "category_id": 2,
-        "description": "智慧工厂核心能力",
+        "description": {
+          "zh-CN": "智慧工厂核心能力",
+          "en-US": "Smart Factory Core Capability",
+          "ja-JP": "スマートファクトリー中核機能"
+        },
         "create_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 13,
-        "title": "安防检测",
-        "cover": "http://www.guodong-cn.com/GD/products/安防检测-C.png",
+        "title": {
+          "zh-CN": "安防检测",
+          "en-US": "Security Detection",
+          "ja-JP": "セキュリティ検知"
+        },
+        "cover": "https://media.gdi-tech.com/products/安防检测-C.png",
         "category_id": 2,
-        "description": "智慧工厂安防能力",
+        "description": {
+          "zh-CN": "智慧工厂安防能力",
+          "en-US": "Smart Factory Security Capability",
+          "ja-JP": "スマートファクトリー セキュリティ機能"
+        },
         "create_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 14,
-        "title": "标准动作识别",
-        "cover": "http://www.guodong-cn.com/GD/products/标准动作识别-C.png",
+        "title": {
+          "zh-CN": "标准动作识别",
+          "en-US": "Standard Action Recognition",
+          "ja-JP": "標準動作認識"
+        },
+        "cover": "https://media.gdi-tech.com/products/标准动作识别-C.png",
         "category_id": 2,
-        "description": "智慧工厂规范操作",
+        "description": {
+          "zh-CN": "智慧工厂规范操作",
+          "en-US": "Smart Factory Standard Operation",
+          "ja-JP": "スマートファクトリー 標準作業"
+        },
         "create_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 15,
-        "title": "违规手机操作检测",
-        "cover": "http://www.guodong-cn.com/GD/products/违规手机操作检测-C.png",
+        "title": {
+          "zh-CN": "违规手机操作检测",
+          "en-US": "Unauthorized Mobile Operation Detection",
+          "ja-JP": "違反スマホ操作検知"
+        },
+        "cover": "https://media.gdi-tech.com/products/违规手机操作检测-C.png",
         "category_id": 2,
-        "description": "智慧工厂安全管控",
+        "description": {
+          "zh-CN": "智慧工厂安全管控",
+          "en-US": "Smart Factory Safety Control",
+          "ja-JP": "スマートファクトリー安全管理"
+        },
         "create_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 16,
-        "title": "危险动作识别",
-        "cover": "http://www.guodong-cn.com/GD/products/危险动作识别-C.png",
+        "title": {
+          "zh-CN": "危险动作识别",
+          "en-US": "Dangerous Action Recognition",
+          "ja-JP": "危険動作認識"
+        },
+        "cover": "https://media.gdi-tech.com/products/危险动作识别-C.png",
         "category_id": 2,
-        "description": "智慧工厂安全防护",
+        "description": {
+          "zh-CN": "智慧工厂安全防护",
+          "en-US": "Smart Factory Safety Protection",
+          "ja-JP": "スマートファクトリー安全防護"
+        },
         "create_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 17,
-        "title": "操作疲劳及离岗检测",
-        "cover": "http://www.guodong-cn.com/GD/products/操作疲劳及离岗检测-C.jpg",
+        "title": {
+          "zh-CN": "操作疲劳及离岗检测",
+          "en-US": "Operation Fatigue & Absence Detection",
+          "ja-JP": "作業疲労・離席検知"
+        },
+        "cover": "https://media.gdi-tech.com/products/操作疲劳及离岗检测-C.jpg",
         "category_id": 2,
-        "description": "智慧工厂人员管理",
+        "description": {
+          "zh-CN": "智慧工厂人员管理",
+          "en-US": "Smart Factory Personnel Management",
+          "ja-JP": "スマートファクトリー人員管理"
+        },
         "create_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 18,
-        "title": "设备管理",
-        "cover": "http://www.guodong-cn.com/GD/products/设备管理-C.png",
+        "title": {
+          "zh-CN": "设备管理",
+          "en-US": "Equipment Management",
+          "ja-JP": "設備管理"
+        },
+        "cover": "https://media.gdi-tech.com/products/设备管理-C.png",
         "category_id": 2,
-        "description": "智慧工厂设备监控",
+        "description": {
+          "zh-CN": "智慧工厂设备监控",
+          "en-US": "Smart Factory Equipment Monitoring",
+          "ja-JP": "スマートファクトリー設備監視"
+        },
         "create_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 19,
-        "title": "产品计数",
-        "cover": "http://www.guodong-cn.com/GD/products/产品计数-C.png",
+        "title": {
+          "zh-CN": "产品计数",
+          "en-US": "Product Counting",
+          "ja-JP": "製品カウント"
+        },
+        "cover": "https://media.gdi-tech.com/products/产品计数-C.png",
         "category_id": 2,
-        "description": "智慧工厂产能统计",
+        "description": {
+          "zh-CN": "智慧工厂产能统计",
+          "en-US": "Smart Factory Production Statistics",
+          "ja-JP": "スマートファクトリー生産統計"
+        },
         "create_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 20,
-        "title": "后厨标准着装检测",
-        "cover": "http://www.guodong-cn.com/GD/products/10983306-1.png",
+        "title": {
+          "zh-CN": "后厨标准着装检测",
+          "en-US": "Kitchen Back Standard Dress Detection",
+          "ja-JP": "キッチンバック標準着装検査"
+        },
+        "cover": "https://media.gdi-tech.com/products/10983306-1.png",
         "category_id": 3,
-        "description": "明厨亮灶检测能力",
+        "description": {
+          "zh-CN": "明厨亮灶检测能力",
+          "en-US": "Bright Kitchen Monitoring Capability",
+          "ja-JP": "オープンキッチン監視機能"
+        },
         "create_time": "2025/5/13",
         "status": 1
       },
       {
         "id": 1777083944622,
-        "title": "测试",
-        "cover": "http://www.guodong-cn.com/GD/products/1777083930014.png",
+        "title": {
+          "zh-CN": "测试",
+          "en-US": "Test",
+          "ja-JP": "テスト"
+        },
+        "cover": "https://media.gdi-tech.com/products/1777083930014.png",
         "category_id": 14,
-        "description": "测试知识库管理",
+        "description": {
+          "zh-CN": "测试知识库管理",
+          "en-US": "Test Knowledge Base Management",
+          "ja-JP": "テスト ナレッジベース管理"
+        },
         "create_time": "2026/4/25 10:25:44",
-        "status": 1
+        "status": 0
       }
     ],
     "details": [
       {
         "id": 1,
-        "title": "知识管理",
-        "description": "基于生成式大模型和RAG构建一个高效、智能、可管理的分域知识中心，支持多模态数据的分类存储与跨模态关联检索。通过RAG技术实现精准知识发现，结合动态更新机制确保知识时效性与完整性。系统支持权限控制与场景化应用，可广泛应用于智能问答、知识推荐、会议辅助、文档扩写等场景，全面提升企业知识利用率与协作效率。\n\n  \n\n  多模态知识存储与分域管理\n  支持 Word/PPT/PDF/图片等多格式存储\n  知识域划分 + 权限标签 实现分类管控\n  RAG技术 打通跨模态语义关联\n  动态知识更新机制\n  自动同步企业OA/ERP系统数据\n  大模型辅助采编 ：智能提取关键内容并归类\n  实时更新知识库，保障 时效性 & 完整性\n  责任明确的知识管理体系\n  部门自治 ：专属知识库独立维护（新增/编辑权限）\n  闭环流程 ：采集→审核→发布→反馈\n  提升知识质量与业务适配性\n  精准检索与场景化应用\n  分域权限控制 ：按角色限制访问范围\n  RAG高效检索 ：从海量数据快速定位答案\n\n  ",
+        "title": {
+          "zh-CN": "知识管理",
+          "en-US": "Knowledge Management",
+          "ja-JP": "ナレッジマネジメント"
+        },
+        "description": {
+          "zh-CN": "基于生成式大模型和RAG构建一个高效、智能、可管理的分域知识中心，支持多模态数据的分类存储与跨模态关联检索。通过RAG技术实现精准知识发现，结合动态更新机制确保知识时效性与完整性。系统支持权限控制与场景化应用，可广泛应用于智能问答、知识推荐、会议辅助、文档扩写等场景，全面提升企业知识利用率与协作效率。\n\n  \n\n  多模态知识存储与分域管理\n  支持 Word/PPT/PDF/图片等多格式存储\n  知识域划分 + 权限标签 实现分类管控\n  RAG技术 打通跨模态语义关联\n  动态知识更新机制\n  自动同步企业OA/ERP系统数据\n  大模型辅助采编 ：智能提取关键内容并归类\n  实时更新知识库，保障 时效性 & 完整性\n  责任明确的知识管理体系\n  部门自治 ：专属知识库独立维护（新增/编辑权限）\n  闭环流程 ：采集→审核→发布→反馈\n  提升知识质量与业务适配性\n  精准检索与场景化应用\n  分域权限控制 ：按角色限制访问范围\n  RAG高效检索 ：从海量数据快速定位答案\n\n  ",
+          "en-US": "Based on generative large models and RAG, we build an efficient, intelligent and manageable domain-specific knowledge center that supports classified storage of multimodal data and cross-modal associated retrieval. Accurate knowledge discovery is realized through RAG technology, and knowledge timeliness and integrity are ensured with a dynamic update mechanism. The system supports permission control and scenario-based applications, which can be widely used in intelligent Q&A, knowledge recommendation, meeting assistance, document expansion and other scenarios, comprehensively improving enterprise knowledge utilization and collaboration efficiency.\n\nMultimodal Knowledge Storage and Domain Management\nSupports multi-format storage such as Word/PPT/PDF/images\nKnowledge domain division + permission labels for classified management\nRAG technology connects cross-modal semantic associations\nDynamic Knowledge Update Mechanism\nAutomatically synchronizes enterprise OA/ERP system data\nLarge model-assisted editing: intelligently extracts and classifies key content\nUpdates knowledge base in real time to ensure timeliness & integrity\nClear Responsibility Knowledge Management System\nDepartment autonomy: independent maintenance of exclusive knowledge base (add/edit permissions)\nClosed-loop process: collection → review → release → feedback\nImproves knowledge quality and business adaptability\nPrecise Retrieval and Scenario-based Applications\nDomain-specific permission control: restricts access scope by role\nEfficient RAG retrieval: quickly locates answers from massive data",
+          "ja-JP": "生成系大規模モデルとRAGを基盤に、効率的・インテリジェント・管理可能なドメイン別ナレッジセンターを構築し、マルチモーダルデータの分類保存とクロスモーダル関連検索を実現します。RAG技術により高精度なナレッジ発見を実現し、動的更新メカニズムによりナレッジの鮮度と完全性を保障します。権限制御とシナリオ別アプリケーションに対応し、インテリジェントQ&A・ナレッジ推奨・ミーティング支援・文書拡張などに幅広く活用でき、企業のナレッジ利用率とコラボレーション効率を総合的に向上させます。\n\nマルチモーダルナレッジ保存・ドメイン別管理\nWord/PPT/PDF/画像などのマルチフォーマット保存に対応\nナレッジドメイン分割＋権限ラベルによる分類管理\nRAG技術によるクロスモーダル意味連携\n動的ナレッジ更新メカニズム\n企業OA/ERPシステムのデータを自動同期\n大規模モデル支援編集：重要コンテンツをインテリジェント抽出・分類\nナレッジベースをリアルタイム更新し、鮮度と完全性を保障\n明確な責任体制のナレッジ管理システム\n部門自治：専用ナレッジベースを独立維持（新規/編集権限）\nクローズドループプロセス：収集→審査→公開→フィードバック\nナレッジ品質と業務適合性を向上\n高精度検索・シナリオ別アプリケーション\nドメイン別権限制御：ロール別にアクセス範囲を制限\nRAG高精度検索：膨大なデータから回答を高速発見"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/26 0:00",
         "status": 1
       },
       {
         "id": 2,
-        "title": "智能客服和虚拟助手",
-        "description": "基于“关键字”的检索准确率和效率较低；客服人员流动性较大，服务水平参差不齐。结合大模型和RAG能力，提供高效能、高拟人的人机交互过程，深入了解客户需求，并精准高质量的回答客户咨询，提升转化率和服务质量。\n\n语义级意图识别与对话管理\n多轮意图理解 ：基于大模型的上下文感知能力，精准解析用户复杂问题\n情绪识别与策略调整 ：实时判断用户情绪（如投诉、咨询、催促），动态调整回复策略（安抚话术/补偿方案/快速通道）\n多模态交互支持 ：支持文本、语音、图片混合输入，自动关联结构化数据\n\nRAG驱动的精准知识匹配\n动态知识库构建：结构化数据（FAQ、产品手册）与非结构化数据（客服录音、工单记录）混合索引\n分层检索机制：模型融合检索结果与历史对话生成最终答案\n\n智能辅助与服务闭环\n坐席助手实时赋能：对话过程中自动推荐知识卡片\n工单自动化处理：自动分类工单类型并基于历史数据生成处理建议\n服务质量闭环：自动分析对话记录（满意度评分、问题解决率） ",
+        "title": {
+          "zh-CN": "智能客服和虚拟助手",
+          "en-US": "Intelligent Customer Service and Virtual Assistant",
+          "ja-JP": "インテリジェントカスタマーサービス＆バーチャルアシスタント"
+        },
+        "description": {
+          "zh-CN": "基于“关键字”的检索准确率和效率较低；客服人员流动性较大，服务水平参差不齐。结合大模型和RAG能力，提供高效能、高拟人的人机交互过程，深入了解客户需求，并精准高质量的回答客户咨询，提升转化率和服务质量。\n\n语义级意图识别与对话管理\n多轮意图理解 ：基于大模型的上下文感知能力，精准解析用户复杂问题\n情绪识别与策略调整 ：实时判断用户情绪（如投诉、咨询、催促），动态调整回复策略（安抚话术/补偿方案/快速通道）\n多模态交互支持 ：支持文本、语音、图片混合输入，自动关联结构化数据\n\nRAG驱动的精准知识匹配\n动态知识库构建：结构化数据（FAQ、产品手册）与非结构化数据（客服录音、工单记录）混合索引\n分层检索机制：模型融合检索结果与历史对话生成最终答案\n\n智能辅助与服务闭环\n坐席助手实时赋能：对话过程中自动推荐知识卡片\n工单自动化处理：自动分类工单类型并基于历史数据生成处理建议\n服务质量闭环：自动分析对话记录（满意度评分、问题解决率） ",
+          "en-US": "Keyword-based retrieval has low accuracy and efficiency; high turnover of customer service staff leads to uneven service quality. Combining large models and RAG capabilities, it provides efficient and highly anthropomorphic human-computer interaction, deeply understands customer needs, and answers inquiries accurately and professionally, improving conversion rate and service quality.\n\nSemantic-level Intent Recognition and Dialogue Management\nMulti-round intent understanding: accurately parses complex user questions based on the large model's context awareness\nEmotion recognition and strategy adjustment: judges user emotions (complaint, inquiry, reminder) in real time and dynamically adjusts response strategies (comfort words / compensation plans / fast channels)\nMultimodal interaction support: supports mixed input of text, voice and images, automatically associates structured data\n\nRAG-driven Precise Knowledge Matching\nDynamic knowledge base construction: mixed indexing of structured data (FAQ, product manuals) and unstructured data (customer service recordings, work order records)\nHierarchical retrieval mechanism: model fuses retrieval results and historical dialogues to generate final answers\n\nIntelligent Assistance and Service Closed-loop\nReal-time agent empowerment: automatically recommends knowledge cards during dialogue\nAutomated work order processing: automatically classifies work order types and generates processing suggestions based on historical data\nService quality closed-loop: automatically analyzes dialogue records (satisfaction score, problem resolution rate)",
+          "ja-JP": "キーワード検索は精度・効率が低く、カスタマーサービススタッフの離職率が高いためサービス品質にばらつきが生じます。大規模モデルとRAG機能を融合し、高効率・高擬人化のヒューマンコンピューターインタラクションを実現し、顧客ニーズを深く理解し、的確かつ高品質な回答を提供し、コンバージョン率とサービス品質を向上させます。\n\n意味レベル意図認識・対話管理\n多輪意図理解：大規模モデルの文脈認識力に基づき、複雑なユーザー質問を高精度解析\n感情認識・戦略調整：ユーザーの感情（苦情・問い合わせ・催促など）をリアルタイム判定し、応答戦略を動的調整（慰め言葉・補償案・迅速対応）\nマルチモーダルインタラクション：テキスト・音声・画像の混合入力に対応し、構造化データを自動関連付け\n\nRAG駆動型高精度ナレッジマッチング\n動的ナレッジベース構築：構造化データ（FAQ・製品マニュアル）と非構造化データ（カスタマーサービス録音・作業記録）を混合インデックス\n階層型検索メカニズム：モデルが検索結果と履歴対話を融合し最終回答を生成\n\nインテリジェント支援・サービスクローズドループ\nリアルタイムエージェント支援：対話中にナレッジカードを自動推奨\n作業自動処理：作業種別を自動分類し、履歴データに基づき処理提案を生成\nサービス品質クローズドループ：対話記録を自動分析（満足度スコア・問題解決率）"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 3,
-        "title": "视觉辅助判断",
-        "description": "基于多模态大模型技术底座，通过多模态协同与语义融合，实现视觉辅助判断的智能化升级。\n\n以“大模型复审小模型”的协同机制提升告警准确性，突破传统目标检测限制，融合图像、时序等多源信息，增强对现实场景的深度理解能力，赋能告警复审、通用目标检测、复杂事件监测等场景应用，为智能安防、工业质检等业务提供高可靠决策支持。",
+        "title": {
+          "zh-CN": "视觉辅助判断",
+          "en-US": "Visual Auxiliary Judgment",
+          "ja-JP": "視覚補助判定"
+        },
+        "description": {
+          "zh-CN": "基于多模态大模型技术底座，通过多模态协同与语义融合，实现视觉辅助判断的智能化升级。\n\n以“大模型复审小模型”的协同机制提升告警准确性，突破传统目标检测限制，融合图像、时序等多源信息，增强对现实场景的深度理解能力，赋能告警复审、通用目标检测、复杂事件监测等场景应用，为智能安防、工业质检等业务提供高可靠决策支持。",
+          "en-US": "Based on the multimodal large model technology base, intelligent upgrading of visual auxiliary judgment is realized through multimodal collaboration and semantic fusion.\n\nThe collaborative mechanism of \"large model reviewing small model\" improves alarm accuracy, breaks through the limitations of traditional target detection, fuses multi-source information such as images and time series, enhances deep understanding of real scenes, and empowers applications such as alarm review, general target detection and complex event monitoring, providing high-reliability decision support for intelligent security, industrial quality inspection and other businesses.",
+          "ja-JP": "マルチモーダル大規模モデルを基盤に、マルチモーダル連携と意味融合により視覚補助判定のインテリジェント化を実現します。\n\n「大規模モデルによる小規模モデルの再審査」という連携メカニズムによりアラーム精度を向上させ、従来の物体検出の制限を突破し、画像・時系列などのマルチソース情報を融合し、現実シーンの深い理解能力を強化し、アラーム再審査・汎用物体検出・複雑イベント監視などに活用でき、インテリジェントセキュリティ・工業品質検査などの業務に高信頼性の意思決定支援を提供します。"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 4,
-        "title": "数字化信息平台",
-        "description": "意义：数字化平台产品是企业数字化转型的核心助力，打通生产、研发、设计到服务等全业务流程，整合数据，提升运营效率与管理水平，增强企业市场竞争力。\n\n功能：依托大数据、人工智能、物联网等技术，实现设备互联互通与数据实时采集分析，对工厂各环节如仓库、生产线等进行智能监控；借助区块链保障数据安全可信；利用 VR/AR 创新设计与培训模式。",
+        "title": {
+          "zh-CN": "数字化信息平台",
+          "en-US": "Digital Information Platform",
+          "ja-JP": "デジタル情報プラットフォーム"
+        },
+        "description": {
+          "zh-CN": "意义：数字化平台产品是企业数字化转型的核心助力，打通生产、研发、设计到服务等全业务流程，整合数据，提升运营效率与管理水平，增强企业市场竞争力。\n\n功能：依托大数据、人工智能、物联网等技术，实现设备互联互通与数据实时采集分析，对工厂各环节如仓库、生产线等进行智能监控；借助区块链保障数据安全可信；利用 VR/AR 创新设计与培训模式。",
+          "en-US": "Significance: Digital platform products are the core driving force for enterprise digital transformation, connecting the entire business process from production, R&D, design to service, integrating data, improving operational efficiency and management level, and enhancing enterprise market competitiveness.\n\nFunctions: Relying on big data, artificial intelligence, Internet of Things and other technologies, it realizes equipment interconnection and real-time data collection and analysis, intelligently monitors all factory links such as warehouses and production lines; ensures data security and credibility through blockchain; innovates design and training models with VR/AR.",
+          "ja-JP": "意義：デジタルプラットフォーム製品は企業のデジタルトランスフォーメーションの中核支援であり、生産・研究開発・設計からサービスまでの全業務プロセスを連携させ、データを統合し、運用効率と管理レベルを向上させ、企業の市場競争力を強化します。\n\n機能：ビッグデータ・AI・IoTなどの技術により、設備の相互接続とデータのリアルタイム収集・分析を実現し、倉庫・生産ラインなどの工場各部門をインテリジェント監視；ブロックチェーンによりデータの安全性と信頼性を保障；VR/ARにより設計・トレーニングモデルを革新します。"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 5,
-        "title": "电子地图交互",
-        "description": "意义：快速构建建筑内部的实体地图，并和视频内容实景结合，提供直观和类 AR 的直观视频信息 \n\n功能：\n 互动式 3D 地图将摄像机位置叠加在地图之上并可在同一个界面内显示视频。您可以即刻了解所选摄像机的安装位置 \n 当前布局内的摄像机颜色可根据状态改变 \n 在浸入模式下，半透明的视频画面也会叠加在地图之上。这就便于查看摄像机安装位置以及视频画面内状况 \n 监视多层建筑物的便利工具 \n 所有摄像机呈现在地图上并根据状态显示不同颜色 \n 您可以即刻查看所选摄像机的位置并在不同楼层视图中快速切换 ",
+        "title": {
+          "zh-CN": "电子地图交互",
+          "en-US": "Electronic Map Interaction",
+          "ja-JP": "電子地図インタラクション"
+        },
+        "description": {
+          "zh-CN": "意义：快速构建建筑内部的实体地图，并和视频内容实景结合，提供直观和类 AR 的直观视频信息 \n\n功能：\n 互动式 3D 地图将摄像机位置叠加在地图之上并可在同一个界面内显示视频。您可以即刻了解所选摄像机的安装位置 \n 当前布局内的摄像机颜色可根据状态改变 \n 在浸入模式下，半透明的视频画面也会叠加在地图之上。这就便于查看摄像机安装位置以及视频画面内状况 \n 监视多层建筑物的便利工具 \n 所有摄像机呈现在地图上并根据状态显示不同颜色 \n 您可以即刻查看所选摄像机的位置并在不同楼层视图中快速切换 ",
+          "en-US": "Significance: Quickly build an indoor physical map of buildings and combine it with real video content to provide intuitive AR-like visual video information.\n\nFunctions:\nInteractive 3D map overlays camera positions on the map and displays videos in the same interface. You can immediately know the installation position of the selected camera\nCamera colors in the current layout change according to status\nIn immersion mode, semi-transparent video frames are also overlaid on the map. This facilitates viewing camera installation positions and video frame conditions\nConvenient tool for monitoring multi-story buildings\nAll cameras are displayed on the map with different colors according to status\nYou can immediately check the position of the selected camera and quickly switch between different floor views",
+          "ja-JP": "意義：建物内部の実体地図を迅速に作成し、映像コンテンツの実景と融合させ、ARライクな直感的な映像情報を提供します。\n\n機能：\n双方向性3D地図にカメラ位置を重ね、同一画面で映像を表示可能。選択したカメラの設置位置を即時把握できます\n現在のレイアウト内のカメラは状態に応じて色が変わります\n没入モードでは半透明の映像画面が地図に重ねて表示され、カメラ設置位置と映像内状況の確認が容易になります\n複数階建て建物の監視に便利なツールです\nすべてのカメラが地図上に表示され、状態に応じて色分けされます\n選択したカメラの位置を即時確認し、異なる階のビューを高速切り替え可能です"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 6,
-        "title": "GIS 电子地图建模",
-        "description": "意义：将空间管理的电子化内容和实景地图结合，给用户传递类 AR 的直观信息，便于快速做出判断和处置 \n\n功能：基于 GIS 地图整合形成的园区信息模型，将所有基础设施、楼宇、车间等信息进行全方位展现，直观、完整地呈现园区态势，实现对物理园区的映射。",
+        "title": {
+          "zh-CN": "GIS 电子地图建模",
+          "en-US": "GIS Electronic Map Modeling",
+          "ja-JP": "GIS電子地図モデリング"
+        },
+        "description": {
+          "zh-CN": "意义：将空间管理的电子化内容和实景地图结合，给用户传递类 AR 的直观信息，便于快速做出判断和处置 \n\n功能：基于 GIS 地图整合形成的园区信息模型，将所有基础设施、楼宇、车间等信息进行全方位展现，直观、完整地呈现园区态势，实现对物理园区的映射。",
+          "en-US": "Significance: Combine electronic content of spatial management with real-scene maps to deliver AR-like intuitive information to users, facilitating quick judgment and disposal.\n\nFunctions: Based on the park information model integrated by GIS maps, it comprehensively displays all infrastructure, buildings, workshops and other information, intuitively and completely presents the park situation, and realizes the mapping of the physical park.",
+          "ja-JP": "意義：空間管理の電子化コンテンツを実景地図と融合させ、ユーザーにARライクな直感情報を伝え、迅速な判断と対応を可能にします。\n\n機能：GIS地図により統合されたパーク情報モデルに基づき、すべてのインフラ・ビル・工場などの情報を全方位的に表示し、パークの状況を直感的かつ完全に可視化し、物理パークのマッピングを実現します。"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 7,
-        "title": "视频质量监测",
-        "description": "意义：自动化智能化的进行摄像头视频质量的巡检，保障视频数据始终处于最优状态 \n\n功能：管理众多品牌摄像头的应用场景。通过实时视频分析来侦测联网各摄像机的工作状态是否正常。一旦侦测到异常或故障，主动上报并请求处理",
+        "title": {
+          "zh-CN": "视频质量监测",
+          "en-US": "Video Quality Monitoring",
+          "ja-JP": "映像品質監視"
+        },
+        "description": {
+          "zh-CN": "意义：自动化智能化的进行摄像头视频质量的巡检，保障视频数据始终处于最优状态 \n\n功能：管理众多品牌摄像头的应用场景。通过实时视频分析来侦测联网各摄像机的工作状态是否正常。一旦侦测到异常或故障，主动上报并请求处理",
+          "en-US": "Significance: Automatically and intelligently inspect camera video quality to ensure video data is always in optimal condition.\n\nFunctions: Manage application scenarios of multi-brand cameras. Detect whether the working status of each networked camera is normal through real-time video analysis. Once an abnormality or fault is detected, take the initiative to report and request processing.",
+          "ja-JP": "意義：カメラの映像品質を自動的・インテリジェントに巡回点検し、映像データを常に最適な状態に保障します。\n\n機能：複数ブランドのカメラを活用するシナリオに対応。リアルタイム映像解析によりネットワーク接続された各カメラの動作状態が正常かどうかを検知。異常または故障を検知した場合、自動的に通報し処理を要求します。"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 8,
-        "title": "视频转换网关",
-        "description": "意义：在核心视频平台之外，通过智能网关的方式，来适配特定的地区、行业或企业的视频控制及传输标准 \n\n功能：\n 在视频音频汇聚及管理的核心功能之上，平台支持可拆装的松耦合智能网关 \n 和适配地区、行业或企业的视频控制及传输标准（如 GB/T28181）\n 支持摄像头的控制、视频流的推送和拉取 \n 支持视频平台间的互联、传输、交换、控制",
+        "title": {
+          "zh-CN": "视频转换网关",
+          "en-US": "Video Transcoding Gateway",
+          "ja-JP": "映像トランスコーディングゲートウェイ"
+        },
+        "description": {
+          "zh-CN": "意义：在核心视频平台之外，通过智能网关的方式，来适配特定的地区、行业或企业的视频控制及传输标准 \n\n功能：\n 在视频音频汇聚及管理的核心功能之上，平台支持可拆装的松耦合智能网关 \n 和适配地区、行业或企业的视频控制及传输标准（如 GB/T28181）\n 支持摄像头的控制、视频流的推送和拉取 \n 支持视频平台间的互联、传输、交换、控制",
+          "en-US": "Significance: In addition to the core video platform, adapt to video control and transmission standards of specific regions, industries or enterprises through intelligent gateways.\n\nFunctions:\nOn top of the core functions of video and audio convergence and management, the platform supports detachable loosely coupled intelligent gateways\nAdapt to video control and transmission standards of regions, industries or enterprises (such as GB/T28181)\nSupport camera control, video stream push and pull\nSupport interconnection, transmission, exchange and control between video platforms",
+          "ja-JP": "意義：コア映像プラットフォームに加え、インテリジェントゲートウェイにより特定の地域・業界・企業の映像制御・伝送規格に適合させます。\n\n機能：\n映像・音声集約・管理のコア機能に加え、プラットフォームは着脱可能な疎結合インテリジェントゲートウェイに対応\n地域・業界・企業の映像制御・伝送規格（GB/T28181など）に適合\nカメラ制御・映像ストリームのプッシュ・プルに対応\n映像プラットフォーム間の相互接続・伝送・交換・制御に対応"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 9,
-        "title": "视频汇聚管理",
-        "description": "意义：便捷的接入和管理多品牌多型号的摄像头，保护现有投资，为未来保持灵活性 \n\n功能：\n 超过 2000 个设备已经整合 \n 不同品牌厂商的各种型号的 IP 摄像机及设备可同时接入使用 \n 可从软件配置摄像机及设备 \n 支持摄像机私有协议，ONVIF，RTSP 以及 GB/T28181 等标准协议",
+        "title": {
+          "zh-CN": "视频汇聚管理",
+          "en-US": "Video Convergence Management",
+          "ja-JP": "映像集約管理"
+        },
+        "description": {
+          "zh-CN": "意义：便捷的接入和管理多品牌多型号的摄像头，保护现有投资，为未来保持灵活性 \n\n功能：\n 超过 2000 个设备已经整合 \n 不同品牌厂商的各种型号的 IP 摄像机及设备可同时接入使用 \n 可从软件配置摄像机及设备 \n 支持摄像机私有协议，ONVIF，RTSP 以及 GB/T28181 等标准协议",
+          "en-US": "Significance: Conveniently access and manage multi-brand and multi-model cameras, protect existing investments, and maintain flexibility for the future.\n\nFunctions:\nMore than 2000 devices have been integrated\nVarious models of IP cameras and devices from different brands can be accessed and used simultaneously\nCameras and devices can be configured from software\nSupports camera private protocols, ONVIF, RTSP and standard protocols such as GB/T28181",
+          "ja-JP": "意義：複数ブランド・複数機種のカメラを簡単に接続・管理し、既存投資を保護し、将来の柔軟性を維持します。\n\n機能：\n2000台以上の機器を統合済み\n異なるブランドの各種IPカメラ・機器を同時に接続・使用可能\nソフトウェアからカメラ・機器を設定可能\nカメラ独自プロトコル・ONVIF・RTSP・GB/T28181などの標準プロトコルに対応"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 10,
-        "title": "鼠患检测",
-        "description": "应用场所：食堂、餐厅、生产车间 \n\n实现功能：\n 监测指定场所，发现鼠患告警 \n 根据跟踪鼠患出现的位置，给出活动路径，为封堵提供依据 \n\n应用价值：监测生产车间、厨房等区域有无鼠患，杜绝卫生及生产隐患 \n 夜晚低光照条件导致特征提取困难，夜间动态的目标比如机器的指示灯、飞虫、蛛网等对老鼠的识别造成了很强的干扰。\n 自研的深度学习算法，能够在低光照的情况下进行识别，同时基于自动生成的路径，有经验的鼠害防治人员可以有效找出老鼠来源，提出封堵方案，杜绝卫生隐患，识别准确率超过 95%",
+        "title": {
+          "zh-CN": "鼠患检测",
+          "en-US": "Rodent Infestation Detection",
+          "ja-JP": "ネズミ被害検知"
+        },
+        "description": {
+          "zh-CN": "应用场所：食堂、餐厅、生产车间 \n\n实现功能：\n 监测指定场所，发现鼠患告警 \n 根据跟踪鼠患出现的位置，给出活动路径，为封堵提供依据 \n\n应用价值：监测生产车间、厨房等区域有无鼠患，杜绝卫生及生产隐患 \n 夜晚低光照条件导致特征提取困难，夜间动态的目标比如机器的指示灯、飞虫、蛛网等对老鼠的识别造成了很强的干扰。\n 自研的深度学习算法，能够在低光照的情况下进行识别，同时基于自动生成的路径，有经验的鼠害防治人员可以有效找出老鼠来源，提出封堵方案，杜绝卫生隐患，识别准确率超过 95%",
+          "en-US": "Application scenarios: Canteens, restaurants, production workshops\n\nImplemented functions:\nMonitor designated places and alarm when rodent infestation is found\nProvide activity paths based on tracking rodent locations to provide basis for blocking\n\nApplication value: Monitor rodent infestation in production workshops, kitchens and other areas to eliminate hygiene and production hidden dangers\nLow light conditions at night make feature extraction difficult; dynamic targets at night such as machine indicators, flying insects, spider webs, etc. cause strong interference to rodent recognition.\nSelf-developed deep learning algorithm can recognize in low light conditions. Meanwhile, based on automatically generated paths, experienced rodent control personnel can effectively find the source of rodents, propose blocking plans, eliminate hygiene hazards, and the recognition accuracy exceeds 95%",
+          "ja-JP": "活用シーン：食堂・レストラン・生産工場\n\n実現機能：\n指定場所を監視し、ネズミ被害を発見したらアラーム\nネズミの出現位置を追跡し、行動経路を提示して封じ込めの根拠を提供\n\n活用価値：生産工場・キッチンなどのネズミ被害を監視し、衛生・生産上のリスクを排除します\n夜間の低光環境では特徴抽出が困難で、機械の表示灯・飛虫・クモの巣などの夜間動的物体がネズミ認識に強い妨害を与えます。\n独自開発の深層学習アルゴリズムにより低光環境でも認識可能。自動生成された経路に基づき、経験豊富なネズミ駆除担当者が効率的に発生源を特定し、封じ込め案を提示して衛生リスクを排除し、認識精度は95％を超えます。"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 11,
-        "title": "厂区标准着装检测",
-        "description": "应用场所：生产车间、厂区等 \n\n实现功能：\n 自动识别进出人员是否佩戴安全帽 \n 是否正确穿着标准样式的工作服装 \n 支持微信公众号自动推送违规穿戴通知，可查看抓拍图片 \n 支持随时在移动端通过小程序查看报警历史记录 \n\n应用价值：\nAI 智能识别是否正确着装佩戴安全帽，实现规范管理工作人员，保障工作人员人身安全 ",
+        "title": {
+          "zh-CN": "厂区标准着装检测",
+          "en-US": "Factory Standard Dress Detection",
+          "ja-JP": "工場標準着装検査"
+        },
+        "description": {
+          "zh-CN": "应用场所：生产车间、厂区等 \n\n实现功能：\n 自动识别进出人员是否佩戴安全帽 \n 是否正确穿着标准样式的工作服装 \n 支持微信公众号自动推送违规穿戴通知，可查看抓拍图片 \n 支持随时在移动端通过小程序查看报警历史记录 \n\n应用价值：\nAI 智能识别是否正确着装佩戴安全帽，实现规范管理工作人员，保障工作人员人身安全 ",
+          "en-US": "Application scenarios: Production workshops, factory areas, etc.\n\nImplemented functions:\nAutomatically identify whether personnel entering and exiting wear safety helmets\nWhether standard work clothes are correctly worn\nSupports automatic push of non-compliant dress notifications via WeChat official account, and can view captured images\nSupports viewing alarm history records via mini-program on mobile devices at any time\n\nApplication value:\nAI intelligently identifies whether safety helmets and work clothes are correctly worn, realizing standardized management of staff and ensuring their personal safety",
+          "ja-JP": "活用シーン：生産工場・工場エリアなど\n\n実現機能：\n出入りする人員が安全帽を着用しているか自動認識\n標準作業服を正しく着用しているか判定\nWeChat公式アカウントによる違反着装通知の自動プッシュに対応、撮影画像を閲覧可能\nモバイル端末のミニプログラムからいつでもアラーム履歴を閲覧可能\n\n活用価値：\nAIにより安全帽・作業服の正しい着用をインテリジェント認識し、スタッフを規則的に管理し、人身の安全を保障します。"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 12,
-        "title": "产线跟踪",
-        "description": "意义：监控特定区域智能追踪设定物品，实时掌握特殊物品状态，保障物品安全，保障安全生产 \n\n应用场所：生产车间、存储场景、大型设备等 \n\n实现功能：\n 对特定的生产区域、存储场所 24 小时监控 \n 自定义限制区域，实时追踪物品状态 \n 后台管理平台、小程序等实时传输物品状态、位置信息 \n 自定义各类物品",
+        "title": {
+          "zh-CN": "产线跟踪",
+          "en-US": "Production Line Tracking",
+          "ja-JP": "生産ライン追跡"
+        },
+        "description": {
+          "zh-CN": "意义：监控特定区域智能追踪设定物品，实时掌握特殊物品状态，保障物品安全，保障安全生产 \n\n应用场所：生产车间、存储场景、大型设备等 \n\n实现功能：\n 对特定的生产区域、存储场所 24 小时监控 \n 自定义限制区域，实时追踪物品状态 \n 后台管理平台、小程序等实时传输物品状态、位置信息 \n 自定义各类物品",
+          "en-US": "Significance: Intelligently track set items in specific areas, grasp the status of special items in real time, ensure item safety and safe production.\n\nApplication scenarios: Production workshops, storage scenarios, large equipment, etc.\n\nImplemented functions:\n24-hour monitoring of specific production areas and storage places\nCustom restricted areas and track item status in real time\nBackground management platform, mini-programs, etc. transmit item status and location information in real time\nCustomize various items",
+          "ja-JP": "意義：特定エリア内の設定物品をインテリジェント追跡し、特殊物品の状態をリアルタイムで把握し、物品の安全と安全生産を保障します。\n\n活用シーン：生産工場・保管現場・大型設備など\n\n実現機能：\n特定の生産エリア・保管場所を24時間監視\n制限エリアをカスタマイズし、物品の状態をリアルタイム追跡\nバックエンド管理プラットフォーム・ミニプログラムなどから物品の状態・位置情報をリアルタイム送信\n各種物品をカスタマイズ設定可能"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 13,
-        "title": "安防检测",
-        "description": "应用场所：工作及其他区域 \n\n实现功能：\n 通过视频直接提取场景内人体骨骼姿态 \n 发现跌倒，平躺、蹲、翻越等行为时告警 \n\n应用价值：智能识别人员的异常行为，尽早发现伤害或风险",
+        "title": {
+          "zh-CN": "安防检测",
+          "en-US": "Security Detection",
+          "ja-JP": "セキュリティ検知"
+        },
+        "description": {
+          "zh-CN": "应用场所：工作及其他区域 \n\n实现功能：\n 通过视频直接提取场景内人体骨骼姿态 \n 发现跌倒，平躺、蹲、翻越等行为时告警 \n\n应用价值：智能识别人员的异常行为，尽早发现伤害或风险",
+          "en-US": "Application scenarios: Work and other areas\n\nImplemented functions:\nDirectly extract human skeleton postures in the scene through video\nAlarm when behaviors such as falling, lying down, squatting, climbing over are found\n\nApplication value: Intelligently identify abnormal behaviors of personnel and detect injuries or risks as early as possible",
+          "ja-JP": "活用シーン：作業エリア・その他のエリア\n\n実現機能：\n映像からシーン内の人体骨格姿勢を直接抽出\n転倒・横臥・しゃがみ・乗り越えなどの行動を発見したらアラーム\n\n活用価値：人員の異常行動をインテリジェント認識し、傷害またはリスクを早期発見します。"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 14,
-        "title": "标准动作识别",
-        "description": "意义：AI 识别人员操作有无达到关键操作动作 \n\n应用场所：实验室、关键操作台、培训考试 \n\n实现功能：\n 自动识别被检测人员的手部动作是否达到预先设定的关键标准",
+        "title": {
+          "zh-CN": "标准动作识别",
+          "en-US": "Standard Action Recognition",
+          "ja-JP": "標準動作認識"
+        },
+        "description": {
+          "zh-CN": "意义：AI 识别人员操作有无达到关键操作动作 \n\n应用场所：实验室、关键操作台、培训考试 \n\n实现功能：\n 自动识别被检测人员的手部动作是否达到预先设定的关键标准",
+          "en-US": "Significance: AI identifies whether personnel operations meet key operational actions.\n\nApplication scenarios: Laboratories, key operating stations, training and examinations\n\nImplemented functions:\nAutomatically identify whether the hand movements of the tested personnel meet the preset key standards",
+          "ja-JP": "意義：AIにより人員の操作が重要な動作に達しているかどうかを認識します。\n\n活用シーン：研究室・重要操作卓・トレーニング試験\n\n実現機能：\n被検査者の手の動作が事前に設定された重要基準に達しているか自動認識"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 15,
-        "title": "违规手机操作检测",
-        "description": "意义：AI 智能识别工作人员是否在操作手机，提前发现危险岗位操作手机带来的风险 \n\n应用场所：生产车间、值班室、关键岗位 \n\n实现功能：\n 自动识别指定区域人员是否在操作手机",
+        "title": {
+          "zh-CN": "违规手机操作检测",
+          "en-US": "Unauthorized Mobile Operation Detection",
+          "ja-JP": "違反スマホ操作検知"
+        },
+        "description": {
+          "zh-CN": "意义：AI 智能识别工作人员是否在操作手机，提前发现危险岗位操作手机带来的风险 \n\n应用场所：生产车间、值班室、关键岗位 \n\n实现功能：\n 自动识别指定区域人员是否在操作手机",
+          "en-US": "Significance: AI intelligently identifies whether staff are operating mobile phones, and detects risks caused by mobile phone operation in dangerous positions in advance.\n\nApplication scenarios: Production workshops, duty rooms, key positions\n\nImplemented functions:\nAutomatically identify whether personnel in designated areas are operating mobile phones",
+          "ja-JP": "意義：AIによりスタッフがスマートフォンを操作しているかどうかをインテリジェント認識し、危険ポジションでのスマホ操作によるリスクを事前に発見します。\n\n活用シーン：生産工場・待機室・重要ポジション\n\n実現機能：\n指定エリア内の人員がスマートフォンを操作しているか自動認識"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 16,
-        "title": "危险动作识别",
-        "description": "应用场所：生产车间、危险操作区域 \n\n实现功能：\n 自动分析工作人员骨架判别姿态是否正常人员摔倒智能告警 \n 监控作业人员站在指定位置作业 \n 识别作业未使用标准工器具 \n 吊运作业低于安全高度，人员距离太近智能告警 \n 翻爬、跨越危险设备 \n\n应用价值：智能识别工作人员不规范行为，减轻事故发生可能性",
+        "title": {
+          "zh-CN": "危险动作识别",
+          "en-US": "Dangerous Action Recognition",
+          "ja-JP": "危険動作認識"
+        },
+        "description": {
+          "zh-CN": "应用场所：生产车间、危险操作区域 \n\n实现功能：\n 自动分析工作人员骨架判别姿态是否正常人员摔倒智能告警 \n 监控作业人员站在指定位置作业 \n 识别作业未使用标准工器具 \n 吊运作业低于安全高度，人员距离太近智能告警 \n 翻爬、跨越危险设备 \n\n应用价值：智能识别工作人员不规范行为，减轻事故发生可能性",
+          "en-US": "Application scenarios: Production workshops, dangerous operation areas\n\nImplemented functions:\nAutomatically analyze staff skeletons to judge whether posture is normal; intelligent alarm when personnel fall\nMonitor operators working at designated positions\nIdentify non-use of standard tools during operation\nIntelligent alarm when lifting operations are lower than safe height and personnel are too close\nClimbing and crossing dangerous equipment\n\nApplication value: Intelligently identify non-standard behaviors of staff and reduce the possibility of accidents",
+          "ja-JP": "活用シーン：生産工場・危険作業エリア\n\n実現機能：\nスタッフの骨格を自動分析し姿勢が正常か判定、転倒時にインテリジェントアラーム\n作業者が指定位置で作業しているか監視\n作業時に標準工具を使用していないことを認識\n揚重作業が安全高さを下回り、人員が近すぎる場合にインテリジェントアラーム\n危険設備へのよじ登り・越え\n\n活用価値：スタッフの不規範な行動をインテリジェント認識し、事故の可能性を低減します。"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 17,
-        "title": "操作疲劳及离岗检测",
-        "description": "意义：利用人工智能技术辅助值班室管理，确保厂房生产期间值班室内始终有人在岗且正常在岗，保障安全生产 \n\n应用场所：值班室、生产需要监控区域 \n\n实现功能：\n 摄像机自动监控值班室内操作人员疲劳状态：记录人员闭眼时间，支持自定义时间阈值，超时报警 \n 自动监控工作区域是否存在工作人员：不存在工作人员时记录离开时间，支持自定义时间阈值，超时报警；支持工作区域自定义感兴趣区域",
+        "title": {
+          "zh-CN": "操作疲劳及离岗检测",
+          "en-US": "Operation Fatigue & Absence Detection",
+          "ja-JP": "作業疲労・離席検知"
+        },
+        "description": {
+          "zh-CN": "意义：利用人工智能技术辅助值班室管理，确保厂房生产期间值班室内始终有人在岗且正常在岗，保障安全生产 \n\n应用场所：值班室、生产需要监控区域 \n\n实现功能：\n 摄像机自动监控值班室内操作人员疲劳状态：记录人员闭眼时间，支持自定义时间阈值，超时报警 \n 自动监控工作区域是否存在工作人员：不存在工作人员时记录离开时间，支持自定义时间阈值，超时报警；支持工作区域自定义感兴趣区域",
+          "en-US": "Significance: Use artificial intelligence technology to assist duty room management, ensure that there are always on-duty personnel in the duty room during factory production, and ensure safe production.\n\nApplication scenarios: Duty rooms, production monitoring areas\n\nImplemented functions:\nCamera automatically monitors the fatigue status of operators in the duty room: record personnel's eye closure time, support custom time threshold, alarm when timeout\nAutomatically monitor whether there are staff in the work area: record departure time when no staff exists, support custom time threshold, alarm when timeout; support custom interest areas in work areas",
+          "ja-JP": "意義：AI技術により待機室管理を支援し、工場の生産期間中は待機室に常に担当者が在席し正常に勤務することを保障し、安全生産を実現します。\n\n活用シーン：待機室・生産監視エリア\n\n実現機能：\nカメラが待機室内の作業者の疲労状態を自動監視：目を閉じている時間を記録し、閾値をカスタマイズ可能、タイムアウトでアラーム\n作業エリアにスタッフがいるか自動監視：スタッフがいない場合に離席時間を記録し、閾値をカスタマイズ可能、タイムアウトでアラーム；作業エリア内の関心エリアをカスタマイズ可能"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 18,
-        "title": "设备管理",
-        "description": "应用场所：生产车间、关键设备 \n\n实现功能：\n 对重要设备的指定运行姿态进行跟踪，一旦发现姿态异常，及时预警 \n 报警消息支持移动终端通知和大屏显示 \n\n应用价值：监控特定设备的关键工作姿态，及时发现设备运作异常 \n\n案例：\n 钢厂开卷机设备点检 \n\n识别内容：\n 剪切机正常工作 \n 钢板翘头角度低于 30°\n精度要求：\n 验收要求 95%",
+        "title": {
+          "zh-CN": "设备管理",
+          "en-US": "Equipment Management",
+          "ja-JP": "設備管理"
+        },
+        "description": {
+          "zh-CN": "应用场所：生产车间、关键设备 \n\n实现功能：\n 对重要设备的指定运行姿态进行跟踪，一旦发现姿态异常，及时预警 \n 报警消息支持移动终端通知和大屏显示 \n\n应用价值：监控特定设备的关键工作姿态，及时发现设备运作异常 \n\n案例：\n 钢厂开卷机设备点检 \n\n识别内容：\n 剪切机正常工作 \n 钢板翘头角度低于 30°\n精度要求：\n 验收要求 95%",
+          "en-US": "Application scenarios: Production workshops, key equipment\n\nImplemented functions:\nTrack the specified operating posture of important equipment, and give early warning in time once abnormal posture is found\nAlarm messages support mobile terminal notification and large screen display\n\nApplication value: Monitor the key working posture of specific equipment and detect abnormal equipment operation in time\n\nCase:\nSteel mill uncoiler equipment inspection\n\nRecognition content:\nShearing machine working normally\nSteel plate warping angle less than 30°\nAccuracy requirements:\nAcceptance requirement 95%",
+          "ja-JP": "活用シーン：生産工場・重要設備\n\n実現機能：\n重要設備の指定された動作姿勢を追跡し、姿勢異常を発見したら即時早期警告\nアラームメッセージはモバイル端末通知・大型画面表示に対応\n\n活用価値：特定設備の重要な動作姿勢を監視し、設備の異常動作を早期発見します\n\n事例：\n製鉄所のアンコイラー設備点検\n\n認識内容：\nシャーリングマシンが正常に動作\n鋼板の反り上がり角度が30°未満\n精度要求：\n受け入れ基準95％"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 19,
-        "title": "产品计数",
-        "description": "应用场所：生产车间、存储场景 \n\n实现功能：\n 对特定的生产区域、存储场所 24 小时监控 \n 自定义限制区域，实时追踪物品数量 \n 后台管理平台、小程序等实时传输物品数量信息 \n 支持各类物品识别 \n\n应用价值：监控特定区域智能识别物品，并进行计数，实时掌握特殊物品数量，保障物品安全，掌控物品数量 ",
+        "title": {
+          "zh-CN": "产品计数",
+          "en-US": "Product Counting",
+          "ja-JP": "製品カウント"
+        },
+        "description": {
+          "zh-CN": "应用场所：生产车间、存储场景 \n\n实现功能：\n 对特定的生产区域、存储场所 24 小时监控 \n 自定义限制区域，实时追踪物品数量 \n 后台管理平台、小程序等实时传输物品数量信息 \n 支持各类物品识别 \n\n应用价值：监控特定区域智能识别物品，并进行计数，实时掌握特殊物品数量，保障物品安全，掌控物品数量 ",
+          "en-US": "Application scenarios: Production workshops, storage scenarios\n\nImplemented functions:\n24-hour monitoring of specific production areas and storage places\nCustom restricted areas and track item quantity in real time\nBackground management platform, mini-programs, etc. transmit item quantity information in real time\nSupports identification of various items\n\nApplication value: Intelligently identify and count items in specific areas, grasp the quantity of special items in real time, ensure item safety and control item quantity",
+          "ja-JP": "活用シーン：生産工場・保管現場\n\n実現機能：\n特定の生産エリア・保管場所を24時間監視\n制限エリアをカスタマイズし、物品の数量をリアルタイム追跡\nバックエンド管理プラットフォーム・ミニプログラムなどから物品の数量情報をリアルタイム送信\n各種物品の認識に対応\n\n活用価値：特定エリア内の物品をインテリジェント認識・カウントし、特殊物品の数量をリアルタイムで把握し、物品の安全を保障し数量を管理します。"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/3/25 0:00",
         "status": 1
       },
       {
         "id": 20,
-        "title": "后厨标准着装检测",
-        "description": "应用场所：食堂、餐厅 \n\n实现功能：\n 监测厨房操作人员的帽子、口罩、工服的持续着装情况 \n\n应用价值：监测企业食堂后厨的卫生食安着装执行情况，实现监管的智能化、精准化、简约化。",
+        "title": {
+          "zh-CN": "后厨标准着装检测",
+          "en-US": "Kitchen Back Standard Dress Detection",
+          "ja-JP": "キッチンバック標準着装検査"
+        },
+        "description": {
+          "zh-CN": "应用场所：食堂、餐厅 \n\n实现功能：\n 监测厨房操作人员的帽子、口罩、工服的持续着装情况 \n\n应用价值：监测企业食堂后厨的卫生食安着装执行情况，实现监管的智能化、精准化、简约化。",
+          "en-US": "Application scenarios: Canteens, restaurants\n\nImplemented functions:\nMonitor the continuous wearing of hats, masks and work clothes by kitchen operators\n\nApplication value: Monitor the implementation of hygienic and food safety dress in the back kitchen of enterprise canteens, realizing intelligent, precise and simplified supervision.",
+          "ja-JP": "活用シーン：食堂・レストラン\n\n実現機能：\nキッチン作業者の帽子・マスク・作業服の着用状況を継続的に監視\n\n活用価値：企業食堂のキッチンバックにおける衛生・食品安全の着装実施状況を監視し、監督のインテリジェント化・高精度化・簡略化を実現します。"
+        },
         "create_time": "2026/3/25 0:00",
         "update_time": "2026/4/25 10:18:47",
         "status": 1
       },
       {
         "id": 1777083944622,
-        "title": "测试的标题",
-        "description": "测试的详情描述测试的详情描述\n测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述\n\n\n测试的详情描述测试的详情描述测试的详情描述测试的详情描述\n\n测试的详情描述测试的详情描述测试的详情描述测试的详情描述",
+        "title": {
+          "zh-CN": "测试的标题",
+          "en-US": "Test Title",
+          "ja-JP": "テストタイトル"
+        },
+        "description": {
+          "zh-CN": "测试的详情描述测试的详情描述\n测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述测试的详情描述\n\n\n测试的详情描述测试的详情描述测试的详情描述测试的详情描述\n\n测试的详情描述测试的详情描述测试的详情描述测试的详情描述",
+          "en-US": "Test detail description\nTest detail description",
+          "ja-JP": "テスト詳細説明\nテスト詳細説明"
+        },
         "create_time": "2026/4/25 10:26:06",
         "update_time": "2026/4/25 10:26:06",
         "status": 1
@@ -1468,7 +2364,7 @@
         "id": 1,
         "product_id": 1,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/知识管理-C.png",
+        "file_url": "https://media.gdi-tech.com/products/知识管理-C.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1477,7 +2373,7 @@
         "id": 2,
         "product_id": 2,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/智能客服和虚拟助手-C.png",
+        "file_url": "https://media.gdi-tech.com/products/智能客服和虚拟助手-C.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1486,7 +2382,7 @@
         "id": 3,
         "product_id": 3,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/视觉辅助判断-C.png",
+        "file_url": "https://media.gdi-tech.com/products/视觉辅助判断-C.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1495,7 +2391,7 @@
         "id": 4,
         "product_id": 4,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/数字化信息平台-C.png",
+        "file_url": "https://media.gdi-tech.com/products/数字化信息平台-C.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1504,7 +2400,7 @@
         "id": 5,
         "product_id": 5,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983406.jpg",
+        "file_url": "https://media.gdi-tech.com/products/10983406.jpg",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1513,7 +2409,7 @@
         "id": 6,
         "product_id": 5,
         "material_type": "video",
-        "file_url": "http://www.guodong-cn.com/GD/products/109999.mp4",
+        "file_url": "https://media.gdi-tech.com/products/109999.mp4",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1522,7 +2418,7 @@
         "id": 7,
         "product_id": 6,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983409.png",
+        "file_url": "https://media.gdi-tech.com/products/10983409.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1531,7 +2427,7 @@
         "id": 8,
         "product_id": 6,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983408.jpg",
+        "file_url": "https://media.gdi-tech.com/products/10983408.jpg",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1540,7 +2436,7 @@
         "id": 9,
         "product_id": 6,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983407.jpg",
+        "file_url": "https://media.gdi-tech.com/products/10983407.jpg",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1549,7 +2445,7 @@
         "id": 10,
         "product_id": 7,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/视频质量监测-C.png",
+        "file_url": "https://media.gdi-tech.com/products/视频质量监测-C.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1558,7 +2454,7 @@
         "id": 11,
         "product_id": 8,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983411.png",
+        "file_url": "https://media.gdi-tech.com/products/10983411.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1567,7 +2463,7 @@
         "id": 12,
         "product_id": 8,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983410.png",
+        "file_url": "https://media.gdi-tech.com/products/10983410.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1576,7 +2472,7 @@
         "id": 13,
         "product_id": 9,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/视频汇聚管理-C.png",
+        "file_url": "https://media.gdi-tech.com/products/视频汇聚管理-C.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1585,7 +2481,7 @@
         "id": 14,
         "product_id": 10,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/鼠患检测-C.png",
+        "file_url": "https://media.gdi-tech.com/products/鼠患检测-C.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1594,7 +2490,7 @@
         "id": 15,
         "product_id": 11,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/标准着装检测-C.png",
+        "file_url": "https://media.gdi-tech.com/products/标准着装检测-C.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1603,7 +2499,7 @@
         "id": 16,
         "product_id": 12,
         "material_type": "video",
-        "file_url": "http://www.guodong-cn.com/GD/products/12222.mp4",
+        "file_url": "https://media.gdi-tech.com/products/12222.mp4",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1612,7 +2508,7 @@
         "id": 17,
         "product_id": 13,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983353.png",
+        "file_url": "https://media.gdi-tech.com/products/10983353.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1621,7 +2517,7 @@
         "id": 18,
         "product_id": 13,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983352.png",
+        "file_url": "https://media.gdi-tech.com/products/10983352.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1630,7 +2526,7 @@
         "id": 19,
         "product_id": 13,
         "material_type": "video",
-        "file_url": "http://www.guodong-cn.com/GD/products/1333333.mp4",
+        "file_url": "https://media.gdi-tech.com/products/1333333.mp4",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1639,7 +2535,7 @@
         "id": 20,
         "product_id": 14,
         "material_type": "video",
-        "file_url": "http://www.guodong-cn.com/GD/products/14.mp4",
+        "file_url": "https://media.gdi-tech.com/products/14.mp4",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1648,7 +2544,7 @@
         "id": 21,
         "product_id": 15,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983356.png",
+        "file_url": "https://media.gdi-tech.com/products/10983356.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1657,7 +2553,7 @@
         "id": 22,
         "product_id": 15,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983355.png",
+        "file_url": "https://media.gdi-tech.com/products/10983355.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1666,7 +2562,7 @@
         "id": 23,
         "product_id": 16,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983351.png",
+        "file_url": "https://media.gdi-tech.com/products/10983351.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1675,7 +2571,7 @@
         "id": 24,
         "product_id": 16,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983350.png",
+        "file_url": "https://media.gdi-tech.com/products/10983350.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1684,7 +2580,7 @@
         "id": 25,
         "product_id": 16,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983349.png",
+        "file_url": "https://media.gdi-tech.com/products/10983349.png",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1693,7 +2589,7 @@
         "id": 26,
         "product_id": 17,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983358.jpg",
+        "file_url": "https://media.gdi-tech.com/products/10983358.jpg",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1702,7 +2598,7 @@
         "id": 27,
         "product_id": 17,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983357.png",
+        "file_url": "https://media.gdi-tech.com/products/10983357.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1711,7 +2607,7 @@
         "id": 28,
         "product_id": 18,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983360.png",
+        "file_url": "https://media.gdi-tech.com/products/10983360.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1720,7 +2616,7 @@
         "id": 29,
         "product_id": 18,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983359.png",
+        "file_url": "https://media.gdi-tech.com/products/10983359.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1729,7 +2625,7 @@
         "id": 30,
         "product_id": 18,
         "material_type": "video",
-        "file_url": "http://www.guodong-cn.com/GD/products/18.mp4",
+        "file_url": "https://media.gdi-tech.com/products/18.mp4",
         "sort": 3,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1738,7 +2634,7 @@
         "id": 31,
         "product_id": 19,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/产品计数-C.png",
+        "file_url": "https://media.gdi-tech.com/products/产品计数-C.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1747,7 +2643,7 @@
         "id": 32,
         "product_id": 19,
         "material_type": "video",
-        "file_url": "http://www.guodong-cn.com/GD/products/19.mp4",
+        "file_url": "https://media.gdi-tech.com/products/19.mp4",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1756,7 +2652,7 @@
         "id": 33,
         "product_id": 20,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983306-1.png",
+        "file_url": "https://media.gdi-tech.com/products/10983306-1.png",
         "sort": 1,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1765,7 +2661,7 @@
         "id": 34,
         "product_id": 20,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/10983305-1.png",
+        "file_url": "https://media.gdi-tech.com/products/10983305-1.png",
         "sort": 2,
         "create_time": "2026/3/25 0:00",
         "status": 1
@@ -1783,7 +2679,7 @@
         "id": 1777084150294,
         "product_id": 1777083944622,
         "material_type": "image",
-        "file_url": "http://www.guodong-cn.com/GD/products/1777084145973.png",
+        "file_url": "https://media.gdi-tech.com/products/1777084145973.png",
         "sort": 1,
         "create_time": "2026/4/25 10:29:10",
         "status": 1
@@ -1792,7 +2688,7 @@
         "id": 1777084158753,
         "product_id": 1777083944622,
         "material_type": "video",
-        "file_url": "http://www.guodong-cn.com/GD/products/1777084155934.mp4",
+        "file_url": "https://media.gdi-tech.com/products/1777084155934.mp4",
         "sort": 2,
         "create_time": "2026/4/25 10:29:18",
         "status": 1
@@ -1802,6 +2698,6 @@
   "admin": {
     "username": "admin",
     "password": "ecsAdmin@2026",
-    "token": "46e9829zes6modogrj8"
+    "token": "1pwh6n94zzxmp3gmw35"
   }
 }

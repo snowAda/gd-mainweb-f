@@ -73,9 +73,9 @@ const messages = {
     aboutPartners: '客户及合作伙伴',
     
     aboutContact: '联系我们',
-    aboutAddress: '地址：南京市玄武区徐庄软件园',
-    aboutPhone: '电话：025-12345678',
-    aboutEmail: '邮箱：contact@gaia-ai.com',
+    aboutAddress: '地址：江苏省南京市鼓楼区集庆门大街 268 号',
+    aboutPhone: '电话：(86) 189-5167-8898',
+    aboutEmail: '邮箱：marketing@gdi-tech.com',
     
     // 解决方案页面
     solutionsPageTitle: '解决方案',
@@ -149,6 +149,32 @@ const messages = {
     productItem7: '视频质量监测',
     productItem8: '视频转码网关',
     productItem9: '视频汇聚管理',
+
+    loading: '加载中...',
+    footerCopyrightLeft: '版权所有© 南京果动智能科技有限公司',
+    footerCopyrightRight: '人工智能·科技赋能',
+    aboutOfficeImageAlt: '办公环境',
+    aboutPartnersImageAlt: '客户及合作伙伴',
+    aboutPartnersSubtitle: '客户与合作伙伴',
+    contactWelcomeTitle: '欢迎与我们联系',
+    contactWelcomeSubtitle: '我们期待与您的合作。',
+    contactCompanyNameDisplay: '南京果动智能科技有限公司',
+    contactAddressGulou: '江苏省南京市鼓楼区集庆门大街268号',
+    contactPhoneDisplay: '(86) 189-5167-8898',
+    contactEmailDisplay: 'marketing@gdi-tech.com',
+    mapMarkerTitle: '南京果动智能科技有限公司',
+    mapLineAddress: '地址：江苏省南京市鼓楼区集庆门大街268号',
+    mapLinePhone: '电话：(86) 189-5167-8898',
+    mapLineEmail: '邮箱：marketing@gdi-tech.com',
+    categoryAll: '全部',
+    solutionDetailNoDescription: '暂无解决方案描述',
+    productDetailNoDescription: '暂无产品描述',
+    download: '下载',
+    materialTypeImage: '图片',
+    materialTypeVideo: '视频',
+    materialTypeDocument: '文档',
+    materialTypeOther: '其他',
+    mediaVideo: '视频',
   },
   
   'en-US': {
@@ -156,7 +182,7 @@ const messages = {
     home: 'Home',
     about: 'About Us',
     solutions: 'Solutions',
-    products: 'Products & Services',
+    products: 'Products\u00A0&\u00A0Services',
     
     // 首页
     sliderSubtitle: 'SMART TECHNOLOGY EMPOWERMENT ENGINE',
@@ -164,7 +190,7 @@ const messages = {
     sliderDescription: 'Artificial Intelligence + Digital Infrastructure, Empowering Industry Innovation',
     
     aboutSection: 'About Us',
-    aboutDescription: 'Nanjing Gaia Intelligent Technology Co., Ltd. was established in 2019\nThe company has established a second R&D center in Shijiazhuang\nFocused on empowering traditional industries with leading artificial intelligence, Internet of Things, and big data technologies\nRich experience in integrating AI vision, large models, IoT, and big data technologies\nCore team members have rich experience in artificial intelligence, Internet software and hardware\nThrough AI injection into production and business processes, reduce enterprise costs and improve customer perception\nThe company insists on independent original applications and deep integration with technology partners',
+    aboutDescription: 'GDIINTELLIGENCE PTE. LTD. was established in 2019\nThe company has established a second R&D center in Shijiazhuang\nFocused on empowering traditional industries with leading artificial intelligence, Internet of Things, and big data technologies\nRich experience in integrating AI vision, large models, IoT, and big data technologies\nCore team members have rich experience in artificial intelligence, Internet software and hardware\nThrough AI injection into production and business processes, reduce enterprise costs and improve customer perception\nThe company insists on independent original applications and deep integration with technology partners',
     
     solutionsSection: 'Solutions',
     solutionsDescription: 'Building AI CITY with artificial intelligence + IoT technology, providing one-stop smart space management solutions for governments and enterprises, including urban management, safety supervision, smart factories, smart manufacturing, and other smart space management solutions, covering home, commercial and industrial scenarios.',
@@ -188,7 +214,7 @@ const messages = {
     solution5Title: 'Learn More',
     solution5Description: 'Get detailed content and learn more about our services',
     
-    productsSection: 'Products & Services',
+    productsSection: 'Products\u00A0&\u00A0Services',
     productsDescription: 'Building smart life with artificial intelligence + digital infrastructure technology, providing intelligent solutions for home, commercial and industrial scenarios, and improving user experience.',
     
     product1Title: 'Smart Space Management',
@@ -208,11 +234,11 @@ const messages = {
     
     productMore: 'More >>>',
     
-    copyright: 'Copyright © Nanjing Gaia Intelligent Technology Co., Ltd. Beijing ICP No. 12345678 Artificial Intelligence · Technology Empowerment',
+    copyright: 'Copyright © GDIINTELLIGENCE PTE. LTD.  ICP',
     
     // 关于我们页面
     aboutPageTitle: 'Company Profile',
-    aboutPageDescription: 'Nanjing Gaia Intelligent Technology Co., Ltd. was established in 2019. The company has established a second R&D center in Shijiazhuang, focusing on empowering traditional industries with leading artificial intelligence, Internet of Things, and big data technologies.',
+    aboutPageDescription: 'GDIINTELLIGENCE PTE. LTD. was established in 2019. The company has established a second R&D center in Shijiazhuang, focusing on empowering traditional industries with leading artificial intelligence, Internet of Things, and big data technologies.',
     
     aboutFeature1: 'The company has accumulated rich experience in AI vision and smart space management project implementation, forming a complete project delivery system, providing standardized and customized solutions for various types of projects. Relying on strategic cooperation mechanisms with advanced AI field enterprises, it actively carries out international market layout, achieving steady business expansion and continuous improvement of brand influence worldwide.',
     
@@ -224,8 +250,8 @@ const messages = {
     
     aboutContact: 'Contact Us',
     aboutAddress: 'Address: Xuzhuang Software Park, Xuanwu District, Nanjing',
-    aboutPhone: 'Phone: 025-12345678',
-    aboutEmail: 'Email: contact@gaia-ai.com',
+    aboutPhone: 'Phone: (86) 189-5167-8898',
+    aboutEmail: 'Email: marketing@gdi-tech.com',
     
     // 解决方案页面
     solutionsPageTitle: 'Solutions',
@@ -272,8 +298,8 @@ const messages = {
     paginationNext: 'Next Page',
     
     // 产品服务页面
-    productsPageTitle: 'Products & Services',
-    productsBreadcrumb: 'Products & Services',
+    productsPageTitle: 'Products\u00A0&\u00A0Services',
+    productsBreadcrumb: 'Products\u00A0&\u00A0Services',
     
     productCategory1: 'Smart Space Management',
     productCategory2: 'Smart Factory',
@@ -299,6 +325,32 @@ const messages = {
     productItem7: 'Video Quality Monitoring',
     productItem8: 'Video Transcoding Gateway',
     productItem9: 'Video Convergence Management',
+
+    loading: 'Loading...',
+    footerCopyrightLeft: 'Copyright © GDIINTELLIGENCE PTE. LTD.',
+    footerCopyrightRight: 'AI · Technology Empowerment',
+    aboutOfficeImageAlt: 'Office environment',
+    aboutPartnersImageAlt: 'Customers and partners',
+    aboutPartnersSubtitle: 'Customers & Partners',
+    contactWelcomeTitle: 'Get in touch',
+    contactWelcomeSubtitle: 'We look forward to working with you.',
+    contactCompanyNameDisplay: 'GDIINTELLIGENCE PTE. LTD.',
+    contactAddressGulou: 'No. 268 Jiqingmen Avenue, Gulou District, Nanjing, Jiangsu Province',
+    contactPhoneDisplay: '(86) 189-5167-8898',
+    contactEmailDisplay: 'marketing@gdi-tech.com',
+    mapMarkerTitle: 'GDIINTELLIGENCE PTE. LTD.',
+    mapLineAddress: 'Address: No. 268 Jiqingmen Avenue, Gulou District, Nanjing, Jiangsu Province',
+    mapLinePhone: 'Tel: (86) 189-5167-8898',
+    mapLineEmail: 'Email: marketing@gdi-tech.com',
+    categoryAll: 'All',
+    solutionDetailNoDescription: 'No solution description available.',
+    productDetailNoDescription: 'No product description available.',
+    download: 'Download',
+    materialTypeImage: 'Image',
+    materialTypeVideo: 'Video',
+    materialTypeDocument: 'Document',
+    materialTypeOther: 'Other',
+    mediaVideo: 'Video',
   },
   
   'ja-JP': {
@@ -374,8 +426,8 @@ const messages = {
     
     aboutContact: 'お問い合わせ',
     aboutAddress: '住所：南京市玄武区徐荘ソフトウェアパーク',
-    aboutPhone: '電話：025-12345678',
-    aboutEmail: 'メール：contact@gaia-ai.com',
+    aboutPhone: '電話：(86) 189-5167-8898',
+    aboutEmail: 'メール：marketing@gdi-tech.com',
     
     // 解决方案页面
     solutionsPageTitle: 'ソリューション',
@@ -449,6 +501,32 @@ const messages = {
     productItem7: 'ビデオ品質監視',
     productItem8: 'ビデオトランスコーディングゲートウェイ',
     productItem9: 'ビデオ収束管理',
+
+    loading: '読み込み中...',
+    footerCopyrightLeft: '©南京ガイアインテリジェントテクノロジー株式会社',
+    footerCopyrightRight: '人工知能・技術赋能',
+    aboutOfficeImageAlt: 'オフィス環境',
+    aboutPartnersImageAlt: '顧客およびパートナー',
+    aboutPartnersSubtitle: '顧客とパートナー',
+    contactWelcomeTitle: 'お問い合わせ',
+    contactWelcomeSubtitle: 'ご協力をお待ちしております。',
+    contactCompanyNameDisplay: '南京ガイアインテリジェントテクノロジー株式会社',
+    contactAddressGulou: '江蘇省南京市鼓楼区集慶門大街268号',
+    contactPhoneDisplay: '(86) 189-5167-8898',
+    contactEmailDisplay: 'marketing@gdi-tech.com',
+    mapMarkerTitle: '南京ガイアインテリジェントテクノロジー株式会社',
+    mapLineAddress: '住所：江蘇省南京市鼓楼区集慶門大街268号',
+    mapLinePhone: '電話：(86) 189-5167-8898',
+    mapLineEmail: 'メール：marketing@gdi-tech.com',
+    categoryAll: 'すべて',
+    solutionDetailNoDescription: 'ソリューションの説明はありません。',
+    productDetailNoDescription: '製品の説明はありません。',
+    download: 'ダウンロード',
+    materialTypeImage: '画像',
+    materialTypeVideo: '動画',
+    materialTypeDocument: 'ドキュメント',
+    materialTypeOther: 'その他',
+    mediaVideo: '動画',
   }
 }
 

@@ -2,6 +2,8 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { currentLocale, setLocale, getMessages } from '../i18n'
+import { withLocale, normalizeCategoryApiRow, normalizeListApiRow } from '../utils/apiLocale.js'
+import { fetchApiJson } from '../utils/fetchApi.js'
 
 const route = useRoute()
 
@@ -70,13 +72,12 @@ const selectCategory = (categoryId) => {
 const fetchSolutions = async (page = 1, categoryId = null) => {
   try {
     loading.value = true
-    let url = `/api/solutions?page=${page}&pageSize=${itemsPerPage}`
+    let url = withLocale(`/api/solutions?page=${page}&pageSize=${itemsPerPage}`)
     if (categoryId) {
       url += `&category_id=${categoryId}`
     }
-    const response = await fetch(url)
-    const data = await response.json()
-    solutions.value = data.solutions
+    const data = await fetchApiJson(url)
+    solutions.value = (data.solutions || []).map((s) => normalizeListApiRow(s))
     totalPages.value = data.pagination.totalPages
     currentPage.value = data.pagination.page
   } catch (error) {
@@ -111,16 +112,24 @@ const processCategories = (categories) => {
   return rootCategories
 }
 
-onMounted(async () => {
-  // 获取分类数据
+const fetchCategories = async () => {
   try {
-    const response = await fetch('/api/solutions/categories')
-    const data = await response.json()
-    categories.value = processCategories(data)
+    const data = await fetchApiJson(withLocale('/api/solutions/categories'))
+    const flat = Array.isArray(data) ? data.map((c) => normalizeCategoryApiRow(c)) : []
+    categories.value = processCategories(flat)
   } catch (error) {
     console.error('Failed to fetch categories data:', error)
   }
-  
+}
+
+watch(currentLocale, async () => {
+  await fetchCategories()
+  await fetchSolutions(currentPage.value, selectedCategoryId.value)
+})
+
+onMounted(async () => {
+  await fetchCategories()
+
   // 获取解决方案数据
   await fetchSolutions()
   
@@ -248,7 +257,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
         <div class="solutions-main">
           <div class="solutions-page-grid">
             <template v-if="loading">
-              <div class="loading">加载中...</div>
+              <div class="loading">{{ t('loading') }}</div>
             </template>
             <template v-else>
               <router-link v-for="solution in solutions" :key="solution.id" :to="`/solutions/${solution.id}`" class="solution-item-link">
@@ -278,9 +287,9 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
       <div class="footer-container">
         <div class="footer-content">
           <div class="copyright-area">
-            <div class="copyright-left">版权所有© 南京果动智能科技有限公司</div>
+            <div class="copyright-left">{{ t('footerCopyrightLeft') }}</div>
             <div class="copyright-center"><a href="https://beian.miit.gov.cn/" target="_blank" style="color: inherit; text-decoration: none;" v-if="beianCode">{{ beianCode }}</a></div>
-            <div class="copyright-right">人工智能·科技赋能</div>
+            <div class="copyright-right">{{ t('footerCopyrightRight') }}</div>
           </div>
         </div>
       </div>
@@ -321,7 +330,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 
 .nav {
   flex: 1;
-  margin-left: 263px;
+  margin-left: 180px;
 }
 
 .w-nav {
@@ -431,18 +440,22 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 }
 
 .solutions-s-bg-title {
-  font-size: 96px;
+  font-size: clamp(32px, 8vw, 96px);
   font-weight: bold;
   color: rgba(255, 255, 255, 0.2);
   font-family: Arial Black, sans-serif;
   margin-bottom: 20px;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .solutions-s-title {
-  font-size: 48px;
+  font-size: clamp(18px, 3.5vw, 48px);
   font-weight: bold;
   color: #fff;
   font-family: Source Han Sans, Geneva, sans-serif;
+  line-height: 1.15;
+  white-space: nowrap;
 }
 
 /* 面包屑导航样式 */
@@ -697,5 +710,12 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 
 .copyright-right {
   text-align: right;
+}
+
+@media (max-width: 640px) {
+  .solutions-s-bg-title,
+  .solutions-s-title {
+    white-space: normal;
+  }
 }
 </style>

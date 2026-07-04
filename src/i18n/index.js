@@ -1,8 +1,8 @@
 import { ref, reactive, watch } from 'vue';
 import messages from './messages';
 
-// 默认语言为简体中文
-const currentLocale = ref('zh-CN');
+// 默认语言为英文
+const currentLocale = ref('en-US');
 
 // 语言列表
 const locales = [

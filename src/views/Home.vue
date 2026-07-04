@@ -13,8 +13,8 @@ onMounted(() => {
 })
 
 const languages = [
+{ id: '1', culture: 'en-US', name: 'English', flag: 'us.png' },
   { id: '2', culture: 'zh-CN', name: '简体中文', flag: 'cn.png' },
-  { id: '1', culture: 'en-US', name: 'English', flag: 'us.png' },
   { id: '3', culture: 'ja-JP', name: '日本語', flag: 'jp.png' }
 ]
 
@@ -175,14 +175,8 @@ onUnmounted(() => {
             </div>
           </div>
           <div class="about-text-wrapper">
-            <p class="about-description" :class="{ 'animate-fade-down': isAboutVisible }">
-              南京果动智能科技有限公司成立于2019年<br>
-              公司在石家庄设立第二研发中心<br>
-              专注于将领先的人工智能、物联网和大数据技术赋能传统行业<br>
-              AI视觉、大模型、IoT和大数据技术整合应用积累丰富经验<br>
-              团队核心成员拥有人工智能、互联网软硬件的丰富经验<br>
-              通过对生产和业务流程的人工智能注入，降低企业成本、提升客户感知<br>
-              公司坚持自研原创应用，并与技术合作伙伴深度共融
+            <p class="about-description" :class="{ 'animate-fade-down': isAboutVisible }" style="white-space: pre-line">
+              {{ t('aboutDescription') }}
             </p>
           </div>
         </div>
@@ -202,7 +196,7 @@ onUnmounted(() => {
               </svg>
             </div>
             <p class="about-feature-description" :class="{ 'animate-fade-down': isAboutVisible }">
-              公司积累深厚的AI视觉及智能空间管理项目实施经验，形成完备的项目交付体系，为各类类型项目提供标准化、定制化的解决方案。凭借与先进AI领域企业的战略合作机制，积极开展国际化市场布局，在全球范围内实现业务的稳健拓展与品牌影响力的持续提升。
+              {{ t('aboutFeature1') }}
             </p>
           </div>
           <div class="about-feature">
@@ -213,7 +207,7 @@ onUnmounted(() => {
               </svg>
             </div>
             <p class="about-feature-description" :class="{ 'animate-fade-down': isAboutVisible }">
-              公司掌握AI工业检测领域前沿技术，以全球领先的技术研发成果构建行业技术壁垒，同时储备先进的AI模型研发能力，在工业级技术领域形成显著的技术领先优势与核心竞争力。
+              {{ t('aboutFeature2') }}
             </p>
           </div>
           <div class="about-feature">
@@ -225,7 +219,7 @@ onUnmounted(() => {
               </svg>
             </div>
             <p class="about-feature-description" :class="{ 'animate-fade-down': isAboutVisible }">
-              依托顶尖院校的科研资源协同，整合优质企业合作生态，构建专业化研发与实施团队。团队在AI、大模型、大数据、物联网等技术领域拥有深厚的技术实力、高效的项目交付能力与突出的成本控制优势，构建起企业可持续发展的核心支撑体系。
+              {{ t('aboutFeature3') }}
             </p>
           </div>
         </div>
@@ -291,7 +285,7 @@ onUnmounted(() => {
     <section class="products-services">
       <div class="products-services-container">
         <div class="products-services-header">
-          <h1 class="products-services-bg-title">Products & Services.</h1>
+          <h1 class="products-services-bg-title">Products&Services.</h1>
           <h2 class="products-services-title">{{ t('productsSection') }}</h2>
           <div class="products-services-line"></div>
         </div>
@@ -383,9 +377,9 @@ onUnmounted(() => {
       <div class="footer-container">
         <div class="footer-content">
           <div class="copyright-area">
-            <div class="copyright-left">版权所有© 南京果动智能科技有限公司</div>
+            <div class="copyright-left">{{ t('footerCopyrightLeft') }}</div>
             <div class="copyright-center"><a href="https://beian.miit.gov.cn/" target="_blank" style="color: inherit; text-decoration: none;" v-if="beianCode">{{ beianCode }}</a></div>
-            <div class="copyright-right">人工智能·科技赋能</div>
+            <div class="copyright-right">{{ t('footerCopyrightRight') }}</div>
           </div>
         </div>
       </div>
@@ -426,7 +420,7 @@ onUnmounted(() => {
 
 .nav {
   flex: 1;
-  margin-left: 263px;
+  margin-left: 180px;
 }
 
 .w-nav {
@@ -718,16 +712,18 @@ onUnmounted(() => {
 }
 
 .solutions-bg-title {
-  font-size: 96px;
+  font-size: clamp(40px, 10vw, 96px);
   font-weight: bold;
   color: rgba(255, 255, 255, 0.2);
   font-family: Arial Black, sans-serif;
   z-index: 0;
   margin-bottom: 0;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .solutions-title {
-  font-size: 48px;
+  font-size: clamp(22px, 4.5vw, 48px);
   font-weight: bold;
   color: #fff;
   margin-bottom: 20px;
@@ -735,6 +731,8 @@ onUnmounted(() => {
   position: relative;
   z-index: 1;
   margin-top: -10px;
+  line-height: 1.15;
+  white-space: nowrap;
 }
 
 .solutions-line {
@@ -1244,16 +1242,20 @@ onUnmounted(() => {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 72px;
+  font-size: clamp(36px, 8vw, 72px);
   font-weight: bold;
   color: rgba(0, 0, 0, 0.05);
   font-family: Arial Black, sans-serif;
   z-index: 0;
   white-space: nowrap;
+  line-height: 1;
+  max-width: 100%;
+  padding: 0 12px;
+  box-sizing: border-box;
 }
 
 .products-services-title {
-  font-size: 36px;
+  font-size: clamp(20px, 3.2vw, 36px);
   font-weight: bold;
   color: #333;
   margin-top: 90px;
@@ -1261,6 +1263,8 @@ onUnmounted(() => {
   font-family: Source Han Sans, Geneva, sans-serif;
   position: relative;
   z-index: 1;
+  line-height: 1.15;
+  white-space: nowrap;
 }
 
 .products-services-line {
@@ -1318,11 +1322,12 @@ onUnmounted(() => {
 }
 
 .product-title {
-  font-size: 18px;
+  font-size: clamp(15px, 1.05vw + 12px, 18px);
   font-weight: bold;
   color: #856dcc;
   margin-bottom: 10px;
   font-family: Source Han Sans, Geneva, sans-serif;
+  line-height: 1.25;
 }
 
 .product-description {
@@ -1410,5 +1415,14 @@ onUnmounted(() => {
 
 .copyright-right {
   text-align: right;
+}
+
+@media (max-width: 640px) {
+  .solutions-bg-title,
+  .solutions-title,
+  .products-services-bg-title,
+  .products-services-title {
+    white-space: normal;
+  }
 }
 </style>

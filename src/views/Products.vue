@@ -2,6 +2,8 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { currentLocale, setLocale, getMessages } from '../i18n'
+import { withLocale, normalizeCategoryApiRow, normalizeListApiRow } from '../utils/apiLocale.js'
+import { fetchApiJson } from '../utils/fetchApi.js'
 
 const route = useRoute()
 
@@ -70,13 +72,12 @@ const selectCategory = (categoryId) => {
 const fetchProducts = async (page = 1, categoryId = null) => {
   try {
     loading.value = true
-    let url = `/api/products?page=${page}&pageSize=${itemsPerPage}`
+    let url = withLocale(`/api/products?page=${page}&pageSize=${itemsPerPage}`)
     if (categoryId) {
       url += `&category_id=${categoryId}`
     }
-    const response = await fetch(url)
-    const data = await response.json()
-    products.value = data.products
+    const data = await fetchApiJson(url)
+    products.value = (data.products || []).map((p) => normalizeListApiRow(p))
     totalPages.value = data.pagination.totalPages
     currentPage.value = data.pagination.page
   } catch (error) {
@@ -111,16 +112,24 @@ const processCategories = (categories) => {
   return rootCategories
 }
 
-onMounted(async () => {
-  // 获取分类数据
+const fetchCategories = async () => {
   try {
-    const response = await fetch('/api/products/categories')
-    const data = await response.json()
-    categories.value = processCategories(data)
+    const data = await fetchApiJson(withLocale('/api/products/categories'))
+    const flat = Array.isArray(data) ? data.map((c) => normalizeCategoryApiRow(c)) : []
+    categories.value = processCategories(flat)
   } catch (error) {
     console.error('Failed to fetch categories data:', error)
   }
-  
+}
+
+watch(currentLocale, async () => {
+  await fetchCategories()
+  await fetchProducts(currentPage.value, selectedCategoryId.value)
+})
+
+onMounted(async () => {
+  await fetchCategories()
+
   // 获取产品数据
   await fetchProducts()
   
@@ -207,7 +216,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
     <!-- 页面头部 -->
     <section class="products-header-section">
       <div class="products-header-content">
-        <h1 class="products-bg-title">Products & Service.</h1>
+        <h1 class="products-bg-title">Products&Services</h1>
         <h2 class="products-title">{{ t('productsPageTitle') }}</h2>
       </div>
     </section>
@@ -235,7 +244,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
         <!-- 左侧导航 -->
         <div class="products-sidebar">
           <div class="solution-category">
-            <h3 class="category-title" @click="selectCategory(null)" :class="{ 'active': selectedCategoryId === null }" style="cursor: pointer;">全部</h3>
+            <h3 class="category-title" @click="selectCategory(null)" :class="{ 'active': selectedCategoryId === null }" style="cursor: pointer;">{{ t('categoryAll') }}</h3>
           </div>
           <div v-for="category in categories" :key="category.id" class="solution-category">
             <h3 class="category-title" @click="selectCategory(category.id)" :class="{ 'active': selectedCategoryId === category.id }" style="cursor: pointer;">{{ category.name }}</h3>
@@ -251,7 +260,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
         <div class="products-main">
           <div class="products-grid">
             <template v-if="loading">
-              <div class="loading">加载中...</div>
+              <div class="loading">{{ t('loading') }}</div>
             </template>
             <template v-else>
               <router-link v-for="product in products" :key="product.id" :to="`/products/${product.id}`" class="product-item-link">
@@ -281,9 +290,9 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
       <div class="footer-container">
         <div class="footer-content">
           <div class="copyright-area">
-            <div class="copyright-left">版权所有© 南京果动智能科技有限公司</div>
+            <div class="copyright-left">{{ t('footerCopyrightLeft') }}</div>
             <div class="copyright-center"><a href="https://beian.miit.gov.cn/" target="_blank" style="color: inherit; text-decoration: none;" v-if="beianCode">{{ beianCode }}</a></div>
-            <div class="copyright-right">人工智能·科技赋能</div>
+            <div class="copyright-right">{{ t('footerCopyrightRight') }}</div>
           </div>
         </div>
       </div>
@@ -324,7 +333,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 
 .nav {
   flex: 1;
-  margin-left: 263px;
+  margin-left: 180px;
 }
 
 .w-nav {
@@ -434,18 +443,22 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 }
 
 .products-bg-title {
-  font-size: 96px;
+  font-size: clamp(32px, 8vw, 96px);
   font-weight: bold;
   color: rgba(255, 255, 255, 0.2);
   font-family: Arial Black, sans-serif;
   margin-bottom: 20px;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .products-title {
-  font-size: 48px;
+  font-size: clamp(18px, 3.5vw, 48px);
   font-weight: bold;
   color: #fff;
   font-family: Source Han Sans, Geneva, sans-serif;
+  line-height: 1.15;
+  white-space: nowrap;
 }
 
 /* 面包屑导航样式 */
@@ -692,5 +705,12 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 
 .copyright-right {
   text-align: right;
+}
+
+@media (max-width: 640px) {
+  .products-bg-title,
+  .products-title {
+    white-space: normal;
+  }
 }
 </style>

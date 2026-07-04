@@ -84,8 +84,8 @@ const fetchAdminInfo = async () => {
 const fetchProducts = async () => {
  try {
  const url = searchKeyword.value
- ? `/api/products?search=${encodeURIComponent(searchKeyword.value)}&page=${currentPage.value}&pageSize=${pageSize.value}`
- : `/api/products?page=${currentPage.value}&pageSize=${pageSize.value}`;
+ ? `/api/products?search=${encodeURIComponent(searchKeyword.value)}&page=${currentPage.value}&pageSize=${pageSize.value}&locale=zh-CN`
+ : `/api/products?page=${currentPage.value}&pageSize=${pageSize.value}&locale=zh-CN`;
  const response = await fetch(url);
  const result = await response.json();
  if (result && result.products) {
@@ -101,8 +101,8 @@ const fetchProducts = async () => {
 const fetchSolutions = async () => {
  try {
  const url = searchKeyword.value
- ? `/api/solutions?search=${encodeURIComponent(searchKeyword.value)}&page=${currentPage.value}&pageSize=${pageSize.value}`
- : `/api/solutions?page=${currentPage.value}&pageSize=${pageSize.value}`;
+ ? `/api/solutions?search=${encodeURIComponent(searchKeyword.value)}&page=${currentPage.value}&pageSize=${pageSize.value}&locale=zh-CN`
+ : `/api/solutions?page=${currentPage.value}&pageSize=${pageSize.value}&locale=zh-CN`;
  const response = await fetch(url);
  const result = await response.json();
  if (result && result.solutions) {
@@ -118,8 +118,8 @@ const fetchSolutions = async () => {
 const fetchCategories = async () => {
  try {
  const [productCatRes, solutionCatRes] = await Promise.all([
- fetch('/api/products/categories'),
- fetch('/api/solutions/categories')
+ fetch('/api/products/categories?locale=zh-CN'),
+ fetch('/api/solutions/categories?locale=zh-CN')
  ]);
  const productCats = await productCatRes.json();
  const solutionCats = await solutionCatRes.json();
@@ -193,8 +193,8 @@ const openDetailModal = async (item) => {
   
   try {
     const url = activeTab.value === 'products'
-      ? `/api/products/${item.id}/detail`
-      : `/api/solutions/${item.id}/detail`;
+      ? `/api/products/${item.id}/detail?locale=zh-CN`
+      : `/api/solutions/${item.id}/detail?locale=zh-CN`;
     
     const response = await fetch(url);
     const result = await response.json();

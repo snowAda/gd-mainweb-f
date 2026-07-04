@@ -40,6 +40,8 @@ onMounted(() => {
   const amapKey = 'b06109ccb45448efe653427c1e529e3b' // 这里需要替换为实际的API密钥
   script.src = `https://webapi.amap.com/maps?v=2.0&key=${amapKey}`
   script.onload = function() {
+    const m = getMessages()
+    const loc = (k) => m[k] || k
     // 初始化地图 - 用户指定的位置
     const map = new AMap.Map('map-container', {
       zoom: 17,
@@ -49,7 +51,7 @@ onMounted(() => {
     // 添加大头针标记
     const marker = new AMap.Marker({
       position: [118.725128, 32.03724], // 用户指定的准确坐标
-      title: '南京果动智能科技有限公司',
+      title: loc('mapMarkerTitle'),
       icon: new AMap.Icon({
         size: new AMap.Size(30, 40), // 图标大小
         image: 'https://webapi.amap.com/theme/v1.3/markers/n/mark_b.png', // 大头针图标
@@ -63,10 +65,10 @@ onMounted(() => {
     const infoWindow = new AMap.InfoWindow({
       content: `
         <div style="padding: 10px;">
-          <h3>南京果动智能科技有限公司</h3>
-          <p>地址：江苏省南京市鼓楼区集庆门大街268号</p>
-          <p>电话：(86) 189-5167-8898</p>
-          <p>邮箱：marketing@guodong-cn.com</p>
+          <h3>${loc('mapMarkerTitle')}</h3>
+          <p>${loc('mapLineAddress')}</p>
+          <p>${loc('mapLinePhone')}</p>
+          <p>${loc('mapLineEmail')}</p>
         </div>
       `,
       offset: new AMap.Pixel(0, -30)
@@ -144,7 +146,7 @@ onMounted(() => {
     <section class="about-header-section">
       <div class="about-header-content" :class="{ 'animate-slide-left': isHeaderVisible }">
         <h1 class="about-s-bg-title">Company.</h1>
-        <h2 class="about-s-title">公司简介</h2>
+        <h2 class="about-s-title">{{ t('aboutPageTitle') }}</h2>
         <p class="about-header-description">
           {{ t('aboutPageDescription') }}
         </p>
@@ -208,7 +210,7 @@ onMounted(() => {
           </div>
         </div>
         <div class="about-detail-image">
-          <img src="/pexels-photo-447592.jpeg" alt="办公环境" />
+          <img src="/pexels-photo-447592.jpeg" :alt="t('aboutOfficeImageAlt')" />
         </div>
       </div>
     </section>
@@ -218,11 +220,11 @@ onMounted(() => {
       <div class="about-partners-container">
         <div class="about-partners-content">
           <div class="about-partners-image">
-            <img src="/10977155.jpg" alt="客户及合作伙伴" />
+            <img src="/10977155.jpg" :alt="t('aboutPartnersImageAlt')" />
           </div>
           <div class="about-partners-title">
             <h3>{{ t('aboutPartners') }}</h3>
-            <p>Customers & Partners</p>
+            <p>{{ t('aboutPartnersSubtitle') }}</p>
           </div>
         </div>
       </div>
@@ -233,25 +235,25 @@ onMounted(() => {
       <div class="about-contact-container">
         <div class="about-contact-content">
           <div class="contact-header">
-            <h2 class="contact-title">欢迎与我们联系</h2>
-            <p class="contact-subtitle">我们期待与您的合作。</p>
+            <h2 class="contact-title">{{ t('contactWelcomeTitle') }}</h2>
+            <p class="contact-subtitle">{{ t('contactWelcomeSubtitle') }}</p>
           </div>
           <div class="contact-info">
             <p class="contact-item">
               <span class="contact-icon">🏢</span>
-              <span>南京果动智能科技有限公司</span>
+              <span>{{ t('contactCompanyNameDisplay') }}</span>
             </p>
             <p class="contact-item">
               <span class="contact-icon">📍</span>
-              <span>江苏省南京市鼓楼区集庆门大街268号</span>
+              <span>{{ t('contactAddressGulou') }}</span>
             </p>
             <p class="contact-item">
               <span class="contact-icon">📞</span>
-              <span>(86) 189-5167-8898</span>
+              <span>{{ t('contactPhoneDisplay') }}</span>
             </p>
             <p class="contact-item">
               <span class="contact-icon">📧</span>
-              <span>marketing@guodong-cn.com</span>
+              <span>{{ t('contactEmailDisplay') }}</span>
             </p>
           </div>
         </div>
@@ -266,9 +268,9 @@ onMounted(() => {
       <div class="footer-container">
         <div class="footer-content">
           <div class="copyright-area">
-            <div class="copyright-left">版权所有© 南京果动智能科技有限公司</div>
+            <div class="copyright-left">{{ t('footerCopyrightLeft') }}</div>
             <div class="copyright-center"><a href="https://beian.miit.gov.cn/" target="_blank" style="color: inherit; text-decoration: none;" v-if="beianCode">{{ beianCode }}</a></div>
-            <div class="copyright-right">人工智能·科技赋能</div>
+            <div class="copyright-right">{{ t('footerCopyrightRight') }}</div>
           </div>
         </div>
       </div>
@@ -309,7 +311,7 @@ onMounted(() => {
 
 .nav {
   flex: 1;
-  margin-left: 263px;
+  margin-left: 180px;
 }
 
 .w-nav {

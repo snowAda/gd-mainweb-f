@@ -288,3 +288,16 @@ code {
     border-right-color: var(--border);
   }
 }
+
+.w-nav-item-link {
+  margin-left: -20px;
+}
+
+.w-nav-inner {
+  margin-left: -1.5px;
+  margin-right: -1.5px;
+}
+
+nav.nav {
+  margin-left: 120px;
+}
