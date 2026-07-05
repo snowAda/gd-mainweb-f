@@ -7,6 +7,10 @@ const messages = {
     solutions: '解决方案',
     products: '产品服务',
     
+    // 404 页面
+    pageNotFound: '页面未找到',
+    goHome: '返回首页',
+    
     // 首页
     sliderSubtitle: 'SMART TECHNOLOGY EMPOWERMENT ENGINE',
     sliderTitle: '智能科技赋能引擎',
@@ -184,16 +188,20 @@ const messages = {
     solutions: 'Solutions',
     products: 'Products & Services',
     
+    // 404 页面
+    pageNotFound: 'Page Not Found',
+    goHome: 'Go Back Home',
+    
     // 首页
     sliderSubtitle: 'SMART TECHNOLOGY EMPOWERMENT ENGINE',
     sliderTitle: 'Smart Technology Empowerment Engine',
     sliderDescription: 'Artificial Intelligence + Digital Infrastructure, Empowering Industry Innovation',
     
     aboutSection: 'About Us',
-    aboutDescription: 'GDIINTELLIGENCE PTE. LTD. was established in 2019\nThe company has established a second R&D center in Shijiazhuang\nFocused on empowering traditional industries with leading artificial intelligence, Internet of Things, and big data technologies\nRich experience in integrating AI vision, large models, IoT, and big data technologies\nCore team members have rich experience in artificial intelligence, Internet software and hardware\nThrough AI injection into production and business processes, reduce enterprise costs and improve customer perception\nThe company insists on independent original applications and deep integration with technology partners',
+    aboutDescription: 'GDIINTELLIGENCE PTE. LTD. was established in 2019\nWe have established a second R&D center in Shijiazhuang\nWe specialize in empowering traditional industries with cutting-edge AI, IoT, and big data technologies\nOur team has extensive experience in integrating AI vision, large language models, IoT, and big data\nCore team members bring deep expertise in artificial intelligence, internet software, and hardware\nBy infusing AI into production and business processes, we help enterprises reduce costs and enhance customer experiences\nWe are committed to developing proprietary applications while fostering deep collaboration with technology partners',
     
     solutionsSection: 'Solutions',
-    solutionsDescription: 'Building AI CITY with artificial intelligence + IoT technology, providing one-stop smart space management solutions for governments and enterprises, including urban management, safety supervision, smart factories, smart manufacturing, and other smart space management solutions, covering home, commercial and industrial scenarios.',
+    solutionsDescription: 'We build AI CITY using artificial intelligence and IoT technology, delivering comprehensive smart space management solutions for governments and enterprises. Our offerings include urban management, safety supervision, smart factories, and intelligent manufacturing — covering residential, commercial, and industrial environments.',
     
     solution1Subtitle: 'Gaia Software Platform',
     solution1Title: 'Smart Manufacturing',
@@ -359,6 +367,10 @@ const messages = {
     about: '会社概要',
     solutions: 'ソリューション',
     products: '製品・サービス',
+    
+    // 404 页面
+    pageNotFound: 'ページが見つかりません',
+    goHome: 'ホームに戻る',
     
     // 首页
     sliderSubtitle: 'スマートテクノロジーエンパワーメントエンジン',

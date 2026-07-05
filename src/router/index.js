@@ -5,6 +5,7 @@ import Solutions from '../views/Solutions.vue'
 import SolutionDetail from '../views/SolutionDetail.vue'
 import Products from '../views/Products.vue'
 import ProductDetail from '../views/ProductDetail.vue'
+import NotFound from '../views/NotFound.vue'
 
 const routes = [
   {
@@ -58,6 +59,12 @@ if (enableAdmin) {
     }
   )
 }
+
+routes.push({
+  path: '/:pathMatch(.*)*',
+  name: 'NotFound',
+  component: NotFound
+})
 
 const router = createRouter({
   history: createWebHistory(),

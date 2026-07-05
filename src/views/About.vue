@@ -126,18 +126,21 @@ onMounted(() => {
           </ul>
         </nav>
         <div class="language-selector">
-          <ul class="w-language-group">
-            <li class="w-language-item" v-for="lang in languages" :key="lang.id">
-              <a href="javascript:void(0)" class="w-language-link" :languageid="lang.id" :languageculture="lang.culture" @click="changeLanguage(lang.id, lang.culture)">
-                <span class="w-language-img">
-                  <img :src="`/${lang.flag}`" :alt="lang.name" />
-                  <span class="w-language-img-line"></span>
-                </span>
-                <span>{{ lang.name }}</span>
-              </a>
-              <span class="w-language-item-line"></span>
-            </li>
-          </ul>
+          <div class="language-selector-title">
+            <img :src="`/${languages.find(lang => lang.culture === currentLocale).flag}`" :alt="currentLocale" />
+            <span>{{ languages.find(lang => lang.culture === currentLocale).name }}</span>
+          </div>
+          <div class="language-selector-dropdown">
+            <div 
+              v-for="lang in languages" 
+              :key="lang.id"
+              class="language-selector-item"
+              @click="changeLanguage(lang.id, lang.culture)"
+            >
+              <img :src="`/${lang.flag}`" :alt="lang.culture" />
+              <span>{{ lang.name }}</span>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -210,7 +213,7 @@ onMounted(() => {
           </div>
         </div>
         <div class="about-detail-image">
-          <img src="/pexels-photo-447592.jpeg" :alt="t('aboutOfficeImageAlt')" />
+          <img src="/pexels-photo-447592.jpeg" :alt="t('aboutOfficeImageAlt')" loading="lazy" />
         </div>
       </div>
     </section>
@@ -220,7 +223,7 @@ onMounted(() => {
       <div class="about-partners-container">
         <div class="about-partners-content">
           <div class="about-partners-image">
-            <img src="/10977155.jpg" :alt="t('aboutPartnersImageAlt')" />
+            <img src="/10977155.jpg" :alt="t('aboutPartnersImageAlt')" loading="lazy" />
           </div>
           <div class="about-partners-title">
             <h3>{{ t('aboutPartners') }}</h3>
@@ -330,7 +333,7 @@ onMounted(() => {
 .w-nav-item a {
   text-decoration: none;
   color: #fff;
-  font-size: 16px;
+  font-size: var(--text-base);
   display: block;
   transition: all 0.3s ease;
 }
@@ -344,47 +347,57 @@ onMounted(() => {
 }
 
 .language-selector {
-  width: 241px;
-}
-
-.w-language-group {
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-.w-language-item {
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.w-language-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #666;
-  font-size: 12px;
-  
-  white-space: nowrap;
-}
-
-.w-language-img {
-  margin-right: 5px;
   position: relative;
 }
 
-.w-language-img img {
-  width: 20px;
-  height: 20px;
+.language-selector-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  color: #666;
+  font-size: var(--text-sm);
 }
 
-.w-language-item-line {
-  width: 1px;
-  height: 12px;
-  background-color: #666;
-  margin-left: 10px;
-  align-self: center;
+.language-selector-title img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.language-selector-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  width: 120px;
+  z-index: 1000;
+  display: none;
+}
+
+.language-selector:hover .language-selector-dropdown {
+  display: block;
+}
+
+.language-selector-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: var(--text-sm);
+  color: #666;
+}
+
+.language-selector-item:hover {
+  background-color: #f5f5f5;
+}
+
+.language-selector-item img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
 }
 
 /* 页面头部样式 */
@@ -436,7 +449,7 @@ onMounted(() => {
 }
 
 .about-s-bg-title {
-  font-size: 100px;
+  font-size: var(--text-7xl);
   font-weight: bold;
   color: rgba(255, 255, 255, 0.3);
   
@@ -446,7 +459,7 @@ onMounted(() => {
 }
 
 .about-s-title {
-  font-size: 40px;
+  font-size: var(--text-3xl);
   font-weight: bold;
   color: #ffffff;
   
@@ -533,7 +546,7 @@ onMounted(() => {
 }
 
 .about-detail-title {
-  font-size: 24px;
+  font-size: var(--text-xl);
   font-weight: bold;
   color: #333;
   margin-bottom: 30px;
@@ -541,7 +554,7 @@ onMounted(() => {
 }
 
 .about-detail-subtitle {
-  font-size: 16px;
+  font-size: var(--text-base);
   color: var(--text-muted);
   font-weight: normal;
   margin-left: 10px;
@@ -603,7 +616,7 @@ onMounted(() => {
 }
 
 .about-partners-title h3 {
-  font-size: 18px;
+  font-size: var(--text-lg);
   font-weight: bold;
   color: #333;
   margin-bottom: 10px;
@@ -644,7 +657,7 @@ onMounted(() => {
 }
 
 .contact-title {
-  font-size: 24px;
+  font-size: var(--text-xl);
   font-weight: bold;
   color: #333;
   background-color: #ffffff;
@@ -655,7 +668,7 @@ onMounted(() => {
 }
 
 .contact-subtitle {
-  font-size: 14px;
+  font-size: var(--text-sm);
   color: #666;
   background-color: #ffffff;
   display: inline-block;
@@ -671,13 +684,13 @@ onMounted(() => {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  font-size: 14px;
+  font-size: var(--text-sm);
   color: #666;
   line-height: 1.5;
 }
 
 .contact-icon {
-  font-size: 18px;
+  font-size: var(--text-lg);
   margin-right: 12px;
   color: var(--accent);
   min-width: 24px;
@@ -715,7 +728,7 @@ onMounted(() => {
 }
 
 .copyright-area {
-  font-size: 14px;
+  font-size: var(--text-sm);
   color: var(--text-subtle);
   margin-bottom: 10px;
   display: flex;

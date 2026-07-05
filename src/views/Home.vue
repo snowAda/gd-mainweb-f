@@ -126,18 +126,21 @@ onUnmounted(() => {
           </ul>
         </nav>
         <div class="language-selector">
-          <ul class="w-language-group">
-            <li class="w-language-item" v-for="lang in languages" :key="lang.id">
-              <a href="javascript:void(0)" class="w-language-link" :languageid="lang.id" :languageculture="lang.culture" @click="changeLanguage(lang.id, lang.culture)">
-                <span class="w-language-img">
-                  <img :src="`/${lang.flag}`" :alt="lang.name" />
-                  <span class="w-language-img-line"></span>
-                </span>
-                <span>{{ lang.name }}</span>
-              </a>
-              <span class="w-language-item-line"></span>
-            </li>
-          </ul>
+          <div class="language-selector-title">
+            <img :src="`/${languages.find(lang => lang.culture === currentLocale).flag}`" :alt="currentLocale" />
+            <span>{{ languages.find(lang => lang.culture === currentLocale).name }}</span>
+          </div>
+          <div class="language-selector-dropdown">
+            <div 
+              v-for="lang in languages" 
+              :key="lang.id"
+              class="language-selector-item"
+              @click="changeLanguage(lang.id, lang.culture)"
+            >
+              <img :src="`/${lang.flag}`" :alt="lang.culture" />
+              <span>{{ lang.name }}</span>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -439,7 +442,7 @@ onUnmounted(() => {
 .w-nav-item a {
   text-decoration: none;
   color: #fff;
-  font-size: 16px;
+  font-size: var(--text-base);
   display: block;
   transition: all 0.3s ease;
 }
@@ -453,47 +456,57 @@ onUnmounted(() => {
 }
 
 .language-selector {
-  width: 241px;
-}
-
-.w-language-group {
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-.w-language-item {
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.w-language-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #666;
-  font-size: 12px;
-  
-  white-space: nowrap;
-}
-
-.w-language-img {
-  margin-right: 5px;
   position: relative;
 }
 
-.w-language-img img {
-  width: 20px;
-  height: 20px;
+.language-selector-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  color: #666;
+  font-size: var(--text-sm);
 }
 
-.w-language-item-line {
-  width: 1px;
-  height: 12px;
-  background-color: #666;
-  margin-left: 10px;
-  align-self: center;
+.language-selector-title img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.language-selector-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  width: 120px;
+  z-index: 1000;
+  display: none;
+}
+
+.language-selector:hover .language-selector-dropdown {
+  display: block;
+}
+
+.language-selector-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: var(--text-sm);
+  color: #666;
+}
+
+.language-selector-item:hover {
+  background-color: #f5f5f5;
+}
+
+.language-selector-item img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
 }
 
 /* 整个页面背景 */
@@ -565,7 +578,7 @@ onUnmounted(() => {
 }
 
 .slider-subtitle {
-  font-size: 14px;
+  font-size: var(--text-sm);
   color: #fff;
   margin-bottom: 16px;
   letter-spacing: 2px;
@@ -573,7 +586,7 @@ onUnmounted(() => {
 }
 
 .slider-title {
-  font-size: 54px;
+  font-size: var(--text-3xl);
   font-weight: bold;
   color: #fff;
   margin-bottom: 16px;
@@ -663,7 +676,7 @@ onUnmounted(() => {
 }
 
 .slider-description {
-  font-size: 16px;
+  font-size: var(--text-base);
   color: #fff;
   margin-bottom: 16px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -801,14 +814,14 @@ onUnmounted(() => {
 
 .home-solution-item-1 .home-solution-item-subtitle {
   color: var(--text-muted);
-  font-size: 16px;
+  font-size: var(--text-base);
   margin-bottom: 2px;
   letter-spacing: 1px;
 }
 
 .home-solution-item-1 .home-solution-item-title {
   color: var(--accent);
-  font-size: 28px;
+  font-size: var(--text-2xl);
   font-weight: bold;
   margin-bottom: 5px;
   
@@ -816,7 +829,7 @@ onUnmounted(() => {
 
 .home-solution-item-1 .home-solution-item-description {
   color: #666;
-  font-size: 14px;
+  font-size: var(--text-sm);
   line-height: 1.6;
   margin-bottom: 10px;
   flex: 1;
@@ -880,14 +893,14 @@ onUnmounted(() => {
 
 .home-solution-item-2 .home-solution-item-subtitle {
   color: rgba(255, 255, 255, 0.9);
-  font-size: 16px;
+  font-size: var(--text-base);
   margin-bottom: 2px;
   letter-spacing: 1px;
 }
 
 .home-solution-item-2 .home-solution-item-title {
   color: #fff;
-  font-size: 28px;
+  font-size: var(--text-2xl);
   font-weight: bold;
   margin-bottom: 5px;
   
@@ -896,7 +909,7 @@ onUnmounted(() => {
 
 .home-solution-item-2 .home-solution-item-description {
   color: rgba(255, 255, 255, 0.9);
-  font-size: 14px;
+  font-size: var(--text-sm);
   line-height: 1.6;
   margin-bottom: 10px;
   flex: 1;
@@ -912,14 +925,14 @@ onUnmounted(() => {
 
 .home-solution-item-3 .home-solution-item-subtitle {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 16px;
+  font-size: var(--text-base);
   margin-bottom: 2px;
   letter-spacing: 1px;
 }
 
 .home-solution-item-3 .home-solution-item-title {
   color: #fff;
-  font-size: 28px;
+  font-size: var(--text-2xl);
   font-weight: bold;
   margin-bottom: 5px;
   
@@ -927,7 +940,7 @@ onUnmounted(() => {
 
 .home-solution-item-3 .home-solution-item-description {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
+  font-size: var(--text-sm);
   line-height: 1.6;
   margin-bottom: 10px;
   flex: 1;
@@ -945,14 +958,14 @@ onUnmounted(() => {
 
 .home-solution-item-4 .home-solution-item-subtitle {
   color: #fff;
-  font-size: 16px;
+  font-size: var(--text-base);
   margin-bottom: 2px;
   letter-spacing: 1px;
 }
 
 .home-solution-item-4 .home-solution-item-title {
   color: #fff;
-  font-size: 28px;
+  font-size: var(--text-2xl);
   font-weight: bold;
   margin-bottom: 5px;
   
@@ -960,7 +973,7 @@ onUnmounted(() => {
 
 .home-solution-item-4 .home-solution-item-description {
   color: #fff;
-  font-size: 14px;
+  font-size: var(--text-sm);
   line-height: 1.6;
   margin-bottom: 10px;
   flex: 1;
@@ -980,7 +993,7 @@ onUnmounted(() => {
 }
 
 .home-solution-item-5 .home-solution-item-title {
-  font-size: 24px;
+  font-size: var(--text-xl);
   margin-bottom: 5px;
   color: #333;
   font-weight: bold;
@@ -991,7 +1004,7 @@ onUnmounted(() => {
   margin-bottom: 10px;
   color: #666;
   text-align: center;
-  font-size: 14px;
+  font-size: var(--text-sm);
   line-height: 1.6;
 }
 
@@ -1066,7 +1079,7 @@ onUnmounted(() => {
 }
 
 .about-bg-title {
-  font-size: 72px !important;
+  font-size: var(--text-5xl) !important;
   font-weight: bold !important;
   color: #eeeeee !important;
   z-index: 0 !important;
@@ -1079,7 +1092,7 @@ onUnmounted(() => {
 }
 
 .about-title {
-  font-size: 36px !important;
+  font-size: var(--text-2xl) !important;
   font-weight: bold !important;
   color: #333 !important;
   margin: 0 !important;
@@ -1113,7 +1126,7 @@ onUnmounted(() => {
 
 .about-description {
   
-  font-size: 16px;
+  font-size: var(--text-base);
   line-height: 2;
   color: #666666;
   text-align: left;
@@ -1275,7 +1288,7 @@ onUnmounted(() => {
 }
 
 .products-services-description {
-  font-size: 14px;
+  font-size: var(--text-sm);
   color: #666;
   margin-bottom: 60px;
   line-height: 1.75;
@@ -1329,7 +1342,7 @@ onUnmounted(() => {
 }
 
 .product-description {
-  font-size: 12px;
+  font-size: var(--text-xs);
   color: #666;
   line-height: 1.75;
   text-align: justify;
@@ -1354,7 +1367,7 @@ onUnmounted(() => {
   background: var(--accent);
   border: none;
   color: #fff;
-  font-size: 16px;
+  font-size: var(--text-base);
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -1392,7 +1405,7 @@ onUnmounted(() => {
 }
 
 .copyright-area {
-  font-size: 14px;
+  font-size: var(--text-sm);
   color: var(--text-subtle);
   margin-bottom: 10px;
   display: flex;

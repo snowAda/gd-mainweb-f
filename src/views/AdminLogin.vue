@@ -52,6 +52,8 @@ const handleLogin = async () => {
             type="text"
             placeholder="请输入用户名"
             class="form-input"
+            :aria-describedby="errorMessage ? 'login-error' : undefined"
+            :aria-invalid="!!errorMessage"
           />
         </div>
         <div class="form-group">
@@ -62,9 +64,11 @@ const handleLogin = async () => {
             type="password"
             placeholder="请输入密码"
             class="form-input"
+            :aria-describedby="errorMessage ? 'login-error' : undefined"
+            :aria-invalid="!!errorMessage"
           />
         </div>
-        <div v-if="errorMessage" class="error-message">{{ errorMessage }}</div>
+        <div v-if="errorMessage" id="login-error" class="error-message" role="alert">{{ errorMessage }}</div>
         <button @click="handleLogin" class="login-btn">登录</button>
       </div>
     </div>
@@ -93,7 +97,7 @@ const handleLogin = async () => {
   text-align: center;
   color: #333;
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: var(--text-xl);
 }
 
 .login-form {
@@ -117,7 +121,7 @@ const handleLogin = async () => {
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: var(--text-base);
   transition: border-color 0.3s;
   box-sizing: border-box;
 }
@@ -139,7 +143,7 @@ const handleLogin = async () => {
   border: none;
   padding: 14px;
   border-radius: 8px;
-  font-size: 16px;
+  font-size: var(--text-base);
   cursor: pointer;
   transition: transform 0.2s;
 }
@@ -152,6 +156,6 @@ const handleLogin = async () => {
   text-align: center;
   margin-top: 20px;
   color: var(--text-muted);
-  font-size: 14px;
+  font-size: var(--text-sm);
 }
 </style>

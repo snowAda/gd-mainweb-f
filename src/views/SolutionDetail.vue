@@ -246,7 +246,7 @@ const solutionDescriptionHtml = computed(() => {
             
             <div class="solution-images" v-if="solutionMaterials && solutionMaterials.filter(m => m.material_type === 'image').length > 0">
               <div v-for="(material, index) in solutionMaterials.filter(m => m.material_type === 'image').sort((a, b) => a.sort - b.sort)" :key="index" class="solution-image-item">
-                <img :src="material.file_url" :alt="`${solution.title} ${index + 1}`" />
+                <img :src="material.file_url" :alt="`${solution.title} ${index + 1}`" loading="lazy" />
               </div>
             </div>
             
@@ -343,7 +343,7 @@ const solutionDescriptionHtml = computed(() => {
 .w-nav-item {
   text-decoration: none;
   color: #fff;
-  font-size: 16px;
+  font-size: var(--text-base);
   display: block;
   transition: all 0.3s ease;
 }
@@ -367,7 +367,7 @@ const solutionDescriptionHtml = computed(() => {
   justify-content: flex-end;
   cursor: pointer;
   color: #fff;
-  font-size: 14px;
+  font-size: var(--text-sm);
 }
 
 .language-selector-title img {
@@ -397,7 +397,7 @@ const solutionDescriptionHtml = computed(() => {
   align-items: center;
   padding: 8px 12px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: var(--text-sm);
 }
 
 .language-selector-item:hover {
@@ -484,7 +484,7 @@ const solutionDescriptionHtml = computed(() => {
 .breadcrumb-list {
   display: flex;
   list-style: none;
-  font-size: 12px;
+  font-size: var(--text-xs);
   color: #666;
 }
 
@@ -497,7 +497,7 @@ const solutionDescriptionHtml = computed(() => {
 .breadcrumb-link {
   color: #666;
   text-decoration: none;
-  font-size: 12px;
+  font-size: var(--text-xs);
 }
 
 .breadcrumb-link:hover {
@@ -539,7 +539,7 @@ const solutionDescriptionHtml = computed(() => {
 }
 
 .category-title {
-  font-size: 16px;
+  font-size: var(--text-base);
   font-weight: bold;
   color: #333;
   margin-bottom: 15px;
@@ -559,7 +559,7 @@ const solutionDescriptionHtml = computed(() => {
 .category-link {
   color: #666;
   text-decoration: none;
-  font-size: 14px;
+  font-size: var(--text-sm);
   transition: color 0.3s ease;
   display: block;
   padding: 5px 0;
@@ -580,7 +580,7 @@ const solutionDescriptionHtml = computed(() => {
 }
 
 .solution-detail-title {
-  font-size: 24px;
+  font-size: var(--text-xl);
   font-weight: bold;
   color: #333;
   margin: 0 0 30px;
@@ -596,7 +596,7 @@ const solutionDescriptionHtml = computed(() => {
 }
 
 .section-title {
-  font-size: 16px;
+  font-size: var(--text-base);
   font-weight: bold;
   color: #333;
   margin: 0 0 15px;
@@ -627,7 +627,7 @@ const solutionDescriptionHtml = computed(() => {
 
 .feature-item {
   color: #666;
-  font-size: 14px;
+  font-size: var(--text-sm);
   padding: 6px 0;
   position: relative;
   padding-left: 20px;
@@ -719,13 +719,13 @@ const solutionDescriptionHtml = computed(() => {
   padding: 4px 12px;
   background-color: var(--accent);
   color: #fff;
-  font-size: 12px;
+  font-size: var(--text-xs);
   border-radius: 12px;
   margin-right: 10px;
 }
 
 .material-file {
-  font-size: 14px;
+  font-size: var(--text-sm);
   color: #666;
 }
 
@@ -736,7 +736,7 @@ const solutionDescriptionHtml = computed(() => {
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: var(--text-sm);
   transition: all 0.3s ease;
 }
 
@@ -765,7 +765,7 @@ const solutionDescriptionHtml = computed(() => {
 }
 
 .copyright-area {
-  font-size: 14px;
+  font-size: var(--text-sm);
   color: var(--text-subtle);
   margin-bottom: 10px;
   display: flex;
@@ -817,12 +817,12 @@ const solutionDescriptionHtml = computed(() => {
   }
   
   .solutions-bg-title {
-    font-size: 48px;
+    font-size: var(--text-3xl);
     white-space: normal;
   }
   
   .solutions-title {
-    font-size: 24px;
+    font-size: var(--text-xl);
     white-space: normal;
   }
   

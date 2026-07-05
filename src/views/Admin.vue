@@ -874,7 +874,7 @@ onMounted(() => {
 
 .header-left h1 {
   margin: 0;
-  font-size: 20px;
+  font-size: var(--text-xl);
 }
 
 .header-right {
@@ -919,7 +919,7 @@ onMounted(() => {
   border-radius: 8px;
   background: white;
   cursor: pointer;
-  font-size: 14px;
+  font-size: var(--text-sm);
   transition: all 0.3s;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
@@ -941,7 +941,7 @@ onMounted(() => {
   border-radius: 6px;
   background: #e9ecef;
   cursor: pointer;
-  font-size: 13px;
+  font-size: var(--text-sm);
   transition: all 0.3s;
 }
 
@@ -962,7 +962,7 @@ onMounted(() => {
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: var(--text-sm);
 }
 
 .search-btn, .clear-btn, .add-btn {
@@ -970,7 +970,7 @@ onMounted(() => {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: var(--text-sm);
   transition: all 0.3s;
 }
 
@@ -1032,7 +1032,7 @@ onMounted(() => {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: var(--text-xs);
   margin-right: 5px;
   transition: all 0.3s;
 }
@@ -1091,7 +1091,7 @@ onMounted(() => {
 }
 
 .pagination-info {
-  font-size: 14px;
+  font-size: var(--text-sm);
   color: #666;
 }
 
@@ -1143,7 +1143,7 @@ onMounted(() => {
   color: white;
   border: none;
   cursor: pointer;
-  font-size: 14px;
+  font-size: var(--text-sm);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1158,7 +1158,7 @@ onMounted(() => {
   align-items: center;
   justify-content: center;
   background: #f5f5f5;
-  font-size: 24px;
+  font-size: var(--text-2xl);
 }
 
 .modal-overlay {
@@ -1203,7 +1203,7 @@ onMounted(() => {
 .close-btn {
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: var(--text-2xl);
   cursor: pointer;
   color: var(--text-muted);
 }
@@ -1228,7 +1228,7 @@ onMounted(() => {
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: var(--text-sm);
   box-sizing: border-box;
 }
 
@@ -1254,7 +1254,7 @@ onMounted(() => {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: var(--text-sm);
   transition: all 0.3s;
 }
 
@@ -1276,7 +1276,7 @@ onMounted(() => {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: var(--text-sm);
 }
 
 .materials-list {
@@ -1315,7 +1315,7 @@ onMounted(() => {
   justify-content: center;
   align-items: center;
   background: #f8f9fa;
-  font-size: 24px;
+  font-size: var(--text-2xl);
 }
 
 .material-delete {
@@ -1328,7 +1328,7 @@ onMounted(() => {
   border-radius: 4px;
   padding: 4px 8px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: var(--text-xs);
 }
 
 @media (max-width: 768px) {

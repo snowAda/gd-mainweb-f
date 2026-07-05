@@ -2,7 +2,7 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { currentLocale, setLocale, getMessages } from '../i18n'
-import { withLocale, normalizeCategoryApiRow, normalizeListApiRow } from '../utils/apiLocale.js'
+import { withLocale, normalizeCategoryApiRow, normalizeListApiRow, formatDate } from '../utils/apiLocale.js'
 import { fetchApiJson } from '../utils/fetchApi.js'
 
 const route = useRoute()
@@ -197,18 +197,21 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
           </ul>
         </nav>
         <div class="language-selector">
-          <ul class="w-language-group">
-            <li class="w-language-item" v-for="lang in languages" :key="lang.id">
-              <a href="javascript:void(0)" class="w-language-link" :languageid="lang.id" :languageculture="lang.culture" @click="changeLanguage(lang.id, lang.culture)">
-                <span class="w-language-img">
-                  <img :src="`/${lang.flag}`" :alt="lang.name" />
-                  <span class="w-language-img-line"></span>
-                </span>
-                <span>{{ lang.name }}</span>
-              </a>
-              <span class="w-language-item-line"></span>
-            </li>
-          </ul>
+          <div class="language-selector-title">
+            <img :src="`/${languages.find(lang => lang.culture === currentLocale).flag}`" :alt="currentLocale" />
+            <span>{{ languages.find(lang => lang.culture === currentLocale).name }}</span>
+          </div>
+          <div class="language-selector-dropdown">
+            <div 
+              v-for="lang in languages" 
+              :key="lang.id"
+              class="language-selector-item"
+              @click="changeLanguage(lang.id, lang.culture)"
+            >
+              <img :src="`/${lang.flag}`" :alt="lang.culture" />
+              <span>{{ lang.name }}</span>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -266,10 +269,10 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
               <router-link v-for="product in products" :key="product.id" :to="`/products/${product.id}`" class="product-item-link">
                 <div class="product-item">
                   <div class="product-item-image">
-                    <img :src="product.cover" :alt="product.title" />
+                    <img :src="product.cover" :alt="product.title" loading="lazy" />
                   </div>
                   <h4 class="product-item-title">{{ product.title }}</h4>
-                  <p class="product-item-date">{{ product.create_time }}</p>
+                  <p class="product-item-date">{{ formatDate(product.create_time) }}</p>
                 </div>
               </router-link>
             </template>
@@ -352,7 +355,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 .w-nav-item a {
   text-decoration: none;
   color: #fff;
-  font-size: 16px;
+  font-size: var(--text-base);
   display: block;
   transition: all 0.3s ease;
 }
@@ -366,47 +369,57 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 }
 
 .language-selector {
-  width: 241px;
-}
-
-.w-language-group {
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-
-.w-language-item {
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.w-language-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #666;
-  font-size: 12px;
-  
-  white-space: nowrap;
-}
-
-.w-language-img {
-  margin-right: 5px;
   position: relative;
 }
 
-.w-language-img img {
-  width: 20px;
-  height: 20px;
+.language-selector-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  color: #666;
+  font-size: var(--text-sm);
 }
 
-.w-language-item-line {
-  width: 1px;
-  height: 12px;
-  background-color: #666;
-  margin-left: 10px;
-  align-self: center;
+.language-selector-title img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.language-selector-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  width: 120px;
+  z-index: 1000;
+  display: none;
+}
+
+.language-selector:hover .language-selector-dropdown {
+  display: block;
+}
+
+.language-selector-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: var(--text-sm);
+  color: #666;
+}
+
+.language-selector-item:hover {
+  background-color: #f5f5f5;
+}
+
+.language-selector-item img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
 }
 
 /* 页面头部样式 */
@@ -477,7 +490,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 .breadcrumb-list {
   display: flex;
   list-style: none;
-  font-size: 12px;
+  font-size: var(--text-xs);
   color: #666;
 }
 
@@ -534,7 +547,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 }
 
 .category-title {
-  font-size: 16px;
+  font-size: var(--text-base);
   font-weight: bold;
   color: #333;
   margin-bottom: 15px;
@@ -552,7 +565,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 .category-link {
   color: #666;
   text-decoration: none;
-  font-size: 12px;
+  font-size: var(--text-xs);
   display: block;
   padding: 5px 0;
   transition: all 0.3s ease;
@@ -619,7 +632,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 }
 
 .product-item-title {
-  font-size: 14px;
+  font-size: var(--text-sm);
   font-weight: bold;
   color: #333;
   margin: 15px;
@@ -630,7 +643,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 }
 
 .product-item-date {
-  font-size: 12px;
+  font-size: var(--text-xs);
   color: var(--text-muted);
   margin: 0 15px 15px;
   flex-shrink: 0;
@@ -684,7 +697,7 @@ watch(() => route.query.categoryId, async (newCategoryId) => {
 }
 
 .copyright-area {
-  font-size: 14px;
+  font-size: var(--text-sm);
   color: var(--text-subtle);
   margin-bottom: 10px;
   display: flex;
